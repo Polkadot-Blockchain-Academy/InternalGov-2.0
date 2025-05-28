@@ -118,8 +118,10 @@ async def check_governance():
                         continue
 
                     # Send an initial results message in the thread
-                    initial_results_message = "👍 AYE: 0    |    👎 NAY: 0    |    ⛔️ RECUSE: 0"
-
+                    if config.READ_ONLY:
+                        initial_results_message = "View proposal details using the links below."
+                    else:
+                        initial_results_message = "👍 AYE: 0    |    👎 NAY: 0    |    ⛔️ RECUSE: 0"
                     channel_thread = await guild.fetch_channel(new_proposal_thread.message.id)
                     client.vote_counts[str(new_proposal_thread.message.id)] = {
                         "index": index,
@@ -139,8 +141,9 @@ async def check_governance():
                     # results_message_id = results_message.id
                     await asyncio.sleep(0.5)
                     message_id = new_proposal_thread.message.id
-                    voting_buttons = ButtonHandler(client, message_id)
-                    await new_proposal_thread.message.edit(view=voting_buttons)
+                    if not config.READ_ONLY:
+                        voting_buttons = ButtonHandler(client, message_id)
+                        await new_proposal_thread.message.edit(view=voting_buttons)
 
                     await asyncio.sleep(0.5)
                     await new_proposal_thread.message.pin()
@@ -157,7 +160,16 @@ async def check_governance():
                         try:
                             role = await client.create_or_get_role(guild, config.TAG_ROLE_NAME)
                             if role:
-                                instructions = await channel_thread.send(content=
+                                if config.READ_ONLY:
+                                    # Only send notification tag without voting instructions
+                                    instructions = await channel_thread.send(content=
+                                                          f"||<@&{role.id}>||"
+                                                          f"\n**ANNOUNCEMENT:**"
+                                                          f"\nA new proposal has been created."
+                                                          )
+                                else:
+                                    # Send full voting instructions
+                                    instructions = await channel_thread.send(content=
                                                           f"||<@&{role.id}>||"
                                                           f"\n**INSTRUCTIONS:**"
                                                           f"\n- Vote **AYE** if you want to see this proposal pass"
@@ -207,7 +219,7 @@ async def check_governance():
     finally:
         if not exception_occurred:
             await substrate.close()
-            if config.SOLO_MODE is False:
+            if config.SOLO_MODE is False and not config.READ_ONLY:
                 await task_handler.start_tasks(coroutine_task=[autonomous_voting, sync_embeds, recheck_proposals])
             if config.SOLO_MODE is True:
                 logging.info("Solo mode is enabled. To automatically vote using settings in /data/vote_periods, set SOLO_MODE=True in the .env config file")
@@ -247,12 +259,13 @@ async def autonomous_voting():
         await client.wait_until_ready()
         await task_handler.stop_tasks(coroutine_task=[sync_embeds, recheck_proposals])
         await client.disable_command(command_name='forcevote', guild_id=config.DISCORD_SERVER_ID)
+        await client.get_voting_members(guild=config.DISCORD_SERVER_ID, role_name=config.DISCORD_VOTER_ROLE, save_records=True)
         vote_counts = await client.load_vote_counts()
         onchain_votes = await client.load_onchain_votes()
         onchain_votes_length = len(str(onchain_votes))
         vote_periods = await client.load_vote_periods(network=config.NETWORK_NAME.lower())
 
-        governance_cache = client.load_governance_cache()
+        governance_cache = await client.load_governance_cache()
         governance_cache_keys = governance_cache.keys()
 
         channel = client.get_channel(config.DISCORD_FORUM_CHANNEL_ID)
@@ -279,8 +292,9 @@ async def autonomous_voting():
 
                 proposal_block_submitted = governance_cache[proposal_index]['Ongoing']['submitted']
                 proposal_block_epoch = await substrate.get_block_epoch(block_number=proposal_block_submitted)
-                logging.info(f"Checking Discord vote results for: {proposal_index}")
-                cast, vote_type = await client.determine_vote_action(vote_data=vote_data, origin=internal_vote_periods, proposal_epoch=proposal_block_epoch)
+                logging.info(f"Checking ref: #{proposal_index}")
+
+                cast, vote_type = await client.determine_vote_action(thread_id=thread_id, vote_data=vote_data, origin=internal_vote_periods, proposal_epoch=proposal_block_epoch)
                 logging.info(f"Result: {vote_type}")
 
                 # If the proposal already exists in the results, use the existing 1st_vote data
@@ -426,7 +440,7 @@ async def autonomous_voting():
                     if message.type == discord.MessageType.pins_add:
                         await message.delete()
 
-                if config.DISCORD_SUMMARIZER_CHANNEL_ID:
+                if config.DISCORD_SUMMARIZER_CHANNEL_ID and not config.READ_ONLY:
                     try:
                         logging.info(f"Creating thread for summarizing vote on {proposal_index}")
                         summary_notification_role = await client.create_or_get_role(guild, config.DISCORD_SUMMARY_ROLE)
@@ -525,8 +539,8 @@ async def sync_embeds():
                     general_info = await discord_format.add_fields_to_embed(general_info_embed, referendum_info[index])
                     await message.edit(embed=general_info)
 
-                    # Add voting buttons if no components found on message
-                    if not message.components:
+                    # Add voting buttons if no components found on message and not in read-only mode
+                    if not message.components and not config.READ_ONLY:
                         voting_buttons = ButtonHandler(client, message_id)
                         await message.edit(view=voting_buttons)
 
@@ -578,7 +592,7 @@ async def sync_embeds():
                                 logging.warning("Unable to retrieve call")
 
                     # Add hyperlinks to results if no components found on message
-                    if message.author == client.user and message.content.startswith("👍 AYE:") and not message.components:
+                    if message.author == client.user and ((message.content.startswith("👍 AYE:") and not config.READ_ONLY) or (message.content.startswith("View proposal details") and config.READ_ONLY)) and not message.components:
                         logging.info("Adding missing hyperlink buttons")
                         external_links = ExternalLinkButton(index, config.NETWORK_NAME)
                         await message.edit(view=external_links)
@@ -730,7 +744,10 @@ if __name__ == '__main__':
             for server in client.guilds:
                 await permission_checker.check_permissions(server, config.DISCORD_FORUM_CHANNEL_ID)
 
-            await task_handler.start_tasks([check_governance])
+            if config.READ_ONLY:
+                await task_handler.start_tasks([check_governance])
+            else:
+                await task_handler.start_tasks([check_governance])
 
         except KeyboardInterrupt:
             logging.warning("KeyboardInterrupt caught, cleaning up...")
@@ -744,7 +761,7 @@ if __name__ == '__main__':
     # Slash command(s) available when solo mode is NOT enabled in the .env config
     # Commands:
     #   + /forcevote
-    if config.SOLO_MODE is False:
+    if config.SOLO_MODE is False and not config.READ_ONLY:
         @client.tree.command(name='forcevote',
                              description='This command works only in threads with an active vote and when SOLO_MODE '
                                          'is disabled.',
@@ -780,7 +797,7 @@ if __name__ == '__main__':
                     recuse = vote_counts.get(str(channel.id), {}).get('recuse', {})
                     origin = vote_counts.get(str(channel.id), {}).get('origin', {})
 
-                    vote = await client.calculate_proxy_vote(aye_votes=aye, nay_votes=nay)
+                    vote = await client.calculate_proxy_vote(aye_votes=aye, nay_votes=nay, recuse_votes=recuse)
                     role = await client.create_or_get_role(interaction.guild, config.EXTRINSIC_ALERT)
                     await asyncio.sleep(0.5)
 
@@ -835,7 +852,7 @@ if __name__ == '__main__':
     # Slash command(s) available when solo mode IS enabled in the .env config
     # Commands:
     #   + /vote <referendum> <conviction> <decision>
-    if config.SOLO_MODE is True:
+    if config.SOLO_MODE is True and not config.READ_ONLY:
         @client.tree.command(name='vote',
                              description='This command works in or out of threads with an active vote and only when '
                                          'SOLO_MODE is enabled.',
