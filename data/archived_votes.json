@@ -1869,6 +1869,7 @@
     },
     "epoch": 1740848249
   },
+<<<<<<< HEAD
   "1351736302172639232": {
     "index": "1494",
     "title": "[Do not vote]",
@@ -2048,6 +2049,8 @@
     },
     "epoch": 1742414249
   },
+=======
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   "1345213348798664794": {
     "index": "1465",
     "title": "OpenZeppelin Support for Polkadot Hub and Polkadot Cloud in 2025",
@@ -2085,6 +2088,7 @@
     },
     "epoch": 1740794255
   },
+<<<<<<< HEAD
   "1357325273984405666": {
     "index": "1515",
     "title": "SmallTipper",
@@ -2106,6 +2110,8 @@
     },
     "epoch": 1743681963
   },
+=======
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   "1346572275679367232": {
     "index": "1472",
     "title": "VOTE NAY! Polkadot Blockchain Academy, PBA Campus 7, The JAM Course launch, University partnerships expansion, ongoing PBA-X evolution, Alumni program. 9 months funding from April to December.",
@@ -2191,6 +2197,34 @@
     },
     "epoch": 1741118249
   },
+<<<<<<< HEAD
+=======
+  "1346934682142507008": {
+    "index": "1474",
+    "title": "Polkadot Fast-Grants Bounty Curator Candidacy",
+    "origin": [
+      "MediumSpender"
+    ],
+    "aye": 3,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "136215798111928320": {
+        "username": "cardotrejos#0",
+        "vote_type": "aye"
+      },
+      "961265753674358796": {
+        "username": "replghost#0",
+        "vote_type": "aye"
+      },
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1741204653
+  },
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   "1348791902119530679": {
     "index": "1485",
     "title": "Funding for Public RPC Providers via Bounty 31",
@@ -2262,6 +2296,7 @@
     },
     "epoch": 1741766249
   },
+<<<<<<< HEAD
   "1358820137511162028": {
     "index": "1519",
     "title": "[Big Tipper] Referendum #1519",
@@ -2274,6 +2309,8 @@
     "users": {},
     "epoch": 1744038366
   },
+=======
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   "1350196163055190150": {
     "index": "1490",
     "title": "[Medium Spender] Referendum #1490",
@@ -2291,6 +2328,7 @@
     },
     "epoch": 1741982251
   },
+<<<<<<< HEAD
   "1353774733229035660": {
     "index": "1502",
     "title": "Reimbursement for corrupted staking ledgers",
@@ -2315,6 +2353,8 @@
     "users": {},
     "epoch": 1744286763
   },
+=======
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   "1351464509885386772": {
     "index": "1492",
     "title": "[PROPOSAL] OpenGuild - Accelerate Polkadot Builder Activation in SEA & Broader Asia",
@@ -2332,6 +2372,7 @@
     },
     "epoch": 1742284648
   },
+<<<<<<< HEAD
   "1354046526825042041": {
     "index": "1503",
     "title": "Decentralized High Performance Object Storage (MinIO)",
@@ -2354,11 +2395,19 @@
     "title": "**Tip to Anaelle LTD for the creation of Bounties HR and Bounties Staff databases**",
     "origin": [
       "BigTipper"
+=======
+  "1351736302172639232": {
+    "index": "1494",
+    "title": "[Do not vote]",
+    "origin": [
+      "WhitelistedCaller"
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     ],
     "aye": 0,
     "nay": 0,
     "recuse": 0,
     "users": {},
+<<<<<<< HEAD
     "epoch": 1744070764
   },
   "1354952522330148955": {
@@ -2381,6 +2430,33 @@
       }
     },
     "epoch": 1743116255
+=======
+    "epoch": 1742349448
+  },
+  "1351872202580037706": {
+    "index": "1495",
+    "title": "None",
+    "origin": [
+      "ReferendumKiller"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1742381849
+  },
+  "1351872229633163349": {
+    "index": "1496",
+    "title": "None",
+    "origin": [
+      "ReferendumCanceller"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1742381856
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   },
   "1351917496034267208": {
     "index": "1497",
@@ -2394,6 +2470,26 @@
     "users": {},
     "epoch": 1742392648
   },
+<<<<<<< HEAD
+=======
+  "1352008094003236915": {
+    "index": "1498",
+    "title": "[Whitelisted Caller] Register Polkadot Native Assets on Ethereum",
+    "origin": [
+      "WhitelistedCaller"
+    ],
+    "aye": 1,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "127611081546792960": {
+        "username": "apocalam#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1742414249
+  },
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   "1352325183930892480": {
     "index": "1499",
     "title": "Retroactive Funding Proposal: Bounty Manager V2.0",
@@ -2412,21 +2508,29 @@
     "origin": [
       "MediumSpender"
     ],
+<<<<<<< HEAD
     "aye": 1,
+=======
+    "aye": 0,
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "nay": 1,
     "recuse": 0,
     "users": {
       "850595139139534849": {
         "username": "barathkanna#0",
         "vote_type": "nay"
+<<<<<<< HEAD
       },
       "429359693576667145": {
         "username": ".wariomx#0",
         "vote_type": "aye"
+=======
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
       }
     },
     "epoch": 1742759849
   },
+<<<<<<< HEAD
   "1354137122608517244": {
     "index": "1505",
     "title": "SportStake Development & EU Marketing Funding Proposal",
@@ -2451,6 +2555,8 @@
     "users": {},
     "epoch": 1742932650
   },
+=======
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   "1353729433998983170": {
     "index": "1501",
     "title": "Renewal of treasury USDT and USDC Acquisition",
@@ -2468,6 +2574,7 @@
     },
     "epoch": 1742824648
   },
+<<<<<<< HEAD
   "1354408994403258378": {
     "index": "1509",
     "title": "Substrate Asset Game Engine (SAGE)",
@@ -2488,6 +2595,36 @@
       }
     },
     "epoch": 1742986668
+=======
+  "1353774733229035660": {
+    "index": "1502",
+    "title": "Reimbursement for corrupted staking ledgers",
+    "origin": [
+      "SmallSpender"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1742835448
+  },
+  "1354046526825042041": {
+    "index": "1503",
+    "title": "Decentralized High Performance Object Storage (MinIO)",
+    "origin": [
+      "SmallSpender"
+    ],
+    "aye": 1,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1742900249
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   },
   "1354091821801799803": {
     "index": "1504",
@@ -2495,7 +2632,11 @@
     "origin": [
       "MediumSpender"
     ],
+<<<<<<< HEAD
     "aye": 7,
+=======
+    "aye": 3,
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "nay": 0,
     "recuse": 3,
     "users": {
@@ -2522,6 +2663,7 @@
       "782849129855320104": {
         "username": "chief_100#0",
         "vote_type": "aye"
+<<<<<<< HEAD
       },
       "699100116702855220": {
         "username": "j3rga#0",
@@ -2538,17 +2680,26 @@
       "867200030221533184": {
         "username": "nomadbitcoin#0",
         "vote_type": "aye"
+=======
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
       }
     },
     "epoch": 1742911048
   },
+<<<<<<< HEAD
   "1359137215489245217": {
     "index": "1522",
     "title": "PolkaWorld Ops and Maintenance proposal\uff1a2025.4 - 2026.3",
+=======
+  "1354137122608517244": {
+    "index": "1505",
+    "title": "SportStake Development & EU Marketing Funding Proposal",
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "origin": [
       "MediumSpender"
     ],
     "aye": 0,
+<<<<<<< HEAD
     "nay": 2,
     "recuse": 0,
     "users": {
@@ -2762,10 +2913,21 @@
   "1357868865060864152": {
     "index": "1517",
     "title": "Guestlist+1: Polkadot becomes the Center of Gravity for Blockchain x Music",
+=======
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1742921849
+  },
+  "1354182428763095231": {
+    "index": "1506",
+    "title": "Fuelarts x BitBasel | The Artists & Collectors Polkadot Hub to onboard 2000+ new & engaged users, 300+ projects and 10K+ transactions",
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "origin": [
       "MediumSpender"
     ],
     "aye": 0,
+<<<<<<< HEAD
     "nay": 1,
     "recuse": 0,
     "users": {
@@ -2944,11 +3106,48 @@
   },
   "1362353409918767157": {
     "index": "1529",
+=======
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1742932650
+  },
+  "1354408934882021520": {
+    "index": "1507",
+    "title": "[Small Tipper] Referendum #1507",
+    "origin": [
+      "SmallTipper"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1742986654
+  },
+  "1354408994403258378": {
+    "index": "1509",
+    "title": "Substrate Asset Game Engine (SAGE)",
+    "origin": [
+      "MediumSpender"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1742986668
+  },
+  "1354952522330148955": {
+    "index": "1510",
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "title": "Set Snowbridge-wrapped USDC & USDT as sufficient assets, set their ED to $0.01, and set their metadata on Asset Hub",
     "origin": [
       "WhitelistedCaller"
     ],
+<<<<<<< HEAD
     "aye": 3,
+=======
+    "aye": 2,
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "nay": 0,
     "recuse": 0,
     "users": {
@@ -2956,6 +3155,7 @@
         "username": "apocalam#0",
         "vote_type": "aye"
       },
+<<<<<<< HEAD
       "207236182592061442": {
         "username": "crypdough.eth#0",
         "vote_type": "aye"
@@ -2969,19 +3169,58 @@
   },
   "1369385341701587068": {
     "index": "1554",
+=======
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1743116255
+  },
+  "1356220853196554322": {
+    "index": "1511",
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "title": "SmallTipper",
     "origin": [
       "SmallTipper"
     ],
+<<<<<<< HEAD
+=======
+    "aye": 1,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1743418649
+  },
+  "1356311453313011764": {
+    "index": "1512",
+    "title": "None",
+    "origin": [
+      "SmallTipper"
+    ],
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "aye": 0,
     "nay": 0,
     "recuse": 0,
     "users": {},
+<<<<<<< HEAD
     "epoch": 1746557307
   },
   "1357506467741302875": {
     "index": "1516",
     "title": "IBP Bounty Top-Up",
+=======
+    "epoch": 1743440249
+  },
+  "1356731701161758871": {
+    "index": "509",
+    "title": "KSM RFP #1 - Shielded Kusama Hub Transfers - $50k Total Prize!",
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     "origin": [
       "Treasurer"
     ],
@@ -2989,6 +3228,7 @@
     "nay": 0,
     "recuse": 0,
     "users": {},
+<<<<<<< HEAD
     "epoch": 1743725163
   },
   "1369702418366861508": {
@@ -3017,11 +3257,55 @@
     "title": "Tip to NRL for creating vDOT Minting guide",
     "origin": [
       "SmallTipper"
+=======
+    "epoch": 1743540444
+  },
+  "1356731757885522132": {
+    "index": "510",
+    "title": "Secure Funds",
+    "origin": [
+      "Root"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 1,
+    "users": {
+      "699100116702855220": {
+        "username": "j3rga#0",
+        "vote_type": "recuse"
+      }
+    },
+    "epoch": 1743540458
+  },
+  "1356731797383151808": {
+    "index": "511",
+    "title": "[Whitelisted Caller] Increase max_validators to 700",
+    "origin": [
+      "WhitelistedCaller"
+    ],
+    "aye": 1,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "699100116702855220": {
+        "username": "j3rga#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1743540467
+  },
+  "1356731823119667500": {
+    "index": "512",
+    "title": "Adjust (only) ideal bulk proportion",
+    "origin": [
+      "Root"
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
     ],
     "aye": 0,
     "nay": 0,
     "recuse": 0,
     "users": {},
+<<<<<<< HEAD
     "epoch": 1746384505
   },
   "1362036330695102527": {
@@ -3110,5 +3394,20 @@
       }
     },
     "epoch": 1744826767
+=======
+    "epoch": 1743540473
+  },
+  "1356731851821289634": {
+    "index": "513",
+    "title": "KSM RFP #2 - RFP Launcher Dapp - $12k Total Prize!",
+    "origin": [
+      "Treasurer"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 0,
+    "users": {},
+    "epoch": 1743540480
+>>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
   }
 }
