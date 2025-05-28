@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "1531": {
         "Ongoing": {
@@ -315,17 +316,19 @@
             "track": 34
         }
     },
+=======
+>>>>>>> Stashed changes
     "1542": {
         "Ongoing": {
             "alarm": [
-                26173000,
+                26271492,
                 [
-                    26173000,
+                    26271492,
                     0
                 ]
             ],
             "deciding": {
-                "confirming": null,
+                "confirming": 26271492,
                 "since": 25777503
             },
             "decision_deposit": {
@@ -351,9 +354,9 @@
             },
             "submitted": 25776303,
             "tally": {
-                "ayes": 394417158556187016,
-                "nays": 256859648071489324,
-                "support": 149300156703429698
+                "ayes": 574636270377595370,
+                "nays": 388488128549290025,
+                "support": 194433199808979645
             },
             "track": 11
         }
@@ -361,14 +364,14 @@
     "1543": {
         "Ongoing": {
             "alarm": [
-                26230007,
+                26228752,
                 [
-                    26230007,
+                    26228752,
                     0
                 ]
             ],
             "deciding": {
-                "confirming": null,
+                "confirming": 26228752,
                 "since": 25826807
             },
             "decision_deposit": {
@@ -394,52 +397,9 @@
             },
             "submitted": 25785504,
             "tally": {
-                "ayes": 139197425506786592,
-                "nays": 142499054453338028,
-                "support": 25236425049830852
-            },
-            "track": 33
-        }
-    },
-    "1544": {
-        "Ongoing": {
-            "alarm": [
-                26120801,
-                [
-                    26120801,
-                    0
-                ]
-            ],
-            "deciding": {
-                "confirming": null,
-                "since": 25789555
-            },
-            "decision_deposit": {
-                "amount": 2000000000000,
-                "who": "12zT4mjRRAc1vD8M3rhpQjmU6BABN4jvUUYqrvbUdd85nRTy"
-            },
-            "enactment": {
-                "After": 100
-            },
-            "in_queue": false,
-            "origin": {
-                "Origins": "MediumSpender"
-            },
-            "proposal": {
-                "Lookup": {
-                    "hash": "0x51b3e55979558b746fe5109f6ec6983afb6173da1be2013fbae0adff6494b69f",
-                    "len": 60
-                }
-            },
-            "submission_deposit": {
-                "amount": 10000000000,
-                "who": "12zT4mjRRAc1vD8M3rhpQjmU6BABN4jvUUYqrvbUdd85nRTy"
-            },
-            "submitted": 25787155,
-            "tally": {
-                "ayes": 260127121710228475,
-                "nays": 69167252131085815,
-                "support": 45915493823683617
+                "ayes": 202368934249181589,
+                "nays": 83211762555466730,
+                "support": 36240593646387601
             },
             "track": 33
         }
@@ -480,9 +440,9 @@
             },
             "submitted": 25793817,
             "tally": {
-                "ayes": 713559357312796,
-                "nays": 202065514549342755,
-                "support": 1002394296022367
+                "ayes": 716585529127313,
+                "nays": 283897728889619606,
+                "support": 1196075868329289
             },
             "track": 33
         }
@@ -523,9 +483,9 @@
             },
             "submitted": 25802000,
             "tally": {
-                "ayes": 316673125835184616,
-                "nays": 426827549281750144,
-                "support": 107203559812205508
+                "ayes": 302972015959944281,
+                "nays": 464186108554524704,
+                "support": 103558138091686711
             },
             "track": 1
         }
@@ -566,9 +526,9 @@
             },
             "submitted": 25814427,
             "tally": {
-                "ayes": 0,
-                "nays": 334852295884050091,
-                "support": 50110174203699
+                "ayes": 1802000000000,
+                "nays": 473240153238593625,
+                "support": 51820000000000
             },
             "track": 33
         }
@@ -609,9 +569,9 @@
             },
             "submitted": 25814618,
             "tally": {
-                "ayes": 600000000000,
-                "nays": 334970843884050091,
-                "support": 50320174203699
+                "ayes": 2401000000000,
+                "nays": 413065712125131821,
+                "support": 52130028365451
             },
             "track": 33
         }
@@ -652,91 +612,11 @@
             },
             "submitted": 25815712,
             "tally": {
-                "ayes": 83372299516587284,
-                "nays": 136443390540155976,
-                "support": 16878177419602898
+                "ayes": 333692030110780019,
+                "nays": 424531267082125217,
+                "support": 60325686618815041
             },
             "track": 34
-        }
-    },
-    "1550": {
-        "Ongoing": {
-            "alarm": [
-                26029982,
-                [
-                    26029982,
-                    0
-                ]
-            ],
-            "deciding": null,
-            "decision_deposit": null,
-            "enactment": {
-                "After": 100
-            },
-            "in_queue": false,
-            "origin": {
-                "Origins": "BigSpender"
-            },
-            "proposal": {
-                "Lookup": {
-                    "hash": "0x6c811f0b8a30f7d3b9d9660f11251e024edc3d60585abb791ca5e46b5cdb87d0",
-                    "len": 43
-                }
-            },
-            "submission_deposit": {
-                "amount": 10000000000,
-                "who": "12zT4mjRRAc1vD8M3rhpQjmU6BABN4jvUUYqrvbUdd85nRTy"
-            },
-            "submitted": 25828382,
-            "tally": {
-                "ayes": 0,
-                "nays": 205680252303349983,
-                "support": 50110174203699
-            },
-            "track": 34
-        }
-    },
-    "1553": {
-        "Ongoing": {
-            "alarm": [
-                26175927,
-                [
-                    26175927,
-                    0
-                ]
-            ],
-            "deciding": {
-                "confirming": null,
-                "since": 25877643
-            },
-            "decision_deposit": {
-                "amount": 1000000000000,
-                "who": "12wnTQnY3qUTCofi792fTdf9HpQQ6jmyxrVdwyT6X2Jed4Yg"
-            },
-            "enactment": {
-                "After": 14400
-            },
-            "in_queue": false,
-            "origin": {
-                "Origins": "SmallSpender"
-            },
-            "proposal": {
-                "Lookup": {
-                    "hash": "0x3f52ca8785f2b564d75205d8623061f342b52a1523324e989bfcee113d2cbb99",
-                    "len": 123
-                }
-            },
-            "submission_deposit": {
-                "amount": 10000000000,
-                "who": "12wnTQnY3qUTCofi792fTdf9HpQQ6jmyxrVdwyT6X2Jed4Yg"
-            },
-            "submitted": 25875243,
-            "tally": {
-                "ayes": 245314882307339982,
-                "nays": 84255414955098482,
-                "support": 41842553250384242
-            },
-            "track": 32
         }
     },
     "1555": {
@@ -775,9 +655,9 @@
             },
             "submitted": 25893579,
             "tally": {
-                "ayes": 13421980119168720,
-                "nays": 129602739821409474,
-                "support": 4256272365890899
+                "ayes": 13786531381930923,
+                "nays": 268767082892600669,
+                "support": 4426660112403972
             },
             "track": 33
         }
@@ -818,9 +698,9 @@
             },
             "submitted": 25917296,
             "tally": {
-                "ayes": 7542520000000000,
-                "nays": 194934755485378572,
-                "support": 2638271174203699
+                "ayes": 7735765555616323,
+                "nays": 398481285759140751,
+                "support": 2703925213570892
             },
             "track": 32
         }
@@ -861,9 +741,9 @@
             },
             "submitted": 25918182,
             "tally": {
-                "ayes": 7554020000000000,
-                "nays": 73077543169685815,
-                "support": 2568430174203699
+                "ayes": 67815854945188556,
+                "nays": 276491599628772996,
+                "support": 12865616383037046
             },
             "track": 33
         }
@@ -871,9 +751,9 @@
     "1559": {
         "Ongoing": {
             "alarm": [
-                26339502,
+                26247893,
                 [
-                    26339502,
+                    26247893,
                     0
                 ]
             ],
@@ -904,9 +784,9 @@
             },
             "submitted": 25933902,
             "tally": {
-                "ayes": 3993065586189660,
-                "nays": 62936990000000000,
-                "support": 877294586190690
+                "ayes": 215743944302405643,
+                "nays": 126219499061360393,
+                "support": 62141117014810897
             },
             "track": 33
         }
@@ -914,9 +794,9 @@
     "1560": {
         "Ongoing": {
             "alarm": [
-                26352288,
+                26305563,
                 [
-                    26352288,
+                    26305563,
                     0
                 ]
             ],
@@ -947,53 +827,19 @@
             },
             "submitted": 25946688,
             "tally": {
-                "ayes": 91023102274849,
-                "nays": 602444000000000,
-                "support": 91024102274849
+                "ayes": 144800144022138065,
+                "nays": 82072535039382186,
+                "support": 27824391909561722
             },
             "track": 33
-        }
-    },
-    "1561": {
-        "Ongoing": {
-            "alarm": [
-                26159229,
-                [
-                    26159229,
-                    0
-                ]
-            ],
-            "deciding": null,
-            "decision_deposit": null,
-            "enactment": {
-                "After": 0
-            },
-            "in_queue": false,
-            "origin": {
-                "Origins": "BigTipper"
-            },
-            "proposal": {
-                "Inline": "\"\u0001\u0005\u0001"
-            },
-            "submission_deposit": {
-                "amount": 10000000000,
-                "who": "12pMEU98o7nquB8MHW6PWKuXTeqXBvWeQMsdJNhp5UFZpfEm"
-            },
-            "submitted": 25957629,
-            "tally": {
-                "ayes": 78800000000,
-                "nays": 142179639027720261,
-                "support": 50149974203699
-            },
-            "track": 31
         }
     },
     "1562": {
         "Ongoing": {
             "alarm": [
-                26369338,
+                26285428,
                 [
-                    26369338,
+                    26285428,
                     0
                 ]
             ],
@@ -1024,9 +870,9 @@
             },
             "submitted": 25974923,
             "tally": {
-                "ayes": 60591971200000000,
-                "nays": 1010000000000,
-                "support": 10231548000000000
+                "ayes": 269050993861686325,
+                "nays": 60521235849282736,
+                "support": 71891460127784494
             },
             "track": 33
         }
@@ -1067,9 +913,9 @@
             },
             "submitted": 25986345,
             "tally": {
-                "ayes": 0,
-                "nays": 1211000000000,
-                "support": 1000000000
+                "ayes": 7540832000000000,
+                "nays": 246680338051543302,
+                "support": 2523659987423657
             },
             "track": 33
         }
@@ -1077,9 +923,9 @@
     "1564": {
         "Ongoing": {
             "alarm": [
-                26395003,
+                26395037,
                 [
-                    26395003,
+                    26395037,
                     0
                 ]
             ],
@@ -1110,102 +956,19 @@
             },
             "submitted": 25989437,
             "tally": {
-                "ayes": 17900119168720,
-                "nays": 1411100000000,
-                "support": 18001191687200
+                "ayes": 128314936928317025,
+                "nays": 141386906757592145,
+                "support": 22914586475531609
             },
             "track": 33
-        }
-    },
-    "1565": {
-        "Ongoing": {
-            "alarm": [
-                26059295,
-                [
-                    26059295,
-                    0
-                ]
-            ],
-            "deciding": {
-                "confirming": null,
-                "since": 26014421
-            },
-            "decision_deposit": {
-                "amount": 10000000000,
-                "who": "15vryhxgdenKgKahng3G2amX5PFFuT2mzpNduiyTVn9TMSDp"
-            },
-            "enactment": {
-                "After": 10
-            },
-            "in_queue": false,
-            "origin": {
-                "Origins": "SmallTipper"
-            },
-            "proposal": {
-                "Inline": "0x1303070040b743ba0068bfacb91b354ab547cdff024d71b2302b1d07740b7eb2357e4efa44122d272a"
-            },
-            "submission_deposit": {
-                "amount": 10000000000,
-                "who": "14Sbk1RvKa9x7k8CThWoEYKA21LDduRbcivnzkDdm2WnDutM"
-            },
-            "submitted": 26014192,
-            "tally": {
-                "ayes": 183491677481163386,
-                "nays": 0,
-                "support": 31239125811633860
-            },
-            "track": 30
-        }
-    },
-    "1566": {
-        "Ongoing": {
-            "alarm": [
-                26069956,
-                [
-                    26069956,
-                    0
-                ]
-            ],
-            "deciding": {
-                "confirming": null,
-                "since": 26015006
-            },
-            "decision_deposit": {
-                "amount": 10000000000,
-                "who": "15YVkRJDgNHzmxkUiLJWnjKCtCcCsiqpCVay9nLhF1hRKycS"
-            },
-            "enactment": {
-                "After": 100
-            },
-            "in_queue": false,
-            "origin": {
-                "Origins": "SmallTipper"
-            },
-            "proposal": {
-                "Lookup": {
-                    "hash": "0x931f92a0190667637df8ed643f2e5fef58bddcf3c10efe10eb7fb774184bfd02",
-                    "len": 41
-                }
-            },
-            "submission_deposit": {
-                "amount": 10000000000,
-                "who": "15YVkRJDgNHzmxkUiLJWnjKCtCcCsiqpCVay9nLhF1hRKycS"
-            },
-            "submitted": 26014929,
-            "tally": {
-                "ayes": 123075097444357393,
-                "nays": 0,
-                "support": 20941569443573939
-            },
-            "track": 30
         }
     },
     "1567": {
         "Ongoing": {
             "alarm": [
-                26423190,
+                26423358,
                 [
-                    26423190,
+                    26423358,
                     0
                 ]
             ],
@@ -1236,9 +999,9 @@
             },
             "submitted": 26017758,
             "tally": {
-                "ayes": 0,
-                "nays": 0,
-                "support": 50000000000000
+                "ayes": 262664677468219,
+                "nays": 273371516841538101,
+                "support": 342769705833670
             },
             "track": 32
         }
@@ -1276,6 +1039,7 @@
             },
             "submitted": 26018546,
             "tally": {
+<<<<<<< Updated upstream
                 "ayes": 0,
                 "nays": 0,
                 "support": 50000000000000
@@ -1294,10 +1058,16 @@
                 "nays": 36300093892874305,
                 "support": 1212050000000000
 >>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
+=======
+                "ayes": 2986171814517,
+                "nays": 82803101673811377,
+                "support": 63681718145170
+>>>>>>> Stashed changes
             },
             "track": 0
         }
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "1569": {
         "Ongoing": {
@@ -1351,12 +1121,14 @@
             "track": 30
         }
     },
+=======
+>>>>>>> Stashed changes
     "1570": {
         "Ongoing": {
             "alarm": [
-                26425470,
+                26425924,
                 [
-                    26425470,
+                    26425924,
                     0
                 ]
             ],
@@ -1387,63 +1159,26 @@
             },
             "submitted": 26020324,
             "tally": {
-                "ayes": 1200000000000000,
-                "nays": 5700000000000,
-                "support": 450000000000000
+                "ayes": 17245944995905820,
+                "nays": 441197967781398666,
+                "support": 6158800959058206
             },
             "track": 34
-        }
-    },
-    "1571": {
-        "Ongoing": {
-            "alarm": [
-                26092268,
-                [
-                    26092268,
-                    0
-                ]
-            ],
-            "deciding": {
-                "confirming": null,
-                "since": 26021571
-            },
-            "decision_deposit": {
-                "amount": 10000000000,
-                "who": "15vryhxgdenKgKahng3G2amX5PFFuT2mzpNduiyTVn9TMSDp"
-            },
-            "enactment": {
-                "After": 10
-            },
-            "in_queue": false,
-            "origin": {
-                "Origins": "SmallTipper"
-            },
-            "proposal": {
-                "Inline": "0x1303070040b743ba0068bfacb91b354ab547cdff024d71b2302b1d07740b7eb2357e4efa44122d272a"
-            },
-            "submission_deposit": {
-                "amount": 10000000000,
-                "who": "14Sbk1RvKa9x7k8CThWoEYKA21LDduRbcivnzkDdm2WnDutM"
-            },
-            "submitted": 26021285,
-            "tally": {
-                "ayes": 62876500000000000,
-                "nays": 0,
-                "support": 10701025000000000
-            },
-            "track": 30
         }
     },
     "1572": {
         "Ongoing": {
             "alarm": [
-                26029305,
+                26353068,
                 [
-                    26029305,
+                    26353068,
                     0
                 ]
             ],
-            "deciding": null,
+            "deciding": {
+                "confirming": null,
+                "since": 26029305
+            },
             "decision_deposit": {
                 "amount": 2000000000000,
                 "who": "12KXpejnUXsvmUpgQe5Jc5uQZ1efD4UrXf3F4cfTP8N21XEB"
@@ -1598,9 +1333,9 @@
             },
             "submitted": 28281913,
             "tally": {
-                "ayes": 0,
-                "nays": 0,
-                "support": 0
+                "ayes": 305291422785048679,
+                "nays": 1677410267720337,
+                "support": 51926728239203769
             },
             "track": 1
         }
@@ -1645,6 +1380,412 @@
 =======
             "track": 1
 >>>>>>> 5ea141985a1ba5c410c463d8390f6d720ef32803
+        }
+    },
+    "1573": {
+        "Ongoing": {
+            "alarm": [
+                26434506,
+                [
+                    26434506,
+                    0
+                ]
+            ],
+            "deciding": {
+                "confirming": null,
+                "since": 26031306
+            },
+            "decision_deposit": {
+                "amount": 4000000000000,
+                "who": "12s37eSMQPEN5cuVyBxk2UypUHntwumqBHy7sJkoKpZ1v3HV"
+            },
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "BigSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0xbe0a6816a58b9bc724f05c079187ded4e6fec210de3cae591a118534b39e3f8f",
+                    "len": 60
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "16MVQPFt325pJ74bYpCGUWjyANFDZFZP3efYyV6XReAd1Sq1"
+            },
+            "submitted": 26028906,
+            "tally": {
+                "ayes": 38264148514875950,
+                "nays": 184763661281182141,
+                "support": 18173230904945618
+            },
+            "track": 34
+        }
+    },
+    "1574": {
+        "Ongoing": {
+            "alarm": [
+                26464899,
+                [
+                    26464899,
+                    0
+                ]
+            ],
+            "deciding": {
+                "confirming": null,
+                "since": 26061699
+            },
+            "decision_deposit": {
+                "amount": 2000000000000,
+                "who": "14Tc5FhwEiYWJDvb42xc58LAAaYzy3ZopN7powsXEVVQP9nU"
+            },
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "MediumSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0x003bfdeda314a441b8c3ea600cb8a55b21e4616633f8a68360d6002d12279825",
+                    "len": 4
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "14Tc5FhwEiYWJDvb42xc58LAAaYzy3ZopN7powsXEVVQP9nU"
+            },
+            "submitted": 26059299,
+            "tally": {
+                "ayes": 7962321561780804,
+                "nays": 248679843852769016,
+                "support": 2765079593630134
+            },
+            "track": 33
+        }
+    },
+    "1575": {
+        "Ongoing": {
+            "alarm": [
+                26480422,
+                [
+                    26480422,
+                    0
+                ]
+            ],
+            "deciding": {
+                "confirming": null,
+                "since": 26077222
+            },
+            "decision_deposit": {
+                "amount": 2000000000000,
+                "who": "14m6YPTpa64jusibkvvCov4XsxW2ig7Hy3n23GpN9YVTqhUd"
+            },
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "MediumSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0xb233b7c92750444018090361b3607874ee02bda63c70dea1fdcd0ba6b666185c",
+                    "len": 60
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "14kn8ZwRpxjTZdNPcRh5LEkHziTomDMaTz8inGFUeUDjhZyg"
+            },
+            "submitted": 26074822,
+            "tally": {
+                "ayes": 417973000020000,
+                "nays": 134000758815769036,
+                "support": 272331038565451
+            },
+            "track": 33
+        }
+    },
+    "1576": {
+        "Ongoing": {
+            "alarm": [
+                26494285,
+                [
+                    26494285,
+                    0
+                ]
+            ],
+            "deciding": {
+                "confirming": null,
+                "since": 26091085
+            },
+            "decision_deposit": {
+                "amount": 2000000000000,
+                "who": "13dePGJmM3SDMhndSsoAEV1V43dXD8Vtv4p2qShaP3sd9S5M"
+            },
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "MediumSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0x8901fe69c267e6f11a7576a89381e722da711c17da683cf4d9be9577693dcd59",
+                    "len": 55
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "13dePGJmM3SDMhndSsoAEV1V43dXD8Vtv4p2qShaP3sd9S5M"
+            },
+            "submitted": 26088685,
+            "tally": {
+                "ayes": 750720000000000,
+                "nays": 306021334494118656,
+                "support": 451919987423657
+            },
+            "track": 33
+        }
+    },
+    "1577": {
+        "Ongoing": {
+            "alarm": [
+                26290521,
+                [
+                    26290521,
+                    0
+                ]
+            ],
+            "deciding": null,
+            "decision_deposit": null,
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "ReferendumCanceller"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0xca9d6e12a98f2997bed39c1255c9f0489cc8654e8decec199fce74c4990c4e72",
+                    "len": 6
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "13dePGJmM3SDMhndSsoAEV1V43dXD8Vtv4p2qShaP3sd9S5M"
+            },
+            "submitted": 26088921,
+            "tally": {
+                "ayes": 2400622566384047,
+                "nays": 86837628790005356,
+                "support": 951759207363502
+            },
+            "track": 20
+        }
+    },
+    "1578": {
+        "Ongoing": {
+            "alarm": [
+                26306811,
+                [
+                    26306811,
+                    0
+                ]
+            ],
+            "deciding": null,
+            "decision_deposit": null,
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "SmallSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0x6e64c06e0118b5073ad75b76d94ce50151aa039b13cde98a8adc93307488dc06",
+                    "len": 42
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "13mVb3yQfV9RLLrRiWMCMxNGHYk453SJ4Ji79ve6C7C3d6ae"
+            },
+            "submitted": 26105211,
+            "tally": {
+                "ayes": 110791125905820,
+                "nays": 1877893102260566,
+                "support": 187500069058206
+            },
+            "track": 32
+        }
+    },
+    "1579": {
+        "Ongoing": {
+            "alarm": [
+                26550331,
+                [
+                    26550331,
+                    0
+                ]
+            ],
+            "deciding": {
+                "confirming": null,
+                "since": 26185399
+            },
+            "decision_deposit": {
+                "amount": 2000000000000,
+                "who": "16kkgkzjyJZL91WaL6GAUJnTZjiaowZcFyHAs5GWCNVqJimJ"
+            },
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "MediumSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a",
+                    "len": 60
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "16kkgkzjyJZL91WaL6GAUJnTZjiaowZcFyHAs5GWCNVqJimJ"
+            },
+            "submitted": 26105486,
+            "tally": {
+                "ayes": 124949162300000000,
+                "nays": 100765142394997,
+                "support": 22279483059058206
+            },
+            "track": 33
+        }
+    },
+    "1580": {
+        "Ongoing": {
+            "alarm": [
+                26503060,
+                [
+                    26503060,
+                    0
+                ]
+            ],
+            "deciding": {
+                "confirming": null,
+                "since": 26120364
+            },
+            "decision_deposit": {
+                "amount": 2000000000000,
+                "who": "143T3YkKMVm7KY1zqwua3Ld2SRLxLyra794TrhHiDLrD1kjY"
+            },
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "MediumSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0x5440507dd72bce83732f6db2e93067aa3a8595d1f71296b3df2b84b31d318610",
+                    "len": 60
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "143T3YkKMVm7KY1zqwua3Ld2SRLxLyra794TrhHiDLrD1kjY"
+            },
+            "submitted": 26117964,
+            "tally": {
+                "ayes": 41372410498348132,
+                "nays": 45735138300817,
+                "support": 11397165249174066
+            },
+            "track": 33
+        }
+    },
+    "1582": {
+        "Ongoing": {
+            "alarm": [
+                26391639,
+                [
+                    26391639,
+                    0
+                ]
+            ],
+            "deciding": null,
+            "decision_deposit": null,
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "SmallSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0x1eae23c3dd7805f4db48723f4a23fca10f66db6f49e962ded446d713fec8ad49",
+                    "len": 86
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "16iXE5kqstx7dXnYzCPUvFVVdJva8cXZPWZosLob9Rwi48wj"
+            },
+            "submitted": 26190039,
+            "tally": {
+                "ayes": 0,
+                "nays": 0,
+                "support": 50000000000000
+            },
+            "track": 32
+        }
+    },
+    "1583": {
+        "Ongoing": {
+            "alarm": [
+                26391725,
+                [
+                    26391725,
+                    0
+                ]
+            ],
+            "deciding": null,
+            "decision_deposit": null,
+            "enactment": {
+                "After": 100
+            },
+            "in_queue": false,
+            "origin": {
+                "Origins": "SmallSpender"
+            },
+            "proposal": {
+                "Lookup": {
+                    "hash": "0x1eae23c3dd7805f4db48723f4a23fca10f66db6f49e962ded446d713fec8ad49",
+                    "len": 86
+                }
+            },
+            "submission_deposit": {
+                "amount": 10000000000,
+                "who": "16iXE5kqstx7dXnYzCPUvFVVdJva8cXZPWZosLob9Rwi48wj"
+            },
+            "submitted": 26190125,
+            "tally": {
+                "ayes": 0,
+                "nays": 0,
+                "support": 50000000000000
+            },
+            "track": 32
         }
     }
 }
