@@ -1,0 +1,1248 @@
+2025-09-19 13:43:29 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-09-19 13:43:29 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-19 13:43:29 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 13:43:29 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-09-19 13:43:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 13:43:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 13:43:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 13:43:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 13:43:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 13:43:31 - INFO - __main__.autonomous_voting:Checking ref: #587
+2025-09-19 13:43:31 - INFO - __main__.autonomous_voting:Result: aye
+2025-09-19 13:43:36 - INFO - __main__.autonomous_voting:Checking ref: #588
+2025-09-19 13:43:36 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-19 13:43:36 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-19 13:43:41 - INFO - __main__.autonomous_voting:Checking ref: #589
+2025-09-19 13:43:41 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-19 13:43:41 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-19 13:43:45 - INFO - __main__.autonomous_voting:Checking ref: #590
+2025-09-19 13:43:45 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-19 13:43:45 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-19 13:43:50 - INFO - __main__.autonomous_voting:Checking ref: #591
+2025-09-19 13:43:50 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-19 13:43:50 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-19 13:43:50 - INFO - __main__.autonomous_voting:Preparing to cast the first vote
+2025-09-19 13:43:54 - INFO - __main__.autonomous_voting:Checking ref: #593
+2025-09-19 13:43:55 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 387222 > 432000?
+2025-09-19 13:43:59 - INFO - __main__.autonomous_voting:Checking ref: #594
+2025-09-19 13:43:59 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 359063 > 432000?
+2025-09-19 13:44:04 - INFO - __main__.autonomous_voting:Checking ref: #595
+2025-09-19 13:44:04 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 258958 > 259200?
+2025-09-19 13:44:09 - INFO - __main__.autonomous_voting:Checking ref: #596
+2025-09-19 13:44:09 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 224421 > 432000?
+2025-09-19 13:44:13 - INFO - __main__.autonomous_voting:Checking ref: #597
+2025-09-19 13:44:13 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 102499 > 432000?
+2025-09-19 13:44:18 - INFO - __main__.autonomous_voting:Checking ref: #598
+2025-09-19 13:44:18 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 11634 > 432000?
+2025-09-19 13:44:22 - INFO - __main__.autonomous_voting:Checking ref: #599
+2025-09-19 13:44:22 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 10756 > 259200?
+2025-09-19 13:44:25 - INFO - SubstrateAPI.proxy_balance:Checking balance of proxy account: HvgxjDyRUw3NUSDfAd1sVgAmrz6UNNqSFgf1pAyptfEvhpY
+2025-09-19 13:44:25 - INFO - __main__.autonomous_voting:Casting on-chain votes
+2025-09-19 13:44:26 - INFO - SubstrateAPI.execute_multiple_votes:Trying to execute call, please wait...
+2025-09-19 13:44:26 - INFO - SubstrateAPI.execute_calls:Attempting to execute batch of calls.
+2025-09-19 13:44:26 - INFO - SubstrateAPI.execute_calls:Utility_batch_call complete
+2025-09-19 13:44:26 - INFO - SubstrateAPI.execute_calls:Proxy call complete
+2025-09-19 13:44:26 - INFO - SubstrateAPI.execute_calls:Signed extrinsic created
+2025-09-19 13:44:30 - INFO - SubstrateAPI.execute_multiple_votes:An on-chain vote has been cast: 0x5d3a78b2c3660711a78700b0ead16ec6d040b9d067169bb4880f43d7afc313de
+2025-09-19 13:44:30 - INFO - __main__.autonomous_voting:saving extrinsic hash in onchain-votes.json for 591
+2025-09-19 13:44:31 - INFO - __main__.autonomous_voting:Posting extrinsic URL on discord as a Proof-of-Vote on 591
+2025-09-19 13:44:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 13:44:32 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 13:44:32 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 13:44:32 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 13:44:32 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 13:44:32 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 13:44:32 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 13:44:32 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 13:44:33 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 13:44:33 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.94
+2025-09-19 13:44:33 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 13:44:33 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 13:44:33 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-09-19 13:44:34 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 13:44:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 13:44:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 13:44:40 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 13:44:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 13:44:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 13:44:44 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 13:44:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 13:44:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 13:44:50 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 13:44:51 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 13:44:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 13:44:54 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 13:44:57 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 13:44:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 13:45:00 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 13:45:01 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 13:45:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 13:45:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 13:45:07 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 13:45:08 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 13:45:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 13:45:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 13:45:14 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 13:45:14 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 13:45:14 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 13:46:05 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 13:46:05 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 14:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-19 14:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-19 14:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 14:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 14:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 14:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 14:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 14:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 14:26:31 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-19 14:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-19 14:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-19 14:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 14:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 14:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 14:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 14:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 14:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 14:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 14:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 14:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 14:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.89
+2025-09-19 14:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 14:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 14:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 14:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 14:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 14:26:38 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 14:26:39 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 14:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 14:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 14:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 14:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 14:26:48 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 14:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 14:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 14:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 14:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 14:26:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 14:27:00 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 14:27:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 14:27:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 14:27:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 14:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 14:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 14:27:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 14:27:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 14:27:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 14:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 14:27:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 14:28:05 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 14:28:05 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 15:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 15:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 15:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 15:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 15:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 15:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 15:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 15:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 15:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.68
+2025-09-19 15:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 15:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 15:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 15:26:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 15:26:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 15:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 15:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 15:26:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 15:26:44 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 15:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 15:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 15:26:50 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 15:26:51 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 15:26:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 15:26:54 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 15:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 15:26:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 15:27:00 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 15:27:01 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 15:27:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 15:27:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 15:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 15:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 15:27:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 15:27:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 15:27:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 15:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 15:27:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 15:28:04 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 15:28:04 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 15:46:44 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-19 16:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 16:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 16:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 16:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 16:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 16:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 16:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 16:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 16:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.74
+2025-09-19 16:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 16:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 16:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 16:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 16:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 16:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 16:26:44 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 16:26:46 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 16:26:48 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 16:26:50 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 16:26:52 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 16:26:55 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 16:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 16:26:58 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 16:26:59 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-09-19 16:26:59 - INFO - SubstrateAPI.connect:SubstrateAPI.cache_identities - Initializing SubstrateInterface object: wss://people-kusama.dotters.network
+2025-09-19 16:27:27 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 16:27:27 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 16:27:27 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 16:27:27 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 16:27:32 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-09-19 16:27:33 - INFO - SubstrateAPI.connect:SubstrateAPI.check_ss58_address - Initializing SubstrateInterface object: wss://kusama.dotters.network
+2025-09-19 16:27:53 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 16:27:53 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 16:27:53 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 16:27:53 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 16:27:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 16:27:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 16:27:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 16:27:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 16:28:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 16:28:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 16:28:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 16:28:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 16:28:08 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 16:28:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 16:28:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 16:28:14 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 16:28:14 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 16:28:14 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 16:29:04 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 16:29:04 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 17:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-19 17:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-19 17:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 17:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 17:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 17:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 17:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 17:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 17:26:30 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-19 17:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-19 17:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-19 17:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 17:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 17:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 17:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 17:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 17:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 17:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 17:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 17:26:31 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 17:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.71
+2025-09-19 17:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 17:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 17:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 17:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 17:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 17:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 17:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 17:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 17:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 17:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 17:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 17:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 17:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 17:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 17:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 17:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 17:26:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 17:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 17:27:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 17:27:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 17:27:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 17:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 17:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 17:27:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 17:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 17:27:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 17:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 17:27:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 17:28:02 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 17:28:02 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 18:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 18:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 18:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 18:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 18:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 18:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 18:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 18:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 18:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.67
+2025-09-19 18:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 18:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 18:26:32 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-09-19 18:26:32 - INFO - SubstrateAPI.connect:SubstrateAPI.cache_super_of - Initializing SubstrateInterface object: wss://people-kusama.dotters.network
+2025-09-19 18:26:54 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 18:26:54 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 18:26:54 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 18:26:54 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 18:26:55 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-09-19 18:26:55 - INFO - SubstrateAPI.connect:SubstrateAPI.check_ss58_address - Initializing SubstrateInterface object: wss://kusama.dotters.network
+2025-09-19 18:27:03 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 18:27:03 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 18:27:03 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 18:27:03 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 18:27:04 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 18:27:07 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 18:27:08 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 18:27:10 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 18:27:11 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 18:27:14 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 18:27:15 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 18:27:17 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 18:27:18 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 18:27:21 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 18:27:21 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 18:27:24 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 18:27:25 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 18:27:27 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 18:27:29 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 18:27:31 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 18:27:32 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 18:27:35 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 18:27:35 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 18:27:38 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 18:27:39 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 18:27:41 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 18:27:42 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 18:27:45 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 18:27:45 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 18:27:45 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 18:28:36 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 18:28:36 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 18:46:57 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-19 19:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 19:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 19:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 19:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 19:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 19:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 19:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 19:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 19:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.72
+2025-09-19 19:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 19:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 19:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 19:26:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 19:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 19:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 19:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 19:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 19:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 19:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 19:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 19:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 19:26:49 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 19:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 19:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 19:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 19:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 19:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 19:26:59 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 19:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 19:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 19:27:05 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 19:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 19:27:08 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 19:27:09 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 19:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 19:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 19:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 19:28:02 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 19:28:02 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 20:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-19 20:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-19 20:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 20:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 20:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 20:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 20:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 20:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 20:26:31 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-19 20:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-19 20:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-19 20:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 20:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 20:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 20:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 20:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 20:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 20:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 20:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 20:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 20:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.73
+2025-09-19 20:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 20:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 20:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 20:26:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 20:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 20:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 20:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 20:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 20:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 20:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 20:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 20:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 20:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 20:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 20:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 20:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 20:26:58 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 20:27:01 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 20:27:02 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 20:27:04 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 20:27:05 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 20:27:08 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 20:27:09 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 20:27:11 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 20:27:12 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 20:27:15 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 20:27:15 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 20:27:15 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 20:28:03 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 20:28:03 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 20:31:52 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-19 21:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 21:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 21:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 21:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 21:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 21:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 21:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 21:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 21:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.72
+2025-09-19 21:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 21:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 21:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 21:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 21:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 21:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 21:26:39 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 21:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 21:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 21:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 21:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 21:26:48 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 21:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 21:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 21:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 21:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 21:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 21:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 21:27:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 21:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 21:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 21:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 21:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 21:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 21:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 21:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 21:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 21:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 21:28:01 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 21:28:01 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 22:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 22:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 22:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 22:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 22:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 22:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 22:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 22:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 22:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.79
+2025-09-19 22:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 22:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 22:26:34 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 22:26:37 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 22:26:38 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 22:26:40 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 22:26:41 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 22:26:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 22:26:44 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 22:26:47 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 22:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 22:26:50 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 22:26:51 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 22:26:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 22:26:54 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 22:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 22:26:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 22:27:00 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 22:27:01 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 22:27:04 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 22:27:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 22:27:07 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 22:27:08 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 22:27:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 22:27:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 22:27:14 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 22:27:14 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 22:27:14 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 22:28:02 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 22:28:02 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 23:02:17 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-19 23:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-19 23:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-19 23:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 23:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 23:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 23:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 23:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 23:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 23:26:30 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-19 23:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-19 23:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-19 23:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 23:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-19 23:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-19 23:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-19 23:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-19 23:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-19 23:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-19 23:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-19 23:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-19 23:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.64
+2025-09-19 23:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-19 23:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 23:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 23:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 23:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-19 23:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-19 23:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-19 23:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 23:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-19 23:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 23:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-19 23:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 23:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-19 23:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-19 23:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-19 23:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-19 23:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-19 23:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-19 23:27:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-19 23:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 23:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-19 23:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-19 23:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-19 23:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-19 23:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-19 23:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-19 23:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-19 23:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-19 23:28:01 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-19 23:28:01 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 00:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 00:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 00:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 00:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 00:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 00:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 00:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 00:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 00:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.68
+2025-09-20 00:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 00:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 00:27:17 - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-09-20 00:27:18 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 00:27:18 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 00:27:21 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 00:27:22 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 00:27:24 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 00:27:25 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 00:27:27 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 00:27:28 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 00:27:31 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 00:27:31 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 00:27:34 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 00:27:36 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 00:27:39 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 00:27:39 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 00:27:42 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 00:27:43 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 00:27:45 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 00:27:46 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 00:27:49 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 00:27:50 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 00:27:52 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 00:27:53 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 00:27:56 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 00:27:56 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 00:27:59 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 00:27:59 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 00:27:59 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 00:28:47 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 00:28:47 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 01:19:25 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 01:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 01:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 01:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 01:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 01:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 01:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 01:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 01:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 01:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.71
+2025-09-20 01:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 01:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:26:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 01:26:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 01:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 01:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 01:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 01:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 01:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 01:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 01:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 01:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 01:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 01:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 01:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 01:26:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 01:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 01:27:01 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 01:27:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:27:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 01:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 01:27:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 01:27:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 01:27:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 01:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 01:27:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 01:28:02 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 01:28:02 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 01:43:29 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-09-20 01:43:29 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-20 01:43:29 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 01:43:29 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-09-20 01:43:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 01:43:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 01:43:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 01:43:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 01:43:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 01:43:31 - INFO - __main__.autonomous_voting:Checking ref: #587
+2025-09-20 01:43:31 - INFO - __main__.autonomous_voting:Result: aye
+2025-09-20 01:43:36 - INFO - __main__.autonomous_voting:Checking ref: #588
+2025-09-20 01:43:36 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-20 01:43:36 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-20 01:43:41 - INFO - __main__.autonomous_voting:Checking ref: #589
+2025-09-20 01:43:41 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-20 01:43:41 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-20 01:43:45 - INFO - __main__.autonomous_voting:Checking ref: #590
+2025-09-20 01:43:45 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-20 01:43:45 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-20 01:43:50 - INFO - __main__.autonomous_voting:Checking ref: #591
+2025-09-20 01:43:50 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-20 01:43:50 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-20 01:43:54 - INFO - __main__.autonomous_voting:Checking ref: #593
+2025-09-20 01:43:54 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 430422 > 432000?
+2025-09-20 01:43:59 - INFO - __main__.autonomous_voting:Checking ref: #594
+2025-09-20 01:43:59 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 402263 > 432000?
+2025-09-20 01:44:04 - INFO - __main__.autonomous_voting:Checking ref: #595
+2025-09-20 01:44:04 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-09-20 01:44:04 - INFO - __main__.autonomous_voting:Result: abstain
+2025-09-20 01:44:04 - INFO - __main__.autonomous_voting:Preparing to cast the first vote
+2025-09-20 01:44:08 - INFO - __main__.autonomous_voting:Checking ref: #596
+2025-09-20 01:44:08 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 267620 > 432000?
+2025-09-20 01:44:13 - INFO - __main__.autonomous_voting:Checking ref: #597
+2025-09-20 01:44:13 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 145699 > 432000?
+2025-09-20 01:44:17 - INFO - __main__.autonomous_voting:Checking ref: #598
+2025-09-20 01:44:17 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 54833 > 432000?
+2025-09-20 01:44:22 - INFO - __main__.autonomous_voting:Checking ref: #599
+2025-09-20 01:44:22 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 53956 > 259200?
+2025-09-20 01:44:24 - INFO - SubstrateAPI.proxy_balance:Checking balance of proxy account: HvgxjDyRUw3NUSDfAd1sVgAmrz6UNNqSFgf1pAyptfEvhpY
+2025-09-20 01:44:24 - INFO - __main__.autonomous_voting:Casting on-chain votes
+2025-09-20 01:44:25 - INFO - SubstrateAPI.execute_multiple_votes:Trying to execute call, please wait...
+2025-09-20 01:44:25 - INFO - SubstrateAPI.execute_calls:Attempting to execute batch of calls.
+2025-09-20 01:44:25 - INFO - SubstrateAPI.execute_calls:Utility_batch_call complete
+2025-09-20 01:44:25 - INFO - SubstrateAPI.execute_calls:Proxy call complete
+2025-09-20 01:44:26 - INFO - SubstrateAPI.execute_calls:Signed extrinsic created
+2025-09-20 01:44:30 - INFO - SubstrateAPI.execute_multiple_votes:An on-chain vote has been cast: 0x85f3f3a37988b6848169fe06f304520cf48488bc5858abc5bafc10e65f0784d1
+2025-09-20 01:44:30 - INFO - __main__.autonomous_voting:saving extrinsic hash in onchain-votes.json for 595
+2025-09-20 01:44:31 - INFO - __main__.autonomous_voting:Posting extrinsic URL on discord as a Proof-of-Vote on 595
+2025-09-20 01:44:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 01:44:32 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 01:44:32 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 01:44:32 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 01:44:32 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 01:44:32 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 01:44:32 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 01:44:32 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 01:44:32 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-09-20 01:44:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 01:44:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.68
+2025-09-20 01:44:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 01:44:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:44:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:44:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 01:44:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 01:44:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 01:44:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 01:44:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 01:44:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 01:44:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 01:44:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 01:44:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 01:44:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 01:44:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 01:44:54 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 01:44:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 01:44:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 01:45:00 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 01:45:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 01:45:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:45:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 01:45:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 01:45:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 01:45:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 01:45:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 01:45:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 01:45:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 01:45:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 01:46:02 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 01:46:02 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 02:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-20 02:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-20 02:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 02:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 02:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 02:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 02:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 02:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 02:26:30 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-20 02:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-20 02:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-20 02:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 02:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 02:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 02:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 02:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 02:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 02:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 02:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 02:26:31 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 02:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.62
+2025-09-20 02:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 02:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 02:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 02:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 02:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 02:26:38 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 02:26:39 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 02:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 02:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 02:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 02:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 02:26:48 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 02:26:49 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 02:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 02:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 02:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 02:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 02:26:58 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 02:26:59 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 02:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 02:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 02:27:05 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 02:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 02:27:08 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 02:27:09 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 02:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 02:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 02:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 02:28:00 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 02:28:00 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 03:08:47 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 03:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 03:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 03:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 03:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 03:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 03:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 03:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 03:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 03:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.7
+2025-09-20 03:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 03:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 03:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 03:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 03:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 03:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 03:26:39 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 03:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 03:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 03:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 03:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 03:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 03:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 03:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 03:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 03:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 03:26:59 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 03:27:02 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 03:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 03:27:05 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 03:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 03:27:08 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 03:27:09 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 03:27:12 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 03:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 03:27:15 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 03:27:15 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 03:27:15 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 03:28:04 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 03:28:04 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 03:45:13 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 04:03:04 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 04:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 04:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 04:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 04:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 04:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 04:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 04:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 04:26:31 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 04:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.72
+2025-09-20 04:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 04:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 04:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 04:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 04:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 04:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 04:26:39 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 04:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 04:26:42 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 04:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 04:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 04:26:48 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 04:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 04:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 04:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 04:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 04:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 04:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 04:27:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 04:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 04:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 04:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 04:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 04:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 04:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 04:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 04:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 04:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 04:27:56 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 04:27:56 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 05:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-20 05:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-20 05:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 05:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 05:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 05:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 05:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 05:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 05:26:30 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-20 05:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-20 05:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-20 05:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 05:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 05:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 05:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 05:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 05:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 05:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 05:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 05:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 05:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.85
+2025-09-20 05:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 05:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 05:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 05:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 05:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 05:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 05:26:41 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 05:26:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 05:26:44 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 05:26:47 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 05:26:48 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 05:26:50 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 05:26:51 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 05:26:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 05:26:54 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 05:26:57 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 05:26:58 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 05:27:01 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 05:27:02 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 05:27:04 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 05:27:05 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 05:27:08 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 05:27:08 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 05:27:11 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 05:27:12 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 05:27:14 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 05:27:14 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 05:27:14 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 05:28:03 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 05:28:03 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 06:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 06:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 06:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 06:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 06:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 06:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 06:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 06:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 06:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.87
+2025-09-20 06:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 06:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 06:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 06:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 06:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 06:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 06:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 06:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 06:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 06:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 06:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 06:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 06:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 06:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 06:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 06:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 06:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 06:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 06:26:59 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 06:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 06:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 06:27:05 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 06:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 06:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 06:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 06:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 06:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 06:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 06:28:01 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 06:28:01 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 07:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 07:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 07:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 07:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 07:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 07:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 07:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 07:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 07:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.89
+2025-09-20 07:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 07:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 07:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 07:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 07:26:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 07:26:40 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 07:26:41 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 07:26:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 07:26:44 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 07:26:47 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 07:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 07:26:50 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 07:26:51 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 07:26:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 07:26:54 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 07:26:57 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 07:26:58 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 07:27:00 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 07:27:01 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 07:27:04 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 07:27:05 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 07:27:07 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 07:27:08 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 07:27:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 07:27:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 07:27:14 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 07:27:14 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 07:27:14 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 07:28:04 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 07:28:04 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 07:46:39 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 08:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-20 08:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-20 08:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 08:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 08:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 08:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 08:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 08:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 08:26:30 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-20 08:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-20 08:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-20 08:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 08:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 08:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 08:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 08:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 08:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 08:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 08:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 08:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 08:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $16.0
+2025-09-20 08:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 08:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 08:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 08:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 08:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 08:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 08:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 08:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 08:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 08:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 08:26:48 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 08:26:50 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 08:26:51 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 08:26:54 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 08:26:55 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 08:26:57 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 08:26:58 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 08:27:01 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 08:27:02 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 08:27:05 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 08:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 08:27:09 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 08:27:09 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 08:27:12 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 08:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 08:27:15 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 08:27:15 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 08:27:15 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 08:28:06 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 08:28:06 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 09:07:11 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 09:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 09:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 09:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 09:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 09:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 09:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 09:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 09:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 09:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.94
+2025-09-20 09:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 09:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 09:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 09:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 09:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 09:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 09:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 09:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 09:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 09:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 09:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 09:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 09:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 09:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 09:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 09:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 09:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 09:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 09:26:59 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 09:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 09:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 09:27:05 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 09:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 09:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 09:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 09:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 09:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 09:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 09:28:01 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 09:28:01 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 10:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 10:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 10:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 10:26:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 10:26:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 10:26:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 10:26:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 10:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 10:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.92
+2025-09-20 10:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 10:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 10:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 10:26:35 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 10:26:36 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 10:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 10:26:39 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 10:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 10:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 10:26:45 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 10:26:46 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 10:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 10:26:49 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 10:26:52 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 10:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 10:26:55 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 10:26:56 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 10:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 10:26:59 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 10:27:02 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 10:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 10:27:05 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 10:27:06 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 10:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 10:27:09 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 10:27:12 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 10:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 10:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 10:28:01 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 10:28:01 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 11:26:30 - INFO - __main__.check_governance:Checking for new proposals
+2025-09-20 11:26:30 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-09-20 11:26:30 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 11:26:30 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 11:26:30 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 11:26:30 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 11:26:30 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 11:26:30 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 11:26:31 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-09-20 11:26:31 - INFO - __main__.check_governance:No threads to lock
+2025-09-20 11:26:31 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-09-20 11:26:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 11:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 11:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 11:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 11:26:32 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 11:26:32 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 11:26:32 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 11:26:32 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 11:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 11:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.88
+2025-09-20 11:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 11:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 11:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 11:26:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 11:26:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 11:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 11:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 11:26:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 11:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 11:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 11:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 11:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 11:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 11:26:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 11:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 11:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 11:26:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 11:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 11:27:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 11:27:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 11:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 11:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 11:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 11:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 11:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 11:27:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 11:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 11:27:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 11:28:02 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 11:28:02 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 11:47:06 - INFO - Shard ID None has successfully RESUMED session 05a033abe3f6f64c4de9f96d2a5a274a.
+2025-09-20 12:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 12:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 12:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 12:26:32 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 12:26:32 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 12:26:32 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 12:26:32 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 12:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 12:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.91
+2025-09-20 12:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 12:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 12:26:33 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 12:26:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 12:26:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 12:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 12:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 12:26:42 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 12:26:43 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 12:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 12:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 12:26:49 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 12:26:50 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 12:26:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 12:26:53 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 12:26:56 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 12:26:57 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 12:26:59 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 12:27:00 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 12:27:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 12:27:03 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 12:27:06 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 12:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 12:27:09 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 12:27:10 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 12:27:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 12:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 12:27:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 12:28:03 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 12:28:03 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 13:26:31 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-09-20 13:26:31 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-09-20 13:26:31 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-09-20 13:26:32 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-09-20 13:26:32 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-09-20 13:26:32 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-09-20 13:26:32 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-09-20 13:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-09-20 13:26:32 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $15.93
+2025-09-20 13:26:32 - INFO - __main__.sync_embeds:12 threads to synchronize
+2025-09-20 13:26:32 - INFO - __main__.sync_embeds:Synchronizing 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 13:26:34 - INFO - __main__.sync_embeds:Successfully synchronized 599: [Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 13:26:36 - INFO - __main__.sync_embeds:Synchronizing 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 13:26:37 - INFO - __main__.sync_embeds:Successfully synchronized 598: Funding for Public RPC Providers via Bounty 25
+2025-09-20 13:26:39 - INFO - __main__.sync_embeds:Synchronizing 597: Delay Demo #2 Treasury Guardian
+2025-09-20 13:26:40 - INFO - __main__.sync_embeds:Successfully synchronized 597: Delay Demo #2 Treasury Guardian
+2025-09-20 13:26:43 - INFO - __main__.sync_embeds:Synchronizing 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 13:26:44 - INFO - __main__.sync_embeds:Successfully synchronized 596: Hard Pressure Capped & Stepped Supply Schedule
+2025-09-20 13:26:46 - INFO - __main__.sync_embeds:Synchronizing 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 13:26:47 - INFO - __main__.sync_embeds:Successfully synchronized 595: Register USDT and USDC (Polkadot) on Kusama Asset Hub
+2025-09-20 13:26:50 - INFO - __main__.sync_embeds:Synchronizing 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 13:26:51 - INFO - __main__.sync_embeds:Successfully synchronized 594: Enterprise Onboarding & Institutional Collaborations for Kusama in Nigeria
+2025-09-20 13:26:53 - INFO - __main__.sync_embeds:Synchronizing 593: Error vote Nay
+2025-09-20 13:26:54 - INFO - __main__.sync_embeds:Successfully synchronized 593: Error vote Nay
+2025-09-20 13:26:57 - INFO - __main__.sync_embeds:Synchronizing 591: Implement pallet_content
+2025-09-20 13:26:58 - INFO - __main__.sync_embeds:Successfully synchronized 591: Implement pallet_content
+2025-09-20 13:27:00 - INFO - __main__.sync_embeds:Synchronizing 590: Deregister paraID 2114: Turing Network
+2025-09-20 13:27:01 - INFO - __main__.sync_embeds:Successfully synchronized 590: Deregister paraID 2114: Turing Network
+2025-09-20 13:27:03 - INFO - __main__.sync_embeds:Synchronizing 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 13:27:04 - INFO - __main__.sync_embeds:Successfully synchronized 589: Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Migration
+2025-09-20 13:27:07 - INFO - __main__.sync_embeds:Synchronizing 588: Error vote NAY
+2025-09-20 13:27:07 - INFO - __main__.sync_embeds:Successfully synchronized 588: Error vote NAY
+2025-09-20 13:27:10 - INFO - __main__.sync_embeds:Synchronizing 587: Web3 Without Barriers: Virto Connect
+2025-09-20 13:27:11 - INFO - __main__.sync_embeds:Successfully synchronized 587: Web3 Without Barriers: Virto Connect
+2025-09-20 13:27:13 - INFO - __main__.sync_embeds:synchronization complete
+2025-09-20 13:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-09-20 13:27:13 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-09-20 13:28:03 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-09-20 13:28:03 - INFO - SubstrateAPI.close:Closing WebSocket connection...
