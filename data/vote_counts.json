@@ -30,8 +30,8 @@
     "origin": [
       "WishForChange"
     ],
-    "aye": 2,
-    "nay": 0,
+    "aye": 1,
+    "nay": 2,
     "recuse": 0,
     "users": {
       "923197289277820938": {
@@ -40,56 +40,14 @@
       },
       "565746238562238474": {
         "username": "pandres95#0",
-        "vote_type": "aye"
+        "vote_type": "nay"
+      },
+      "429359693576667145": {
+        "username": ".wariomx#0",
+        "vote_type": "nay"
       }
     },
     "epoch": 1758065193
-  },
-  "1418196497320771604": {
-    "index": "597",
-    "title": "Delay Demo #2 Treasury Guardian",
-    "origin": [
-      "Treasurer"
-    ],
-    "aye": 3,
-    "nay": 0,
-    "recuse": 0,
-    "users": {
-      "565746238562238474": {
-        "username": "pandres95#0",
-        "vote_type": "aye"
-      },
-      "923197289277820938": {
-        "username": "igorstojanov_#0",
-        "vote_type": "aye"
-      },
-      "1078969602509377596": {
-        "username": "kanas_jnr#0",
-        "vote_type": "aye"
-      }
-    },
-    "epoch": 1758194794
-  },
-  "1418558887480655893": {
-    "index": "598",
-    "title": "Funding for Public RPC Providers via Bounty 25",
-    "origin": [
-      "BigSpender"
-    ],
-    "aye": 1,
-    "nay": 1,
-    "recuse": 0,
-    "users": {
-      "923197289277820938": {
-        "username": "igorstojanov_#0",
-        "vote_type": "nay"
-      },
-      "850595139139534849": {
-        "username": "barathkanna#0",
-        "vote_type": "aye"
-      }
-    },
-    "epoch": 1758281194
   },
   "1422150131335299183": {
     "index": "600",
@@ -98,7 +56,7 @@
       "WhitelistedCaller"
     ],
     "aye": 2,
-    "nay": 3,
+    "nay": 5,
     "recuse": 0,
     "users": {
       "436910730248454154": {
@@ -120,41 +78,67 @@
       "533782625404321813": {
         "username": "johandroid#0",
         "vote_type": "nay"
+      },
+      "948914408887816293": {
+        "username": "krishnaaaaaaaaaaaaa#0",
+        "vote_type": "nay"
+      },
+      "429359693576667145": {
+        "username": ".wariomx#0",
+        "vote_type": "nay"
       }
     },
     "epoch": 1759137413
   },
-  "1422738992423763979": {
-    "index": "601",
-    "title": "Runtime Upgrade 1.9.1 and Invulnerable Set Extension",
+  "1424097945627656342": {
+    "index": "602",
+    "title": "Referendum Alert: Real-Time OpenGov Vote Notifications on Telegram",
     "origin": [
-      "WhitelistedCaller"
+      "SmallSpender"
     ],
-    "aye": 5,
-    "nay": 0,
+    "aye": 0,
+    "nay": 1,
     "recuse": 0,
     "users": {
-      "1339781700661673986": {
-        "username": "sabo_wano#0",
-        "vote_type": "aye"
-      },
-      "436910730248454154": {
-        "username": "heyimstas#0",
-        "vote_type": "aye"
-      },
-      "801967477093302302": {
-        "username": "lynette7#0",
-        "vote_type": "aye"
-      },
-      "850595139139534849": {
-        "username": "barathkanna#0",
-        "vote_type": "aye"
-      },
-      "565746238562238474": {
-        "username": "pandres95#0",
-        "vote_type": "aye"
+      "429359693576667145": {
+        "username": ".wariomx#0",
+        "vote_type": "nay"
       }
     },
-    "epoch": 1759277809
+    "epoch": 1759601809
+  },
+  "1424369742394691677": {
+    "index": "603",
+    "title": "Implement a Kusama Forum MVP (Content Pallet v2)",
+    "origin": [
+      "MediumSpender"
+    ],
+    "aye": 0,
+    "nay": 0,
+    "recuse": 1,
+    "users": {
+      "923197289277820938": {
+        "username": "igorstojanov_#0",
+        "vote_type": "recuse"
+      }
+    },
+    "epoch": 1759666610
+  },
+  "1424415042085978122": {
+    "index": "604",
+    "title": "Enterprise Adoption & Institutional Collaborations for Kusama in Nigeria",
+    "origin": [
+      "MediumSpender"
+    ],
+    "aye": 0,
+    "nay": 1,
+    "recuse": 0,
+    "users": {
+      "923197289277820938": {
+        "username": "igorstojanov_#0",
+        "vote_type": "nay"
+      }
+    },
+    "epoch": 1759677410
   }
 }

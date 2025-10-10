@@ -98467,6 +98467,45 @@
             }
         }
     },
+    "HnFho2ZxgQqJ2zCkxKzZ7nkRMWKZxt4CEvBdoEdQgvfrhgU": {
+        "judgements": [
+            [
+                5,
+                "Reasonable"
+            ]
+        ],
+        "deposit": 6690333303,
+        "info": {
+            "display": {
+                "Raw": "Petar"
+            },
+            "legal": {
+                "Raw": "Petar Grahovac"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "petargrahovac23@gmail.com"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "None": null
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
     "DKSw7Ypw2TUQc1Xfvd3s8L7kZ6gkFtZHMfSSd15LLBbqQRC": {
         "judgements": [
             [
@@ -157538,6 +157577,45 @@
             },
             "twitter": {
                 "None": null
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
+    "G8AUTLQz3vBrTsk8YQjH3mHfkX4ZevdwFYWBnvqwSTg8Cop": {
+        "judgements": [
+            [
+                5,
+                "Reasonable"
+            ]
+        ],
+        "deposit": 6693999966,
+        "info": {
+            "display": {
+                "Raw": "GON369XYZ"
+            },
+            "legal": {
+                "Raw": "Gonzalo Camps"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "gonzalocampsv@gmail.com"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "Raw": "@GON369XYZ"
             },
             "github": {
                 "None": null

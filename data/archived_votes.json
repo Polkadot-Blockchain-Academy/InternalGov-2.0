@@ -1025,5 +1025,84 @@
       }
     },
     "epoch": 1757935593
+  },
+  "1422738992423763979": {
+    "index": "601",
+    "title": "Runtime Upgrade 1.9.1 and Invulnerable Set Extension",
+    "origin": [
+      "WhitelistedCaller"
+    ],
+    "aye": 5,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "1339781700661673986": {
+        "username": "sabo_wano#0",
+        "vote_type": "aye"
+      },
+      "436910730248454154": {
+        "username": "heyimstas#0",
+        "vote_type": "aye"
+      },
+      "801967477093302302": {
+        "username": "lynette7#0",
+        "vote_type": "aye"
+      },
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "aye"
+      },
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1759277809
+  },
+  "1418558887480655893": {
+    "index": "598",
+    "title": "Funding for Public RPC Providers via Bounty 25",
+    "origin": [
+      "BigSpender"
+    ],
+    "aye": 1,
+    "nay": 1,
+    "recuse": 0,
+    "users": {
+      "923197289277820938": {
+        "username": "igorstojanov_#0",
+        "vote_type": "nay"
+      },
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1758281194
+  },
+  "1418196497320771604": {
+    "index": "597",
+    "title": "Delay Demo #2 Treasury Guardian",
+    "origin": [
+      "Treasurer"
+    ],
+    "aye": 3,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "aye"
+      },
+      "923197289277820938": {
+        "username": "igorstojanov_#0",
+        "vote_type": "aye"
+      },
+      "1078969602509377596": {
+        "username": "kanas_jnr#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1758194794
   }
 }
