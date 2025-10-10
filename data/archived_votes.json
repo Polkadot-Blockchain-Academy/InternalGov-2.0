@@ -3957,5 +3957,267 @@
       }
     },
     "epoch": 1757516768
+  },
+  "1410281376930074705": {
+    "index": "1730",
+    "title": "SQD (fka Subsquid) - Public Data Indexing Infrastructure for Polkadot (Q4 2024) V2",
+    "origin": [
+      "MediumSpender"
+    ],
+    "aye": 5,
+    "nay": 1,
+    "recuse": 0,
+    "users": {
+      "690257335599628309": {
+        "username": "0xpasta#0",
+        "vote_type": "aye"
+      },
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "aye"
+      },
+      "254771968757334016": {
+        "username": "anny0nn#0",
+        "vote_type": "aye"
+      },
+      "429359693576667145": {
+        "username": ".wariomx#0",
+        "vote_type": "aye"
+      },
+      "467291448254005259": {
+        "username": "matjazonline#0",
+        "vote_type": "nay"
+      },
+      "316582306242625537": {
+        "username": "lu.bubba#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1756307682
+  },
+  "1414267643459932291": {
+    "index": "1745",
+    "title": "[Retroactive] SubWallet Development from August 2024 to March 2025",
+    "origin": [
+      "MediumSpender"
+    ],
+    "aye": 7,
+    "nay": 1,
+    "recuse": 0,
+    "users": {
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "aye"
+      },
+      "760018403343466506": {
+        "username": "dudo50#0",
+        "vote_type": "aye"
+      },
+      "1118841552937156639": {
+        "username": "max_hic#0",
+        "vote_type": "aye"
+      },
+      "429359693576667145": {
+        "username": ".wariomx#0",
+        "vote_type": "aye"
+      },
+      "690257335599628309": {
+        "username": "0xpasta#0",
+        "vote_type": "aye"
+      },
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "aye"
+      },
+      "533782625404321813": {
+        "username": "johandroid#0",
+        "vote_type": "nay"
+      },
+      "1225513589394378872": {
+        "username": "owahyudi#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1757258082
+  },
+  "1412455703242604637": {
+    "index": "1743",
+    "title": "DeFi Infrastructure & Tooling Bounty Top-Up by Velocity Labs & Co",
+    "origin": [
+      "BigSpender"
+    ],
+    "aye": 1,
+    "nay": 6,
+    "recuse": 1,
+    "users": {
+      "1118841552937156639": {
+        "username": "max_hic#0",
+        "vote_type": "aye"
+      },
+      "923197289277820938": {
+        "username": "igorstojanov_#0",
+        "vote_type": "nay"
+      },
+      "690257335599628309": {
+        "username": "0xpasta#0",
+        "vote_type": "nay"
+      },
+      "832639594990141539": {
+        "username": "_magicsheep#0",
+        "vote_type": "recuse"
+      },
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "nay"
+      },
+      "316582306242625537": {
+        "username": "lu.bubba#0",
+        "vote_type": "nay"
+      },
+      "1024170961660018728": {
+        "username": "maggi2712#0",
+        "vote_type": "nay"
+      },
+      "533782625404321813": {
+        "username": "johandroid#0",
+        "vote_type": "nay"
+      }
+    },
+    "epoch": 1756826082
+  },
+  "1414584726924296253": {
+    "index": "1746",
+    "title": "[Proposal retracted] Please vote nay",
+    "origin": [
+      "MediumSpender"
+    ],
+    "aye": 2,
+    "nay": 13,
+    "recuse": 0,
+    "users": {
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "nay"
+      },
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "nay"
+      },
+      "690257335599628309": {
+        "username": "0xpasta#0",
+        "vote_type": "aye"
+      },
+      "1070154910324236309": {
+        "username": "jp_00112#0",
+        "vote_type": "nay"
+      },
+      "923197289277820938": {
+        "username": "igorstojanov_#0",
+        "vote_type": "aye"
+      },
+      "709034066586107924": {
+        "username": "michjord0001#0",
+        "vote_type": "nay"
+      },
+      "832639594990141539": {
+        "username": "_magicsheep#0",
+        "vote_type": "nay"
+      },
+      "533782625404321813": {
+        "username": "johandroid#0",
+        "vote_type": "nay"
+      },
+      "219856741205016576": {
+        "username": "juanirios99#0",
+        "vote_type": "nay"
+      },
+      "615623717179097113": {
+        "username": "lukk_#0",
+        "vote_type": "nay"
+      },
+      "316582306242625537": {
+        "username": "lu.bubba#0",
+        "vote_type": "nay"
+      },
+      "1078969602509377596": {
+        "username": "kanas_jnr#0",
+        "vote_type": "nay"
+      },
+      "543939902098898955": {
+        "username": "cirko33#0",
+        "vote_type": "nay"
+      },
+      "1339781700661673986": {
+        "username": "sabo_wano#0",
+        "vote_type": "nay"
+      },
+      "473870325122072587": {
+        "username": "nikoulai#0",
+        "vote_type": "nay"
+      }
+    },
+    "epoch": 1757333681
+  },
+  "1412002715512344676": {
+    "index": "1737",
+    "title": "Polkadot Community Foundation - Community Directors Election and Removal Process",
+    "origin": [
+      "WishForChange"
+    ],
+    "aye": 3,
+    "nay": 2,
+    "recuse": 0,
+    "users": {
+      "1118841552937156639": {
+        "username": "max_hic#0",
+        "vote_type": "aye"
+      },
+      "690257335599628309": {
+        "username": "0xpasta#0",
+        "vote_type": "aye"
+      },
+      "850595139139534849": {
+        "username": "barathkanna#0",
+        "vote_type": "aye"
+      },
+      "429359693576667145": {
+        "username": ".wariomx#0",
+        "vote_type": "nay"
+      },
+      "533782625404321813": {
+        "username": "johandroid#0",
+        "vote_type": "nay"
+      }
+    },
+    "epoch": 1756718081
+  },
+  "1422920066164588595": {
+    "index": "1765",
+    "title": "[Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgrade 1.7.1",
+    "origin": [
+      "WhitelistedCaller"
+    ],
+    "aye": 4,
+    "nay": 0,
+    "recuse": 0,
+    "users": {
+      "1339781700661673986": {
+        "username": "sabo_wano#0",
+        "vote_type": "aye"
+      },
+      "533782625404321813": {
+        "username": "johandroid#0",
+        "vote_type": "aye"
+      },
+      "923197289277820938": {
+        "username": "igorstojanov_#0",
+        "vote_type": "aye"
+      },
+      "565746238562238474": {
+        "username": "pandres95#0",
+        "vote_type": "aye"
+      }
+    },
+    "epoch": 1759320980
   }
 }

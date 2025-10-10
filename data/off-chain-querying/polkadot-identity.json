@@ -5785,6 +5785,45 @@
             }
         }
     },
+    "14PrYwfu2ZpSSXhfU24YXuyaVFUfKwnohBMY3WeG8bkjnse": {
+        "judgements": [
+            [
+                3,
+                "Reasonable"
+            ]
+        ],
+        "deposit": 2008400000,
+        "info": {
+            "display": {
+                "Raw": "Movimentum"
+            },
+            "legal": {
+                "Raw": "Movimentum LLC"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "web3@movimentum.io"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "Raw": "@MovimentumWeb3"
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
     "15MFgTrCqjnLRPkDymuuhBMpzxQmcRyfFDETRiEtBRjpfLzE": {
         "judgements": [
             [
@@ -18504,6 +18543,47 @@
             }
         }
     },
+    "12TzGrUTUtPPJoEmWtGWjaM9FD3Djo3MNAiQKeNmDFt3MNFX": {
+        "judgements": [
+            [
+                3,
+                {
+                    "FeePaid": 5000000000
+                }
+            ]
+        ],
+        "deposit": 2009000000,
+        "info": {
+            "display": {
+                "Raw": "Alixboum"
+            },
+            "legal": {
+                "Raw": "Alix BOUMEDIENE"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "alix.boumediene@gmail.com"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "Raw": "@AlixBoumediene"
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
     "1552LyeHJsg23foJvmPUTSYc7JwrtNoK4hw4e2f5FDfv3ByZ": {
         "judgements": [],
         "deposit": 2006700000,
@@ -20799,6 +20879,45 @@
             }
         }
     },
+    "12pCUGSwoW4Xek48TLUHCFhrvAdjmciMMLJoRJD8HWP5saXH": {
+        "judgements": [
+            [
+                3,
+                "Reasonable"
+            ]
+        ],
+        "deposit": 2011200000,
+        "info": {
+            "display": {
+                "Raw": "Nasihudeen"
+            },
+            "legal": {
+                "Raw": "Nasihudeen Adegboyega Jimoh"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "Raw": "@kanas0:matrix.org"
+            },
+            "email": {
+                "Raw": "nasihudeen04@gmail.com"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "Raw": "Kanasjnr"
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
     "12xoHfGQZHuzk88dtVepVCR3ZqX1dE5PiuC5cXBAgHy1gyH3": {
         "judgements": [
             [
@@ -21931,11 +22050,13 @@
                 }
             ],
             [
-                3,
-                "Reasonable"
+                4,
+                {
+                    "FeePaid": 5000000000
+                }
             ]
         ],
-        "deposit": 2007700000,
+        "deposit": 2011200000,
         "info": {
             "display": {
                 "Raw": "niftesty"
@@ -21954,16 +22075,16 @@
             },
             "pgp_fingerprint": null,
             "image": {
-                "None": null
+                "Raw": "pidp:ZuVk1zsOQ3jqyeh"
             },
             "twitter": {
                 "Raw": "niftesty"
             },
             "github": {
-                "None": null
+                "Raw": "niklasp"
             },
             "discord": {
-                "None": null
+                "Raw": "niftesty"
             }
         }
     },
@@ -25659,6 +25780,40 @@
             },
             "discord": {
                 "None": null
+            }
+        }
+    },
+    "14TT1Q2RYbTS6jxFCrXDfX6ZpvcB5ePjN5uYMLkQL6grVtUt": {
+        "judgements": [],
+        "deposit": 2009800000,
+        "info": {
+            "display": {
+                "Raw": "Sai Ranjit"
+            },
+            "legal": {
+                "Raw": "Sai Ranjit Tummalapalli"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "sairanjit5@gmail.com"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "None": null
+            },
+            "github": {
+                "Raw": "sairanjit"
+            },
+            "discord": {
+                "Raw": "sairanjit"
             }
         }
     },
@@ -30267,6 +30422,40 @@
             },
             "twitter": {
                 "Raw": "@PlayNewOmega"
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
+    "14VauJKLZRa7PYjpnWHcGD4tP971dpZrhALXqUGH88gkWm9u": {
+        "judgements": [],
+        "deposit": 2003000000,
+        "info": {
+            "display": {
+                "Raw": "BRC"
+            },
+            "legal": {
+                "None": null
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "None": null
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "None": null
             },
             "github": {
                 "None": null
@@ -51197,13 +51386,8 @@
         }
     },
     "1GMZGFTqqyjFF6E3wT6EhGpA7AyLvtiCZPvxoU3EypBtQV6": {
-        "judgements": [
-            [
-                0,
-                "Reasonable"
-            ]
-        ],
-        "deposit": 2005500000,
+        "judgements": [],
+        "deposit": 2004300000,
         "info": {
             "display": {
                 "Raw": "GMZ"
@@ -51218,14 +51402,14 @@
                 "None": null
             },
             "email": {
-                "Raw": "gmz@codeaffen.org"
+                "Raw": "gmz.dot@pm.me"
             },
             "pgp_fingerprint": null,
             "image": {
                 "None": null
             },
             "twitter": {
-                "Raw": "@gmzabos"
+                "None": null
             },
             "github": {
                 "None": null
@@ -60391,7 +60575,9 @@
         "judgements": [
             [
                 4,
-                "Reasonable"
+                {
+                    "FeePaid": 5000000000
+                }
             ]
         ],
         "deposit": 2005500000,
@@ -84075,6 +84261,47 @@
             }
         }
     },
+    "13QtZ5k6ft2MtyL9uTujujZ7VWQ3FjmaUGUKttmijeMnfysk": {
+        "judgements": [
+            [
+                4,
+                {
+                    "FeePaid": 5000000000
+                }
+            ]
+        ],
+        "deposit": 2008000000,
+        "info": {
+            "display": {
+                "Raw": "sve"
+            },
+            "legal": {
+                "None": null
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "sveta.goldstein@protonmail.com"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "Raw": "pidp:Xt6Iu9y7cmS7QRP"
+            },
+            "twitter": {
+                "None": null
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
     "15wznkm7fMaJLFaw7B8KrJWkNcWsDziyTKVjrpPhRLMyXsr5": {
         "judgements": [
             [
@@ -95123,6 +95350,47 @@
             }
         }
     },
+    "15YCjbYkV9ETfGQy19JNp6fqURYnW9aJbGo33qUxmAr6FopV": {
+        "judgements": [
+            [
+                4,
+                {
+                    "FeePaid": 5000000000
+                }
+            ]
+        ],
+        "deposit": 2012500000,
+        "info": {
+            "display": {
+                "Raw": "polkadotasia"
+            },
+            "legal": {
+                "Raw": "Polkadotasia"
+            },
+            "web": {
+                "Raw": "polkadotasia.org"
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "polkadotasia@gmail.com"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "Raw": "polkadotasia"
+            },
+            "github": {
+                "Raw": "polkadotasia"
+            },
+            "discord": {
+                "Raw": "polkadotasia"
+            }
+        }
+    },
     "14PrQURkFLrvCt7TGvT2qRdrpQR56iiZhc6JhVhvWFeGTPTq": {
         "judgements": [
             [
@@ -99627,6 +99895,45 @@
             }
         }
     },
+    "12fiMKJP9t3gTFpHEXGYtdbZzwQciCpUcVFRnVXU4JYQLWvA": {
+        "judgements": [
+            [
+                3,
+                "Reasonable"
+            ]
+        ],
+        "deposit": 2009200000,
+        "info": {
+            "display": {
+                "Raw": "RoMarQ"
+            },
+            "legal": {
+                "Raw": "Rodrigo Quelhas"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "Raw": "@romarq:matrix.org"
+            },
+            "email": {
+                "Raw": "rodrigo_quelhas@outlook.pt"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "None": null
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
     "15x1gKGjYQQi42D4ER8Wvn4gGDQn8FBTqU9faBum27CCsLQY": {
         "judgements": [
             [
@@ -102654,6 +102961,45 @@
             },
             "email": {
                 "None": null
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "None": null
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
+    "13ELGeHjwsqA5DjPgvKDGXnM6H9sH34D9QCSTV4pZ7ZgvLEG": {
+        "judgements": [
+            [
+                4,
+                "Reasonable"
+            ]
+        ],
+        "deposit": 2006700000,
+        "info": {
+            "display": {
+                "Raw": "Andrea Boni"
+            },
+            "legal": {
+                "Raw": "Andrea Boni"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "andrboni@gmail.com"
             },
             "pgp_fingerprint": null,
             "image": {

@@ -1,0 +1,1413 @@
+2025-10-08 09:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-08 09:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-08 09:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 09:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 09:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 09:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 09:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 09:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 09:16:15 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-08 09:16:16 - INFO - __main__.check_governance:No threads to lock
+2025-10-08 09:16:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-08 09:16:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 09:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 09:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 09:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 09:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 09:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 09:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 09:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 09:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 09:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.14
+2025-10-08 09:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 09:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 09:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 09:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 09:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 09:16:24 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 09:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 09:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 09:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 09:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 09:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 09:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 09:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 09:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 09:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 09:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 09:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 09:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 09:16:45 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 09:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 09:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 09:16:51 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 09:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 09:16:54 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 09:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 09:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 09:16:58 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 09:17:01 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 09:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 09:17:04 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 09:17:05 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 09:17:08 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 09:17:08 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 09:17:08 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 09:18:17 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 09:18:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 09:27:18 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-10-08 09:27:18 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-08 09:27:18 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 09:27:19 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-10-08 09:27:21 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 09:27:21 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 09:27:21 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 09:27:21 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 09:27:21 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 09:27:21 - INFO - __main__.autonomous_voting:Checking ref: #1749
+2025-10-08 09:27:21 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 09:27:26 - INFO - __main__.autonomous_voting:Checking ref: #1750
+2025-10-08 09:27:26 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 09:27:30 - INFO - __main__.autonomous_voting:Checking ref: #1751
+2025-10-08 09:27:30 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 09:27:35 - INFO - __main__.autonomous_voting:Checking ref: #1752
+2025-10-08 09:27:35 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 09:27:39 - INFO - __main__.autonomous_voting:Checking ref: #1754
+2025-10-08 09:27:39 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 09:27:44 - INFO - __main__.autonomous_voting:Checking ref: #1757
+2025-10-08 09:27:44 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 09:27:48 - INFO - __main__.autonomous_voting:Checking ref: #1758
+2025-10-08 09:27:48 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 09:27:53 - INFO - __main__.autonomous_voting:Checking ref: #1759
+2025-10-08 09:27:53 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 09:27:58 - INFO - __main__.autonomous_voting:Checking ref: #1760
+2025-10-08 09:27:58 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 09:28:02 - INFO - __main__.autonomous_voting:Checking ref: #1761
+2025-10-08 09:28:02 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 09:28:07 - INFO - __main__.autonomous_voting:Checking ref: #1762
+2025-10-08 09:28:07 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 09:28:11 - INFO - __main__.autonomous_voting:Checking ref: #1763
+2025-10-08 09:28:11 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 09:28:16 - INFO - __main__.autonomous_voting:Checking ref: #1764
+2025-10-08 09:28:16 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-10-08 09:28:16 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 09:28:21 - INFO - __main__.autonomous_voting:Checking ref: #1765
+2025-10-08 09:28:21 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-10-08 09:28:21 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 09:28:25 - INFO - __main__.autonomous_voting:Checking ref: #1766
+2025-10-08 09:28:26 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 598321 > 604800?
+2025-10-08 09:28:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 09:28:28 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 09:28:28 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 09:28:28 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 09:28:28 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 09:28:28 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 09:28:28 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 09:28:28 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 09:28:28 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-10-08 09:28:30 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 09:28:30 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.13
+2025-10-08 09:28:30 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 09:28:30 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 09:28:30 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 09:28:33 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 09:28:34 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 09:28:36 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 09:28:37 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 09:28:39 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 09:28:40 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 09:28:43 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 09:28:43 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 09:28:46 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 09:28:47 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 09:28:49 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 09:28:50 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 09:28:53 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 09:28:53 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-10-08 09:28:53 - INFO - SubstrateAPI.connect:SubstrateAPI.cache_identities - Initializing SubstrateInterface object: wss://people-polkadot.dotters.network
+2025-10-08 09:28:55 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 09:28:55 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 09:28:55 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 09:28:55 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 09:28:59 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-10-08 09:28:59 - INFO - SubstrateAPI.connect:SubstrateAPI.check_ss58_address - Initializing SubstrateInterface object: wss://polkadot.dotters.network
+2025-10-08 09:29:02 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 09:29:02 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 09:29:02 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 09:29:02 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 09:29:02 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 09:29:05 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 09:29:05 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 09:29:08 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 09:29:08 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 09:29:11 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 09:29:12 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 09:29:14 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 09:29:15 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 09:29:17 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 09:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 09:29:21 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 09:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 09:29:24 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 09:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 09:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 09:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 09:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 09:30:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 09:30:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 09:41:39 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 10:28:28 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 10:28:28 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 10:28:28 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 10:28:28 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 10:28:28 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 10:28:28 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 10:28:28 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 10:28:29 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 10:28:29 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.15
+2025-10-08 10:28:29 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 10:28:29 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 10:28:30 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 10:28:33 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 10:28:34 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 10:28:36 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 10:28:37 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 10:28:39 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 10:28:40 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 10:28:43 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 10:28:44 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 10:28:46 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 10:28:47 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 10:28:49 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 10:28:50 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 10:28:53 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 10:28:55 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 10:28:57 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 10:28:58 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 10:29:01 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 10:29:01 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 10:29:04 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 10:29:05 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 10:29:07 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 10:29:08 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 10:29:11 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 10:29:11 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 10:29:14 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 10:29:15 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 10:29:17 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 10:29:19 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 10:29:22 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 10:29:22 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 10:29:22 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 10:30:34 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 10:30:34 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 11:21:39 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 11:28:28 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 11:28:28 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 11:28:28 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 11:28:28 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 11:28:28 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 11:28:28 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 11:28:28 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 11:28:29 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 11:28:29 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.17
+2025-10-08 11:28:29 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 11:28:29 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 11:28:30 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 11:28:32 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 11:28:33 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 11:28:36 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 11:28:36 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 11:28:39 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 11:28:40 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 11:28:42 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 11:28:43 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 11:28:46 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 11:28:46 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 11:28:49 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 11:28:50 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 11:28:52 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 11:28:53 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 11:28:56 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 11:28:57 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 11:28:59 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 11:29:00 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 11:29:03 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 11:29:04 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 11:29:06 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 11:29:07 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 11:29:09 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 11:29:10 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 11:29:13 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 11:29:13 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 11:29:16 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 11:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 11:29:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 11:29:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 11:29:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 11:30:32 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 11:30:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 12:01:25 - INFO - GovernanceMonitor.on_interaction:User interaction from sabo_wano#0
+2025-10-08 12:14:29 - INFO - GovernanceMonitor.on_interaction:User interaction from anny0nn#0
+2025-10-08 12:15:42 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 12:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-08 12:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-08 12:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 12:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 12:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 12:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 12:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 12:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 12:16:15 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-08 12:16:16 - INFO - __main__.check_governance:No threads to lock
+2025-10-08 12:16:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-08 12:16:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 12:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 12:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 12:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 12:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 12:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 12:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 12:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 12:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 12:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.16
+2025-10-08 12:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 12:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 12:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 12:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 12:16:22 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-10-08 12:16:22 - INFO - SubstrateAPI.connect:SubstrateAPI.cache_super_of - Initializing SubstrateInterface object: wss://people-polkadot.dotters.network
+2025-10-08 12:16:23 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 12:16:23 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 12:16:23 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 12:16:23 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 12:16:24 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-10-08 12:16:24 - INFO - SubstrateAPI.connect:SubstrateAPI.check_ss58_address - Initializing SubstrateInterface object: wss://polkadot.dotters.network
+2025-10-08 12:16:29 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 12:16:29 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 12:16:29 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 12:16:29 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 12:16:30 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 12:16:32 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 12:16:33 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 12:16:35 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 12:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 12:16:40 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 12:16:41 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 12:16:43 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 12:16:44 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 12:16:47 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 12:16:48 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 12:16:50 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 12:16:51 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 12:16:54 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 12:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 12:16:57 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 12:16:58 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 12:17:00 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 12:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 12:17:04 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 12:17:04 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 12:17:07 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 12:17:08 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 12:17:10 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 12:17:11 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 12:17:14 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 12:17:15 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 12:17:17 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 12:17:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 12:17:17 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 12:18:30 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 12:18:30 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 13:02:04 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 13:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 13:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 13:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 13:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 13:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 13:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 13:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 13:16:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 13:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.15
+2025-10-08 13:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 13:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 13:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 13:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 13:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 13:16:24 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 13:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 13:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 13:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 13:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 13:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 13:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 13:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 13:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 13:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 13:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 13:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 13:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 13:16:46 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 13:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 13:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 13:16:52 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 13:16:53 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 13:16:55 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 13:16:56 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 13:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 13:16:59 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 13:17:02 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 13:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 13:17:05 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 13:17:06 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 13:17:09 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 13:17:09 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 13:17:09 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 13:18:22 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 13:18:22 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 13:27:58 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 13:28:29 - INFO - GovernanceMonitor.on_interaction:User interaction from sabo_wano#0
+2025-10-08 14:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 14:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 14:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 14:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 14:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 14:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 14:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 14:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 14:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.18
+2025-10-08 14:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 14:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 14:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 14:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 14:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 14:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 14:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 14:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 14:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 14:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 14:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 14:16:34 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 14:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 14:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 14:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 14:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 14:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 14:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 14:16:45 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 14:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 14:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 14:16:51 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 14:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 14:16:54 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 14:16:56 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 14:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 14:16:59 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 14:17:01 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 14:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 14:17:05 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 14:17:06 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 14:17:08 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 14:17:08 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 14:17:08 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 14:18:21 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 14:18:21 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 14:31:09 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 15:13:53 - INFO - GovernanceMonitor.on_interaction:User interaction from ank4n#0
+2025-10-08 15:13:58 - INFO - GovernanceMonitor.on_interaction:User interaction from ank4n#0
+2025-10-08 15:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-08 15:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-08 15:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 15:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 15:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 15:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 15:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 15:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 15:16:15 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-08 15:16:16 - INFO - __main__.check_governance:No threads to lock
+2025-10-08 15:16:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-08 15:16:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 15:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 15:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 15:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 15:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 15:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 15:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 15:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 15:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 15:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.15
+2025-10-08 15:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 15:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 15:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 15:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 15:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 15:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 15:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 15:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 15:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 15:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 15:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 15:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 15:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 15:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 15:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 15:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 15:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 15:16:44 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 15:16:45 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 15:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 15:16:48 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 15:16:51 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 15:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 15:16:54 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 15:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 15:16:57 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 15:16:58 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 15:17:01 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 15:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 15:17:04 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 15:17:05 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 15:17:07 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 15:17:07 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 15:17:07 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 15:18:18 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 15:18:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 15:41:42 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 15:48:52 - INFO - GovernanceMonitor.on_interaction:User interaction from sabo_wano#0
+2025-10-08 16:02:58 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 16:05:23 - INFO - GovernanceMonitor.on_interaction:User interaction from johandroid#0
+2025-10-08 16:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 16:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 16:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 16:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 16:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 16:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 16:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 16:16:20 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 16:16:20 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.15
+2025-10-08 16:16:20 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 16:16:20 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 16:16:21 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 16:16:24 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 16:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 16:16:27 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 16:16:28 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 16:16:30 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 16:16:31 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 16:16:34 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 16:16:34 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 16:16:37 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 16:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 16:16:40 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 16:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 16:16:44 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 16:16:45 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 16:16:47 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 16:16:48 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 16:16:51 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 16:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 16:16:54 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 16:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 16:16:57 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 16:16:58 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 16:17:01 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 16:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 16:17:04 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 16:17:05 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 16:17:07 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 16:17:08 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 16:17:11 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 16:17:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 16:17:11 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 16:18:24 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 16:18:24 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 17:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 17:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 17:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 17:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 17:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 17:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 17:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 17:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 17:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.19
+2025-10-08 17:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 17:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 17:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 17:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 17:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 17:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 17:16:26 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 17:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 17:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 17:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 17:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 17:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 17:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 17:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 17:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 17:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 17:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 17:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 17:16:46 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 17:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 17:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 17:16:51 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 17:16:53 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 17:16:55 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 17:16:56 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 17:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 17:16:59 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 17:17:02 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 17:17:03 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 17:17:05 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 17:17:06 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 17:17:08 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 17:17:08 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 17:17:08 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 17:18:19 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 17:18:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 18:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-08 18:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-08 18:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 18:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 18:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 18:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 18:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 18:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 18:16:15 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-08 18:16:16 - INFO - __main__.check_governance:No threads to lock
+2025-10-08 18:16:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-08 18:16:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 18:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 18:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 18:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 18:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 18:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 18:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 18:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 18:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 18:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.23
+2025-10-08 18:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 18:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 18:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 18:16:22 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 18:16:23 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 18:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 18:16:26 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 18:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 18:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 18:16:32 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 18:16:33 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 18:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 18:16:36 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 18:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 18:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 18:16:42 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 18:16:43 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 18:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 18:16:46 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 18:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 18:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 18:16:52 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 18:16:53 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 18:16:55 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 18:16:56 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 18:16:59 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 18:17:00 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 18:17:02 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 18:17:03 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 18:17:05 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 18:17:07 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 18:17:09 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 18:17:09 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 18:17:09 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 18:18:22 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 18:18:22 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 18:19:31 - INFO - GovernanceMonitor.on_interaction:User interaction from pandres95#0
+2025-10-08 18:20:40 - INFO - GovernanceMonitor.on_interaction:User interaction from pandres95#0
+2025-10-08 18:51:43 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 19:14:30 - INFO - GovernanceMonitor.on_interaction:User interaction from pandres95#0
+2025-10-08 19:14:50 - INFO - GovernanceMonitor.on_interaction:User interaction from pandres95#0
+2025-10-08 19:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 19:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 19:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 19:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 19:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 19:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 19:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 19:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 19:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.21
+2025-10-08 19:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 19:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 19:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 19:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 19:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 19:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 19:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 19:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 19:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 19:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 19:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 19:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 19:16:36 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 19:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 19:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 19:16:42 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 19:16:43 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 19:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 19:16:46 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 19:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 19:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 19:16:52 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 19:16:53 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 19:16:55 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 19:16:56 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 19:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 19:16:59 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 19:17:02 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 19:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 19:17:05 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 19:17:06 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 19:17:08 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 19:17:08 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 19:17:08 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 19:18:20 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 19:18:20 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 20:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 20:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 20:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 20:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 20:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 20:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 20:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 20:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 20:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.22
+2025-10-08 20:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 20:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 20:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 20:16:22 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 20:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 20:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 20:16:26 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 20:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 20:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 20:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 20:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 20:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 20:16:36 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 20:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 20:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 20:16:42 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 20:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 20:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 20:16:46 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 20:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 20:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 20:16:52 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 20:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 20:16:55 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 20:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 20:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 20:16:59 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 20:17:01 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 20:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 20:17:04 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 20:17:05 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 20:17:08 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 20:17:08 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 20:17:08 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 20:18:19 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 20:18:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 20:47:28 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 21:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-08 21:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-08 21:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 21:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 21:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 21:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 21:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 21:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 21:16:16 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-08 21:16:17 - INFO - __main__.check_governance:No threads to lock
+2025-10-08 21:16:17 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-08 21:16:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 21:16:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 21:16:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 21:16:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 21:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 21:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 21:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 21:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 21:16:20 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 21:16:20 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.2
+2025-10-08 21:16:20 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 21:16:20 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 21:16:21 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 21:16:23 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 21:16:24 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 21:16:27 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 21:16:28 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 21:16:30 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 21:16:31 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 21:16:34 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 21:16:34 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 21:16:37 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 21:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 21:16:40 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 21:16:41 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 21:16:44 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 21:16:44 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 21:16:47 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 21:16:48 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 21:16:50 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 21:16:51 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 21:16:54 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 21:16:54 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 21:16:57 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 21:16:58 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 21:17:00 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 21:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 21:17:04 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 21:17:04 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 21:17:07 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 21:17:08 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 21:17:10 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 21:17:10 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 21:17:10 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 21:18:19 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 21:18:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 21:27:18 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-10-08 21:27:18 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-08 21:27:18 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 21:27:19 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-10-08 21:27:21 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 21:27:21 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 21:27:21 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 21:27:21 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 21:27:21 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 21:27:24 - INFO - __main__.autonomous_voting:Checking ref: #1749
+2025-10-08 21:27:24 - INFO - __main__.autonomous_voting:Result: Vote period has ended.
+2025-10-08 21:27:28 - INFO - __main__.autonomous_voting:Checking ref: #1750
+2025-10-08 21:27:28 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 21:27:33 - INFO - __main__.autonomous_voting:Checking ref: #1751
+2025-10-08 21:27:33 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 21:27:37 - INFO - __main__.autonomous_voting:Checking ref: #1752
+2025-10-08 21:27:37 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 21:27:42 - INFO - __main__.autonomous_voting:Checking ref: #1754
+2025-10-08 21:27:42 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 21:27:46 - INFO - __main__.autonomous_voting:Checking ref: #1757
+2025-10-08 21:27:46 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 21:27:46 - INFO - __main__.autonomous_voting:The second vote hasn't changed from the first vote. No vote shall be cast on 1757
+2025-10-08 21:27:51 - INFO - __main__.autonomous_voting:Checking ref: #1758
+2025-10-08 21:27:51 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 21:27:55 - INFO - __main__.autonomous_voting:Checking ref: #1759
+2025-10-08 21:27:55 - INFO - __main__.autonomous_voting:Result: nay
+2025-10-08 21:28:00 - INFO - __main__.autonomous_voting:Checking ref: #1760
+2025-10-08 21:28:00 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 21:28:04 - INFO - __main__.autonomous_voting:Checking ref: #1761
+2025-10-08 21:28:04 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 21:28:09 - INFO - __main__.autonomous_voting:Checking ref: #1762
+2025-10-08 21:28:09 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 21:28:13 - INFO - __main__.autonomous_voting:Checking ref: #1763
+2025-10-08 21:28:13 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 21:28:18 - INFO - __main__.autonomous_voting:Checking ref: #1764
+2025-10-08 21:28:18 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-10-08 21:28:18 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 21:28:23 - INFO - __main__.autonomous_voting:Checking ref: #1765
+2025-10-08 21:28:23 - WARNING - GovernanceMonitor.calculate_proxy_vote:Participation too low, defaulting to Abstain
+2025-10-08 21:28:23 - INFO - __main__.autonomous_voting:Result: abstain
+2025-10-08 21:28:28 - INFO - __main__.autonomous_voting:Checking ref: #1766
+2025-10-08 21:28:28 - INFO - __main__.autonomous_voting:Result: aye
+2025-10-08 21:28:28 - INFO - __main__.autonomous_voting:Preparing to cast the first vote
+2025-10-08 21:28:30 - INFO - SubstrateAPI.proxy_balance:Checking balance of proxy account: 12xp4eWcqTvo4syih2127fFniAUQq1BoVBFuFjJ1MzzfCxJx
+2025-10-08 21:28:30 - INFO - __main__.autonomous_voting:Casting on-chain votes
+2025-10-08 21:28:32 - INFO - SubstrateAPI.execute_multiple_votes:Trying to execute call, please wait...
+2025-10-08 21:28:32 - INFO - SubstrateAPI.execute_calls:Attempting to execute batch of calls.
+2025-10-08 21:28:32 - INFO - SubstrateAPI.execute_calls:Utility_batch_call complete
+2025-10-08 21:28:32 - INFO - SubstrateAPI.execute_calls:Proxy call complete
+2025-10-08 21:28:32 - INFO - SubstrateAPI.execute_calls:Signed extrinsic created
+2025-10-08 21:28:36 - INFO - SubstrateAPI.execute_multiple_votes:An on-chain vote has been cast: 0x76be764f9f8f11d6ca4ace52cf5401615b2cee339ccc13059ad1840c92734784
+2025-10-08 21:28:36 - INFO - __main__.autonomous_voting:saving extrinsic hash in onchain-votes.json for 1766
+2025-10-08 21:28:37 - INFO - __main__.autonomous_voting:Posting extrinsic URL on discord as a Proof-of-Vote on 1766
+2025-10-08 21:28:38 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 21:28:38 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 21:28:38 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 21:28:38 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 21:28:38 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-10-08 21:28:38 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 21:28:38 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 21:28:38 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 21:28:38 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 21:28:39 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 21:28:39 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.22
+2025-10-08 21:28:39 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 21:28:39 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 21:28:40 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 21:28:43 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 21:28:43 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 21:28:46 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 21:28:47 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 21:28:49 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 21:28:50 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 21:28:53 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 21:28:53 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 21:28:56 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 21:28:57 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 21:29:00 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 21:29:00 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 21:29:03 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 21:29:04 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 21:29:06 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 21:29:09 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 21:29:11 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 21:29:12 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 21:29:15 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 21:29:16 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 21:29:18 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 21:29:19 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 21:29:22 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 21:29:23 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 21:29:26 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 21:29:26 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 21:29:29 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 21:29:31 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 21:29:33 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 21:29:33 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 21:29:33 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 21:30:45 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 21:30:45 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 22:22:21 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 22:28:38 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 22:28:38 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 22:28:38 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 22:28:38 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 22:28:38 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 22:28:38 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 22:28:38 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 22:28:41 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 22:28:41 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.22
+2025-10-08 22:28:41 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 22:28:41 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 22:28:42 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 22:28:44 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 22:28:45 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 22:28:48 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 22:28:48 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 22:28:51 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 22:28:52 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 22:28:55 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 22:28:56 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 22:28:58 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 22:28:59 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 22:29:01 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 22:29:02 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 22:29:05 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 22:29:06 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 22:29:08 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 22:29:09 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 22:29:11 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 22:29:13 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 22:29:16 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 22:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 22:29:19 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 22:29:20 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 22:29:22 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 22:29:23 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 22:29:26 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 22:29:26 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 22:29:29 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 22:29:30 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 22:29:32 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 22:29:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 22:29:32 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 22:30:44 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 22:30:44 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 23:28:14 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-08 23:28:38 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-08 23:28:38 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-08 23:28:38 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-08 23:28:38 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-08 23:28:38 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-08 23:28:38 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-08 23:28:38 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-08 23:28:39 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-08 23:28:39 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.2
+2025-10-08 23:28:39 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-08 23:28:39 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 23:28:41 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-08 23:28:44 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 23:28:45 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-08 23:28:47 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 23:28:49 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-08 23:28:52 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 23:28:53 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-08 23:28:55 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 23:28:57 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-08 23:28:59 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 23:29:01 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-08 23:29:03 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 23:29:04 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-08 23:29:07 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-08 23:29:08 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-08 23:29:10 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 23:29:11 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-08 23:29:13 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 23:29:14 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-08 23:29:16 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 23:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-08 23:29:20 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 23:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-08 23:29:24 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 23:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-08 23:29:27 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 23:29:28 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-08 23:29:30 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 23:29:31 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-08 23:29:34 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-08 23:29:34 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-08 23:29:34 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-08 23:30:46 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-08 23:30:46 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 00:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-09 00:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-09 00:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 00:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 00:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 00:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 00:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 00:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 00:16:15 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-09 00:16:17 - INFO - __main__.check_governance:No threads to lock
+2025-10-09 00:16:17 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-09 00:16:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 00:16:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 00:16:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 00:16:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 00:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 00:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 00:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 00:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 00:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 00:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.18
+2025-10-09 00:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-09 00:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 00:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 00:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 00:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 00:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 00:16:26 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 00:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 00:16:30 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 00:16:33 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 00:16:33 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 00:16:36 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 00:16:37 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 00:16:39 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 00:16:40 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 00:16:43 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 00:16:43 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 00:16:46 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 00:16:47 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 00:16:49 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 00:16:50 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 00:16:53 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 00:16:53 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 00:16:56 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 00:16:57 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 00:16:59 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 00:17:00 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 00:17:02 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 00:17:03 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 00:17:06 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 00:17:06 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 00:17:09 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 00:17:09 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 00:17:09 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 00:18:19 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 00:18:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 00:23:13 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-09 01:16:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 01:16:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 01:16:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 01:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 01:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 01:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 01:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 01:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 01:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.16
+2025-10-09 01:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-09 01:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 01:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 01:16:22 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 01:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 01:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 01:16:26 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 01:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 01:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 01:16:32 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 01:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 01:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 01:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 01:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 01:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 01:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 01:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 01:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 01:16:47 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 01:16:49 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 01:16:50 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 01:16:52 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 01:16:53 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 01:16:56 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 01:16:56 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 01:16:59 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 01:17:00 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 01:17:02 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 01:17:03 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 01:17:06 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 01:17:06 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 01:17:09 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 01:17:09 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 01:17:09 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 01:18:18 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 01:18:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 02:11:27 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-09 02:16:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 02:16:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 02:16:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 02:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 02:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 02:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 02:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 02:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 02:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.12
+2025-10-09 02:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-09 02:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 02:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 02:16:22 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 02:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 02:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 02:16:26 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 02:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 02:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 02:16:32 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 02:16:33 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 02:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 02:16:36 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 02:16:39 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 02:16:40 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 02:16:42 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 02:16:43 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 02:16:46 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 02:16:46 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 02:16:49 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 02:16:50 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 02:16:52 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 02:16:53 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 02:16:55 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 02:16:57 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 02:17:00 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 02:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 02:17:03 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 02:17:04 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 02:17:07 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 02:17:07 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 02:17:10 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 02:17:10 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 02:17:10 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 02:18:19 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 02:18:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 03:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-09 03:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-09 03:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 03:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 03:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 03:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 03:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 03:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 03:16:15 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-09 03:16:16 - INFO - __main__.check_governance:No threads to lock
+2025-10-09 03:16:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-09 03:16:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 03:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 03:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 03:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 03:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 03:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 03:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 03:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 03:16:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 03:16:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.11
+2025-10-09 03:16:17 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-09 03:16:17 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 03:16:18 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 03:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 03:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 03:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 03:16:26 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 03:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 03:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 03:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 03:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 03:16:35 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 03:16:36 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 03:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 03:16:39 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 03:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 03:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 03:16:45 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 03:16:46 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 03:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 03:16:50 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 03:16:53 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 03:16:54 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 03:16:56 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 03:16:57 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 03:16:59 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 03:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 03:17:03 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 03:17:04 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 03:17:07 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 03:17:07 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 03:17:10 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 03:17:10 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 03:17:10 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 03:18:18 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 03:18:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 04:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 04:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 04:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 04:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 04:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 04:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 04:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 04:16:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 04:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.11
+2025-10-09 04:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-09 04:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 04:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 04:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 04:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 04:16:24 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 04:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 04:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 04:16:28 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 04:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 04:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 04:16:34 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 04:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 04:16:38 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 04:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 04:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 04:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 04:16:44 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 04:16:45 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 04:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 04:16:48 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 04:16:51 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 04:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 04:16:54 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 04:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 04:16:57 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 04:16:58 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 04:17:00 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 04:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 04:17:04 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 04:17:04 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 04:17:07 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 04:17:07 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 04:17:07 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 04:18:15 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 04:18:15 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 04:33:05 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-09 05:16:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 05:16:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 05:16:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 05:16:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 05:16:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 05:16:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 05:16:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 05:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 05:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.12
+2025-10-09 05:16:18 - INFO - __main__.sync_embeds:15 threads to synchronize
+2025-10-09 05:16:18 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 05:16:19 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 05:16:21 - INFO - __main__.sync_embeds:Synchronizing 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 05:16:22 - INFO - __main__.sync_embeds:Successfully synchronized 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 05:16:25 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 05:16:25 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 05:16:28 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 05:16:29 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 05:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 05:16:32 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 05:16:34 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 05:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 05:16:37 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 05:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 05:16:41 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 05:16:42 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 05:16:44 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 05:16:45 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 05:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 05:16:48 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 05:16:51 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 05:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 05:16:54 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 05:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 05:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 05:16:59 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 05:17:01 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 05:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 05:17:04 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 05:17:05 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 05:17:07 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 05:17:07 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 05:17:07 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 05:18:16 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 05:18:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 05:34:49 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-09 06:16:14 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-09 06:16:14 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-09 06:16:14 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 06:16:14 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 06:16:14 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 06:16:14 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 06:16:14 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 06:16:14 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 06:16:16 - INFO - __main__.check_governance:Checking active proposals from polkadot against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-09 06:16:17 - INFO - GovernanceMonitor.lock_threads:1 threads have been archived by GovBot (ID: 1337052516487135232)
+2025-10-09 06:16:17 - INFO - GovernanceMonitor.lock_threads:Locking thread: 1765: [Whitelisted Caller] Replay failed Snowbridge transactions after Polkadot runtime upgr...
+2025-10-09 06:16:17 - INFO - GovernanceMonitor.lock_threads:The following threads have been locked by GovBot (ID: 1337052516487135232): ['1422920066164588595']
+2025-10-09 06:16:17 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-09 06:16:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 06:16:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 06:16:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 06:16:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 06:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 06:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 06:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 06:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 06:16:20 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 06:16:20 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.09
+2025-10-09 06:16:20 - INFO - __main__.sync_embeds:14 threads to synchronize
+2025-10-09 06:16:20 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 06:16:21 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 06:16:23 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 06:16:24 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 06:16:27 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 06:16:28 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 06:16:31 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 06:16:31 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 06:16:34 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 06:16:35 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 06:16:37 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 06:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 06:16:40 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 06:16:41 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 06:16:44 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 06:16:45 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 06:16:48 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 06:16:49 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 06:16:51 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 06:16:52 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 06:16:55 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 06:16:55 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 06:16:58 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 06:16:59 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 06:17:01 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 06:17:02 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 06:17:05 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 06:17:07 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 06:17:10 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 06:17:10 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 06:17:10 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 06:18:17 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 06:18:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 07:12:03 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
+2025-10-09 07:16:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 07:16:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 07:16:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 07:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 07:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 07:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 07:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 07:16:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 07:16:19 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.09
+2025-10-09 07:16:19 - INFO - __main__.sync_embeds:14 threads to synchronize
+2025-10-09 07:16:19 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 07:16:20 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 07:16:22 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 07:16:23 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 07:16:26 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 07:16:27 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 07:16:29 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 07:16:30 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 07:16:33 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 07:16:33 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 07:16:36 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 07:16:37 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 07:16:39 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 07:16:40 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 07:16:43 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 07:16:44 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 07:16:46 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 07:16:47 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 07:16:49 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 07:16:50 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 07:16:53 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 07:16:54 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 07:16:56 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 07:16:57 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 07:16:59 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 07:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 07:17:03 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 07:17:04 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 07:17:06 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 07:17:06 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 07:17:06 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 07:18:15 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 07:18:15 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 08:16:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-09 08:16:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-09 08:16:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-09 08:16:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1007001
+2025-10-09 08:16:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-09 08:16:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-09 08:16:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-09 08:16:19 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-09 08:16:19 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'polkadot' is $4.04
+2025-10-09 08:16:19 - INFO - __main__.sync_embeds:14 threads to synchronize
+2025-10-09 08:16:19 - INFO - __main__.sync_embeds:Synchronizing 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 08:16:21 - INFO - __main__.sync_embeds:Successfully synchronized 1766: [USDC Resubmission] Polkawatch, Decentralization Analytics, Infrastructure and Mainten...
+2025-10-09 08:16:24 - INFO - __main__.sync_embeds:Synchronizing 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 08:16:24 - INFO - __main__.sync_embeds:Successfully synchronized 1764: Enable fiat access on PolkadotHub to make Polkadot the easiest place to launch and sca...
+2025-10-09 08:16:27 - INFO - __main__.sync_embeds:Synchronizing 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 08:16:28 - INFO - __main__.sync_embeds:Successfully synchronized 1763: Upgrade Snowbridge Gateway Contract
+2025-10-09 08:16:30 - INFO - __main__.sync_embeds:Synchronizing 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 08:16:31 - INFO - __main__.sync_embeds:Successfully synchronized 1762: RegionX Hub: Retroactive + Key Features +  Maintenance
+2025-10-09 08:16:33 - INFO - __main__.sync_embeds:Synchronizing 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 08:16:34 - INFO - __main__.sync_embeds:Successfully synchronized 1761: Should Polkadot Hub have NATIVE pUSD based on the Honzon Protocol?
+2025-10-09 08:16:37 - INFO - __main__.sync_embeds:Synchronizing 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 08:16:38 - INFO - __main__.sync_embeds:Successfully synchronized 1760: ink! Alliance Bounty - Preparing for Polkadot Hub
+2025-10-09 08:16:40 - INFO - __main__.sync_embeds:Synchronizing 1759: vote nay
+2025-10-09 08:16:41 - INFO - __main__.sync_embeds:Successfully synchronized 1759: vote nay
+2025-10-09 08:16:43 - INFO - __main__.sync_embeds:Synchronizing 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 08:16:44 - INFO - __main__.sync_embeds:Successfully synchronized 1758: Bounty Proposal for Public RPCs for Relay and System Chains
+2025-10-09 08:16:47 - INFO - __main__.sync_embeds:Synchronizing 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 08:16:48 - INFO - __main__.sync_embeds:Successfully synchronized 1757: Bitcoin + Polkadot: Integration of the BRC721 protocol to scale Bitcoin NFT using Polk...
+2025-10-09 08:16:50 - INFO - __main__.sync_embeds:Synchronizing 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 08:16:51 - INFO - __main__.sync_embeds:Successfully synchronized 1754: AI Delegate Conflict of Interest Detection Protocol
+2025-10-09 08:16:53 - INFO - __main__.sync_embeds:Synchronizing 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 08:16:54 - INFO - __main__.sync_embeds:Successfully synchronized 1752: Polkadot for New Ventures Accelerator program
+2025-10-09 08:16:57 - INFO - __main__.sync_embeds:Synchronizing 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 08:16:57 - INFO - __main__.sync_embeds:Successfully synchronized 1751: Proposal: Efforts behind making micro-sr25519 (scure-sr25519) happen
+2025-10-09 08:17:00 - INFO - __main__.sync_embeds:Synchronizing 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 08:17:01 - INFO - __main__.sync_embeds:Successfully synchronized 1750: The Dots 3rd Proposal: X & TikTok Growth
+2025-10-09 08:17:03 - INFO - __main__.sync_embeds:Synchronizing 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 08:17:04 - INFO - __main__.sync_embeds:Successfully synchronized 1749: Referendum #1749 - Polkadot Community Foundation Election and Appointment of 2 x DOT D...
+2025-10-09 08:17:07 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-09 08:17:07 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 08:17:07 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-09 08:18:13 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-09 08:18:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-09 08:45:33 - INFO - Shard ID None has successfully RESUMED session 0710fcbd206761394fe8cc742ca51bc7.
