@@ -36,7 +36,7 @@ class GovernanceMonitor(discord.Client):
         self.tree.copy_global_to(guild=self.guild)
         await self.tree.sync(guild=self.guild)
 
-    def get_asset_price_v2(self, asset_id, currencies='usd'):
+    async def get_asset_price_v2(self, asset_id, currencies='usd'):
         """
         Fetches the price of an asset in the specified currencies from the CoinGecko API.
 
@@ -561,7 +561,7 @@ class GovernanceMonitor(discord.Client):
                     results_message = await thread.send("👍 AYE: 0    |    👎 NAY: 0    |    ☯ RECUSE: 0")
 
                 proposal_index = self.vote_counts[message_id]['index']
-                external_links = ExternalLinkButton(proposal_index, self.config.NETWORK_NAME)
+                external_links = ExternalLinkButton(proposal_index, self.config.NETWORK_NAME, self.config.EXPLORER_URL)
 
                 new_results_message = f"👍 AYE: {self.vote_counts[message_id]['aye']}    |    👎 NAY: {self.vote_counts[message_id]['nay']}    |    ☯ RECUSE: {self.vote_counts[message_id]['recuse']}\n" \
                                       f"{self.calculate_vote_result(aye_votes=self.vote_counts[message_id]['aye'], nay_votes=self.vote_counts[message_id]['nay'])}"
