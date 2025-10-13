@@ -149765,6 +149765,45 @@
             }
         }
     },
+    "J1xGoFupt7MkeVfxPF6icJnMq9Pj1b5uBkW4HZJq6W8sdsc": {
+        "judgements": [
+            [
+                5,
+                "Reasonable"
+            ]
+        ],
+        "deposit": 6690999969,
+        "info": {
+            "display": {
+                "Raw": "Fusion3"
+            },
+            "legal": {
+                "Raw": "Fusion3"
+            },
+            "web": {
+                "None": null
+            },
+            "matrix": {
+                "None": null
+            },
+            "email": {
+                "Raw": "contact@fusion3.tech"
+            },
+            "pgp_fingerprint": null,
+            "image": {
+                "None": null
+            },
+            "twitter": {
+                "Raw": "@Fusion3Tech"
+            },
+            "github": {
+                "None": null
+            },
+            "discord": {
+                "None": null
+            }
+        }
+    },
     "HBwVXUXafg7BJdouxSCKYMrDmTK6SfqYD5KgcTfJptBhrfR": {
         "judgements": [],
         "deposit": 6684666642,
@@ -155159,40 +155198,6 @@
             },
             "email": {
                 "Raw": "wiezzel@gmail.com"
-            },
-            "pgp_fingerprint": null,
-            "image": {
-                "None": null
-            },
-            "twitter": {
-                "None": null
-            },
-            "github": {
-                "None": null
-            },
-            "discord": {
-                "None": null
-            }
-        }
-    },
-    "FQmEDogLSed9hJkcwqGqh7N1fNffA22x1MKkWdKYnEEzvvN": {
-        "judgements": [],
-        "deposit": 6678333315,
-        "info": {
-            "display": {
-                "Raw": "RORY"
-            },
-            "legal": {
-                "Raw": "RORY"
-            },
-            "web": {
-                "None": null
-            },
-            "matrix": {
-                "None": null
-            },
-            "email": {
-                "None": null
             },
             "pgp_fingerprint": null,
             "image": {

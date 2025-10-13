@@ -1405,5 +1405,47 @@
             "extrinsic": "",
             "timestamp": ""
         }
+    },
+    "605": {
+        "thread_id": "1426123912802078802",
+        "origin": "WhitelistedCaller",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 4,
+            "nay": 0,
+            "recuse": 0,
+            "vote_type": "abstain",
+            "extrinsic": "0x0b69e99ee74faa11f578518f6861e4658f546e81d0f668025e12d312ea5300dc",
+            "timestamp": "2025-10-12 20:27:36.762603+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "606": {
+        "thread_id": "1426305092700868668",
+        "origin": "MediumSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
     }
 }

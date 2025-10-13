@@ -1,0 +1,599 @@
+2025-10-11 08:23:49 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-11 08:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-11 08:27:10 - INFO - TaskHandler.evaluate_task_schedule:The tasks are scheduled within 20 minutes of each other. Time difference: 0.15 minutes.
+2025-10-11 08:27:10 - INFO - utils.task_handler.stop_tasks:[autonomous_governance]
+2025-10-11 08:27:12 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 08:27:12 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 08:27:12 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 08:27:12 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 08:27:12 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 08:27:12 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 08:27:12 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 08:27:12 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 08:27:12 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 08:27:12 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 08:27:12 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 08:27:13 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-11 08:27:13 - INFO - __main__.check_governance:No threads to lock
+2025-10-11 08:27:13 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-11 08:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 08:27:13 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-10-11 08:27:13 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 08:27:13 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 08:27:13 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 08:27:13 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-10-11 08:27:15 - INFO - SubstrateAPI.connect_relay_chain:Initializing relay chain connection: wss://kusama.dotters.network
+2025-10-11 08:27:17 - INFO - SubstrateAPI.connect_relay_chain:Relay chain connected: 1009001
+2025-10-11 08:27:17 - INFO - __main__.autonomous_voting:Checking ref: #605
+2025-10-11 08:27:17 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 132575 > 259200?
+2025-10-11 08:27:22 - INFO - __main__.autonomous_voting:Checking ref: #606
+2025-10-11 08:27:22 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 45124 > 432000?
+2025-10-11 08:27:24 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 08:27:24 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 08:27:24 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 08:27:24 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 08:27:25 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 08:27:25 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 08:27:25 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 08:27:25 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 08:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 08:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.98
+2025-10-11 08:27:25 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 08:27:25 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 08:27:26 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 08:27:29 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 08:27:29 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 08:27:32 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 08:27:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 08:27:32 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 08:27:39 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 08:27:39 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 08:28:13 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-10-11 08:44:12 - INFO - GovernanceMonitor.on_interaction:User interaction from wirednkod#0
+2025-10-11 09:27:24 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 09:27:24 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 09:27:24 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 09:27:25 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 09:27:25 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 09:27:25 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 09:27:25 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 09:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 09:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.43
+2025-10-11 09:27:25 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 09:27:25 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 09:27:26 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 09:27:28 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 09:27:29 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 09:27:31 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 09:27:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 09:27:31 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 09:27:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 09:27:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 10:27:25 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 10:27:25 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 10:27:25 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 10:27:25 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 10:27:25 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 10:27:25 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 10:27:25 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 10:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 10:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.44
+2025-10-11 10:27:25 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 10:27:25 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 10:27:26 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 10:27:28 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 10:27:29 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 10:27:32 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 10:27:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 10:27:32 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 10:27:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 10:27:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 11:14:32 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-11 11:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-11 11:27:10 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 11:27:10 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 11:27:10 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 11:27:10 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 11:27:10 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 11:27:10 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 11:27:10 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 11:27:11 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-11 11:27:11 - INFO - __main__.check_governance:No threads to lock
+2025-10-11 11:27:11 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-11 11:27:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 11:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 11:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 11:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 11:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 11:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 11:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 11:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 11:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 11:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.3
+2025-10-11 11:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 11:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 11:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 11:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 11:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 11:27:18 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 11:27:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 11:27:18 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 11:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 11:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 11:35:28 - INFO - GovernanceMonitor.on_interaction:User interaction from igorstojanov_#0
+2025-10-11 11:35:42 - INFO - GovernanceMonitor.on_interaction:User interaction from igorstojanov_#0
+2025-10-11 12:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 12:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 12:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 12:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 12:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 12:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 12:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 12:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 12:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.27
+2025-10-11 12:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 12:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 12:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 12:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 12:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 12:27:18 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 12:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 12:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 12:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 12:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 13:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 13:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 13:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 13:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 13:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 13:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 13:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 13:27:13 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 13:27:14 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.01
+2025-10-11 13:27:14 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 13:27:14 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 13:27:14 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 13:27:17 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 13:27:18 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 13:27:20 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 13:27:20 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 13:27:20 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 13:27:29 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 13:27:29 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 14:24:59 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-11 14:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-11 14:27:10 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 14:27:10 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 14:27:10 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 14:27:10 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 14:27:10 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 14:27:10 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 14:27:10 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 14:27:11 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-11 14:27:11 - INFO - __main__.check_governance:No threads to lock
+2025-10-11 14:27:11 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-11 14:27:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 14:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 14:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 14:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 14:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 14:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 14:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 14:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 14:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 14:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.0
+2025-10-11 14:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 14:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 14:27:12 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 14:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 14:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 14:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 14:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 14:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 14:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 14:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 15:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 15:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 15:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 15:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 15:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 15:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 15:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 15:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 15:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.21
+2025-10-11 15:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 15:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 15:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 15:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 15:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 15:27:18 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 15:27:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 15:27:18 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 15:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 15:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 16:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 16:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 16:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 16:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 16:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 16:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 16:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 16:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 16:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.21
+2025-10-11 16:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 16:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 16:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 16:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 16:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 16:27:18 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 16:27:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 16:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 16:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 16:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 17:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-11 17:27:10 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 17:27:10 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 17:27:10 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 17:27:10 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 17:27:10 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 17:27:10 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 17:27:10 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 17:27:11 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-11 17:27:11 - INFO - __main__.check_governance:No threads to lock
+2025-10-11 17:27:11 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-11 17:27:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 17:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 17:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 17:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 17:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 17:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 17:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 17:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 17:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 17:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.06
+2025-10-11 17:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 17:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 17:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 17:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 17:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 17:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 17:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 17:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 17:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 17:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 17:56:54 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-11 18:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 18:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 18:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 18:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 18:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 18:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 18:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 18:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 18:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.97
+2025-10-11 18:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 18:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 18:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 18:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 18:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 18:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 18:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 18:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 18:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 18:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 19:20:08 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-11 19:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 19:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 19:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 19:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 19:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 19:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 19:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 19:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 19:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.6
+2025-10-11 19:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 19:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 19:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 19:27:16 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 19:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 19:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 19:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 19:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 19:27:28 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 19:27:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 20:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-11 20:27:10 - INFO - TaskHandler.evaluate_task_schedule:The tasks are scheduled within 20 minutes of each other. Time difference: 0.04 minutes.
+2025-10-11 20:27:10 - INFO - utils.task_handler.stop_tasks:[autonomous_governance]
+2025-10-11 20:27:10 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 20:27:10 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 20:27:10 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 20:27:10 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 20:27:10 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 20:27:10 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 20:27:10 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 20:27:11 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-11 20:27:11 - INFO - __main__.check_governance:No threads to lock
+2025-10-11 20:27:11 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-11 20:27:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 20:27:11 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-10-11 20:27:11 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 20:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 20:27:11 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-10-11 20:27:13 - INFO - SubstrateAPI.connect_relay_chain:Initializing relay chain connection: wss://kusama.dotters.network
+2025-10-11 20:27:17 - INFO - SubstrateAPI.connect_relay_chain:Relay chain connected: 1009001
+2025-10-11 20:27:17 - INFO - __main__.autonomous_voting:Checking ref: #605
+2025-10-11 20:27:17 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 175775 > 259200?
+2025-10-11 20:27:22 - INFO - __main__.autonomous_voting:Checking ref: #606
+2025-10-11 20:27:22 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 88324 > 432000?
+2025-10-11 20:27:24 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 20:27:24 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 20:27:24 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 20:27:24 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 20:27:24 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 20:27:24 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 20:27:24 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 20:27:24 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 20:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 20:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.43
+2025-10-11 20:27:25 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 20:27:25 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 20:27:26 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 20:27:28 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 20:27:29 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 20:27:32 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 20:27:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 20:27:32 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 20:27:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 20:27:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 20:28:12 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-10-11 21:27:24 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 21:27:24 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 21:27:24 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 21:27:24 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 21:27:24 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 21:27:24 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 21:27:24 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 21:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 21:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.34
+2025-10-11 21:27:25 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 21:27:25 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 21:27:26 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 21:27:29 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 21:27:29 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 21:27:32 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 21:27:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 21:27:32 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 21:27:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 21:27:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 22:27:24 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 22:27:24 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 22:27:24 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 22:27:24 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 22:27:24 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 22:27:24 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 22:27:24 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 22:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 22:27:25 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.34
+2025-10-11 22:27:25 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 22:27:25 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 22:27:26 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 22:27:28 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 22:27:29 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 22:27:31 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 22:27:31 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 22:27:31 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 22:27:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 22:27:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 22:32:26 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-11 23:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-11 23:27:10 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-11 23:27:10 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 23:27:10 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 23:27:10 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 23:27:10 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 23:27:10 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 23:27:10 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 23:27:11 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-11 23:27:11 - INFO - __main__.check_governance:No threads to lock
+2025-10-11 23:27:11 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-11 23:27:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 23:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-11 23:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-11 23:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-11 23:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-11 23:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-11 23:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-11 23:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-11 23:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-11 23:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.37
+2025-10-11 23:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-11 23:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 23:27:12 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-11 23:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-11 23:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-11 23:27:18 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-11 23:27:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-11 23:27:18 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-11 23:27:26 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-11 23:27:26 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 00:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 00:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 00:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 00:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 00:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 00:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 00:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 00:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 00:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.42
+2025-10-12 00:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 00:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 00:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 00:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 00:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 00:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 00:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 00:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 00:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 00:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 00:41:43 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-12 01:24:42 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-12 01:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 01:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 01:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 01:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 01:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 01:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 01:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 01:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 01:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.36
+2025-10-12 01:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 01:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 01:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 01:27:16 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 01:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 01:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 01:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 01:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 01:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 01:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 02:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-12 02:27:10 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-12 02:27:10 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 02:27:10 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 02:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 02:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 02:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 02:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 02:27:11 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-12 02:27:11 - INFO - __main__.check_governance:No threads to lock
+2025-10-12 02:27:11 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-12 02:27:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 02:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 02:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 02:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 02:27:12 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 02:27:12 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 02:27:12 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 02:27:12 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 02:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 02:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.33
+2025-10-12 02:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 02:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 02:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 02:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 02:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 02:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 02:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 02:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 02:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 02:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 03:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 03:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 03:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 03:27:12 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 03:27:12 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 03:27:12 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 03:27:12 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 03:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 03:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.44
+2025-10-12 03:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 03:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 03:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 03:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 03:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 03:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 03:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 03:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 03:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 03:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 04:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 04:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 04:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 04:27:12 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 04:27:12 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 04:27:12 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 04:27:12 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 04:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 04:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.64
+2025-10-12 04:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 04:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 04:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 04:27:16 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 04:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 04:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 04:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 04:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 04:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 04:27:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 04:29:35 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-12 05:27:10 - INFO - __main__.check_governance:Checking for new proposals
+2025-10-12 05:27:10 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-10-12 05:27:10 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 05:27:10 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 05:27:10 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 05:27:10 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 05:27:10 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 05:27:10 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 05:27:11 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-10-12 05:27:11 - INFO - __main__.check_governance:No threads to lock
+2025-10-12 05:27:11 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-10-12 05:27:11 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 05:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 05:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 05:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 05:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 05:27:11 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 05:27:11 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 05:27:11 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 05:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 05:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.66
+2025-10-12 05:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 05:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 05:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 05:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 05:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 05:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 05:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 05:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 05:27:27 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 05:27:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 06:15:57 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-12 06:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 06:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 06:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 06:27:12 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 06:27:12 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 06:27:12 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 06:27:12 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 06:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 06:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.73
+2025-10-12 06:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 06:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 06:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 06:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 06:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 06:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 06:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 06:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 06:27:28 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 06:27:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 06:57:56 - INFO - Shard ID None has successfully RESUMED session 3f6a7cfd496c402e8210be183d1b75a7.
+2025-10-12 07:27:11 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-10-12 07:27:11 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-10-12 07:27:11 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-10-12 07:27:11 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-10-12 07:27:12 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-10-12 07:27:12 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-10-12 07:27:12 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-10-12 07:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-10-12 07:27:12 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $10.74
+2025-10-12 07:27:12 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-10-12 07:27:12 - INFO - __main__.sync_embeds:Synchronizing 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 07:27:13 - INFO - __main__.sync_embeds:Successfully synchronized 606: Sol-XCM | A typed interface for interoperability from Solidity
+2025-10-12 07:27:15 - INFO - __main__.sync_embeds:Synchronizing 605: Runtime Upgrade 1.9.2
+2025-10-12 07:27:16 - INFO - __main__.sync_embeds:Successfully synchronized 605: Runtime Upgrade 1.9.2
+2025-10-12 07:27:19 - INFO - __main__.sync_embeds:synchronization complete
+2025-10-12 07:27:19 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-10-12 07:27:19 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-10-12 07:27:28 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-10-12 07:27:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
