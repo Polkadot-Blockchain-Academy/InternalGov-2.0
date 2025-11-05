@@ -255,11 +255,6 @@
         "display name": "Dhiraj S."
     },
     {
-        "id": 881932914344988732,
-        "username": "radhaw3f",
-        "display name": "radhaw3f"
-    },
-    {
         "id": 993069822646698005,
         "username": "wassimans",
         "display name": "Wassim"
@@ -372,7 +367,7 @@
     {
         "id": 418037911095607297,
         "username": "exquisitus9414",
-        "display name": "Gianluigi | Kylix Finance"
+        "display name": "Exquisitus"
     },
     {
         "id": 907435463776800858,
@@ -862,7 +857,7 @@
     {
         "id": 900353044653416489,
         "username": "talhadaar",
-        "display name": "Talha Dar"
+        "display name": "daardaarbinks"
     },
     {
         "id": 628555254673440781,
@@ -1470,11 +1465,6 @@
         "display name": "Kevin W"
     },
     {
-        "id": 741166779145125960,
-        "username": "a_mont",
-        "display name": "Amont"
-    },
-    {
         "id": 691274452150779904,
         "username": "web3.5",
         "display name": "Serge"
@@ -1570,11 +1560,6 @@
         "display name": "Leo | BR | protocol"
     },
     {
-        "id": 362242181777326081,
-        "username": "skymanone",
-        "display name": "gherman"
-    },
-    {
         "id": 479985106040127501,
         "username": "abhiraj_mengade",
         "display name": "Abhiraj"
@@ -1587,7 +1572,7 @@
     {
         "id": 357374821039996940,
         "username": "hakmark__",
-        "display name": "Marek H"
+        "display name": "hakmark"
     },
     {
         "id": 515888980114538506,
@@ -2155,11 +2140,6 @@
         "display name": "prof. Horacio Clueless Ph.D."
     },
     {
-        "id": 468639577075220481,
-        "username": "aaron_hk",
-        "display name": "aaron"
-    },
-    {
         "id": 874253816143433748,
         "username": "greenbee9327",
         "display name": "Krati"
@@ -2182,7 +2162,7 @@
     {
         "id": 1048023289907392562,
         "username": "ank4n",
-        "display name": "Ankan | Parity"
+        "display name": "Ankan"
     },
     {
         "id": 436910730248454154,
@@ -2277,7 +2257,7 @@
     {
         "id": 587378166390325268,
         "username": "protocolwhisper.eth",
-        "display name": "protocolwhisper.eth"
+        "display name": "protocolwhisper"
     },
     {
         "id": 930463956533919784,
@@ -2338,5 +2318,10 @@
         "id": 227179048013398017,
         "username": "jbtwist",
         "display name": "Juan Villarejo"
+    },
+    {
+        "id": 1252410137638080617,
+        "username": "a_mont24",
+        "display name": "Adrian Montero"
     }
 ]

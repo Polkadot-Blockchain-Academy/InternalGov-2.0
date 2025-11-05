@@ -509,6 +509,12 @@
             "Raw": "4"
         }
     ],
+    "15dikXxF1QwijxxU7wZBFmHy7HeCotHXa1LxzVu44KVKXCRC": [
+        "152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq",
+        {
+            "Raw": "ASSETHUB01"
+        }
+    ],
     "1zugcafD9xE7154E3b1WFm1XwJ8YKjrdNubyHBLkHTF6YTq": [
         "1zugcapKRuHy2C1PceJxTvXWiq6FHEDm2xa5XSU7KYP3rJE",
         {
@@ -687,12 +693,6 @@
         "16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ",
         {
             "Raw": "STATEMINT-1"
-        }
-    ],
-    "16QGBxS1z73udkgorU3LVC814a1r8mNcL7SDGDMSQxcb7jZ5": [
-        "12R2eXcE2QhMa9BkMsWktt9wmoxbgiQBDG9YUM1p94r2F5UD",
-        {
-            "Raw": "POOL"
         }
     ],
     "1zugcaWvgCeZkD3rriPjz86btF9iDp6MEAhgggRhbWsUeEA": [
@@ -1727,6 +1727,12 @@
             "Raw": "acalapool0"
         }
     ],
+    "15dgDz26NH8tDzKBX8qpN6bsDfDUsZxjxynwWfivR9MdqR39": [
+        "14icei1ZMoG9QtKBFDk4y1eMR756q2TREuRAi2BanJ9MJVPL",
+        {
+            "Raw": "V5"
+        }
+    ],
     "16hwkvDGzdLLyaZ9CyPfwg85ijEAJUoHKxKSu6oSfDVyZm9j": [
         "1k5ddMCPuLbu9Hax12EdKRmPwGigUKQW1ab6tRAWPxKygRF",
         {
@@ -1886,7 +1892,7 @@
     "14scEpU2YD1JTyCkSHnypvhvnb1DpMYx7xJgPTjgfSpGDkQY": [
         "1bG5MdYcqMX8RdBHmgtkDv2qW6GM8iCQhwTkvw9SAo93QSr",
         {
-            "Raw": "KUZO Stash 02"
+            "Raw": "02"
         }
     ],
     "156JdVLoNiVRj2iLhDaYs6k7Wza7LY7L3XspBfYGPXdLKcDK": [
@@ -2183,6 +2189,12 @@
             "Raw": "Arjan"
         }
     ],
+    "15XhAsMEtvA6CvYYbURGpEYTKAST8ouRFHaCppHJbHbRJt9S": [
+        "15fTH34bbKGMUjF1bLmTqxPYgpg481imThwhWcQfCyktyBzL",
+        {
+            "Raw": "STAKING PROXY"
+        }
+    ],
     "1xAMxFG2bFYMvATjnXxxFr4oh1uqFbzEVgvMP8bKmBVyuBp": [
         "13uUd8q21iS7HLDG43BQQ9TiFn7wGFPSF8Uy99uze8zw4V8c",
         {
@@ -2271,6 +2283,12 @@
         "15fTH34bbKGMUjF1bLmTqxPYgpg481imThwhWcQfCyktyBzL",
         {
             "Raw": "BARBAZONE"
+        }
+    ],
+    "15AL759dPf6V9sRpqsE9RWap8MRi3s2pwdUPX2CegdTQrifh": [
+        "14rp4CvtyN3WSftrndyNxjJFi4cGXsgrE9gFr528QSYFvPTu",
+        {
+            "Raw": "STAKING PROXY"
         }
     ],
     "1RdPnyAYvydmYj8EuYHniBLu1fjuZWLCEyXRa8txqpbgFF3": [
@@ -2681,6 +2699,12 @@
             "Raw": "0"
         }
     ],
+    "15qdguCCzQjauGkwz8NcykLEh8zFhDDCrowDynFfkFJRDBAn": [
+        "15de5coDYXAQysDB8Kd6xjHtF3XxTX9jQws83ib1M7mBU2F8",
+        {
+            "Raw": "FERMI"
+        }
+    ],
     "16ccKvsUEj7zuvxadvrpsVpGUNKjycdQcads4u2afwvfLtbp": [
         "12R2eXcE2QhMa9BkMsWktt9wmoxbgiQBDG9YUM1p94r2F5UD",
         {
@@ -2921,6 +2945,12 @@
             "Raw": "ONFINALITY/Validator#2\ud83d\ude80"
         }
     ],
+    "14muArNrdJovje5CcRmdzvtbfnCqVdphfVKaokZvsRC18qXL": [
+        "15de5coDYXAQysDB8Kd6xjHtF3XxTX9jQws83ib1M7mBU2F8",
+        {
+            "Raw": "COPERNICUS"
+        }
+    ],
     "15rKGPS7w5hj6JPQZRwgzqJUFbYMYVKL6wzBsNj5tkZHMPes": [
         "16Av4wD9GVkJ3ZzPYq2cWtdkk5rLPbWzMiTFeaVBR6QUzqa5",
         {
@@ -3110,7 +3140,7 @@
     "14T3MFxNa4d7pyjRAdKU6tLC8sfde1HBLGNMHKCMFqjWRrrM": [
         "16fH2RPKB81butanvooF2tZqCfWrAuwXNWhcPyomCbCBDaPF",
         {
-            "Raw": "collectives"
+            "Raw": "sys"
         }
     ],
     "158WyuVKFJZaTx36fNdXMg8GTXiGT42dCZA8XsEfYfZDrFyQ": [
@@ -3159,6 +3189,12 @@
         "15wuJhnwU48jyM4zjtNuEGze7H6n7cPpWoMb2GnXCB34hHu6",
         {
             "Raw": "P2"
+        }
+    ],
+    "1LHerbBSF71DqonH3p696atmCUwmFQZg2e9aYuvF2xEvRBY": [
+        "14icei1ZMoG9QtKBFDk4y1eMR756q2TREuRAi2BanJ9MJVPL",
+        {
+            "Raw": "V6"
         }
     ],
     "12KoQFveGCXS5m1uANBZNo22j86GVmaD8i1N6t4UxVaPxKuU": [
@@ -3927,6 +3963,12 @@
         "1zugcapKRuHy2C1PceJxTvXWiq6FHEDm2xa5XSU7KYP3rJE",
         {
             "Raw": "17"
+        }
+    ],
+    "16WCLocYQqR1n59skAM1ZkcsR8mWEt7muGXS86yak6hPGNuR": [
+        "1HEYRDqQSTM98A8uRgz7kG6TE5kjjFq99qMD13C5ggjqKWe",
+        {
+            "Raw": "Stash"
         }
     ],
     "15dTancD5HTn3Zn5RcgojF76znNu9HrpTtBTBGc5oPBDfxBy": [
@@ -4796,7 +4838,7 @@
     "15PPJX7PvSbN7k6FSVZ5wnjWiMcf3swyRu4rzBZMnuhP7Koj": [
         "1bG5MdYcqMX8RdBHmgtkDv2qW6GM8iCQhwTkvw9SAo93QSr",
         {
-            "Raw": "KUZO Stash 01"
+            "Raw": "01"
         }
     ],
     "14gL78nk3rVZamwGg33VuEa1koYC3rcoymFcPGXKbJ7JKyHZ": [

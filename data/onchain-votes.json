@@ -3719,7 +3719,7 @@
     "1750": {
         "thread_id": "1416439823119417455",
         "origin": "SmallSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 2,
             "nay": 1,
@@ -3740,7 +3740,7 @@
     "1751": {
         "thread_id": "1416485102548025544",
         "origin": "SmallSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 4,
             "nay": 0,
@@ -3761,7 +3761,7 @@
     "1752": {
         "thread_id": "1416530403367452875",
         "origin": "MediumSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 1,
             "nay": 6,
@@ -3803,7 +3803,7 @@
     "1754": {
         "thread_id": "1417119289730928694",
         "origin": "WishForChange",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 0,
             "nay": 2,
@@ -3866,7 +3866,7 @@
     "1757": {
         "thread_id": "1418206446969028679",
         "origin": "MediumSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 4,
             "nay": 3,
@@ -3887,7 +3887,7 @@
     "1758": {
         "thread_id": "1418568834725711923",
         "origin": "BigSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 3,
             "nay": 0,
@@ -3908,7 +3908,7 @@
     "1759": {
         "thread_id": "1418659427069984938",
         "origin": "MediumSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 4,
             "nay": 3,
@@ -3929,7 +3929,7 @@
     "1760": {
         "thread_id": "1420154280819822652",
         "origin": "BigSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 20,
             "nay": 0,
@@ -3942,15 +3942,15 @@
             "aye": "",
             "nay": "",
             "recuse": "",
-            "vote_type": "",
-            "extrinsic": "",
-            "timestamp": ""
+            "vote_type": "aye",
+            "extrinsic": "The vote has not changed since the 1st vote",
+            "timestamp": "2025-10-14 07:15:51.258777+00:00"
         }
     },
     "1761": {
         "thread_id": "1420788450537242674",
         "origin": "WishForChange",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 6,
             "nay": 2,
@@ -3960,18 +3960,18 @@
             "timestamp": "2025-10-02 21:26:48.681579+00:00"
         },
         "2nd_vote": {
-            "aye": "",
-            "nay": "",
-            "recuse": "",
-            "vote_type": "",
-            "extrinsic": "",
-            "timestamp": ""
+            "aye": 7,
+            "nay": 4,
+            "recuse": 0,
+            "vote_type": "abstain",
+            "extrinsic": "0xb8a9961d3106716110bdac7c2b1ce2d4cd6779426c7225d56014d3313f275901",
+            "timestamp": "2025-10-15 19:16:30.639867+00:00"
         }
     },
     "1762": {
         "thread_id": "1422149991677431900",
         "origin": "SmallSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 7,
             "nay": 0,
@@ -3984,9 +3984,9 @@
             "aye": "",
             "nay": "",
             "recuse": "",
-            "vote_type": "",
-            "extrinsic": "",
-            "timestamp": ""
+            "vote_type": "aye",
+            "extrinsic": "The vote has not changed since the 1st vote",
+            "timestamp": "2025-10-18 19:15:52.059688+00:00"
         }
     },
     "1763": {
@@ -4013,7 +4013,7 @@
     "1764": {
         "thread_id": "1422602972268986390",
         "origin": "MediumSpender",
-        "decision_period_passed": false,
+        "decision_period_passed": true,
         "1st_vote": {
             "aye": 1,
             "nay": 1,
@@ -4023,12 +4023,12 @@
             "timestamp": "2025-10-07 21:28:36.551237+00:00"
         },
         "2nd_vote": {
-            "aye": "",
-            "nay": "",
-            "recuse": "",
-            "vote_type": "",
-            "extrinsic": "",
-            "timestamp": ""
+            "aye": 0,
+            "nay": 8,
+            "recuse": 0,
+            "vote_type": "nay",
+            "extrinsic": "0xc87ba27e86ee975d451561091bfa436af78d8f7b1643cd0c1f5206e4d5ba4300",
+            "timestamp": "2025-10-20 19:16:42.571095+00:00"
         }
     },
     "1765": {
@@ -4068,14 +4068,287 @@
             "aye": "",
             "nay": "",
             "recuse": "",
-            "vote_type": "",
-            "extrinsic": "",
-            "timestamp": ""
+            "vote_type": "aye",
+            "extrinsic": "The vote has not changed since the 1st vote",
+            "timestamp": "2025-10-21 19:15:59.286543+00:00"
         }
     },
     "1767": {
         "thread_id": "1425819161480925194",
         "origin": "SmallSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 1,
+            "nay": 7,
+            "recuse": 0,
+            "vote_type": "nay",
+            "extrinsic": "0x0a81dd5b22c9fe36a6842b829f8681d8635c86460d9f4de59b540b7fdc6990cb",
+            "timestamp": "2025-10-16 19:16:42.495683+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "nay",
+            "extrinsic": "The vote has not changed since the 1st vote",
+            "timestamp": "2025-10-29 19:19:38.714595+00:00"
+        }
+    },
+    "1768": {
+        "thread_id": "1427736593611100412",
+        "origin": "MediumSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 10,
+            "nay": 0,
+            "recuse": 0,
+            "vote_type": "aye",
+            "extrinsic": "0x873bf97425f68916e35b51c450f469d7c7682a640d3f17ba8cd5140a14e628d1",
+            "timestamp": "2025-10-21 19:16:36.557768+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1769": {
+        "thread_id": "1428234880281743471",
+        "origin": "SmallTipper",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 2,
+            "nay": 1,
+            "recuse": 0,
+            "vote_type": "abstain",
+            "extrinsic": "0xbfeab0d4ad1696f03205efc07339e4ad636685018905b5d395c0440be2d2bcdd",
+            "timestamp": "2025-10-18 07:18:24.600284+00:00"
+        },
+        "2nd_vote": {
+            "aye": 4,
+            "nay": 1,
+            "recuse": 0,
+            "vote_type": "aye",
+            "extrinsic": "0x4af6985386d0227e812fcc207e24229cb0064ff4a4572c126128f04e9cbd21bf",
+            "timestamp": "2025-10-20 07:18:24.757533+00:00"
+        }
+    },
+    "1770": {
+        "thread_id": "1428325477310926858",
+        "origin": "Root",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1771": {
+        "thread_id": "1428370776662216795",
+        "origin": "BigSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 0,
+            "nay": 5,
+            "recuse": 0,
+            "vote_type": "nay",
+            "extrinsic": "0x193bfc43c4a4f9bb1fcd8897ed6f5888199dea199709e511ab9f07155cfc2859",
+            "timestamp": "2025-10-23 19:16:30.829020+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1772": {
+        "thread_id": "1428642568392015926",
+        "origin": "MediumSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 0,
+            "nay": 4,
+            "recuse": 0,
+            "vote_type": "abstain",
+            "extrinsic": "0x2d17a53fccbf53edcafca302a5f13ddb6c2ad7ce7e5cb32018f41c0366fe3358",
+            "timestamp": "2025-10-24 07:19:06.536147+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1773": {
+        "thread_id": "1428823758222917702",
+        "origin": "MediumSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 9,
+            "nay": 1,
+            "recuse": 2,
+            "vote_type": "aye",
+            "extrinsic": "0x96c6a4c24917f3cec01ca0e91495721be9830f7f5ef37b60b22404ea1cb8bf10",
+            "timestamp": "2025-10-24 19:19:13.137605+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1774": {
+        "thread_id": "1429865627140755567",
+        "origin": "ReferendumCanceller",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1775": {
+        "thread_id": "1429956221208629399",
+        "origin": "WishForChange",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 0,
+            "nay": 1,
+            "recuse": 0,
+            "vote_type": "abstain",
+            "extrinsic": "0x656c2a09b83a8527ab143e6efbee1a361ccbc83bcfca9fbf46a4d4ea311e54a2",
+            "timestamp": "2025-10-28 07:20:24.748286+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1776": {
+        "thread_id": "1430545098352889908",
+        "origin": "SmallSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 0,
+            "nay": 5,
+            "recuse": 0,
+            "vote_type": "nay",
+            "extrinsic": "0xbd7c3f001ad8a255a792d67854c80264a2cb561902f86fda9973313d54d3bbb2",
+            "timestamp": "2025-10-29 19:20:24.732392+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1777": {
+        "thread_id": "1432583530914906173",
+        "origin": "WhitelistedCaller",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": 4,
+            "nay": 0,
+            "recuse": 0,
+            "vote_type": "abstain",
+            "extrinsic": "0x2d74c6b3e661485972dc7ca1683dd865934975930bc3bf3d0f096d631130b224",
+            "timestamp": "2025-10-30 07:21:48.565865+00:00"
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1778": {
+        "thread_id": "1432719427664609430",
+        "origin": "WishForChange",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1779": {
+        "thread_id": "1433263013498191944",
+        "origin": "SmallSpender",
+        "decision_period_passed": false,
+        "1st_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        },
+        "2nd_vote": {
+            "aye": "",
+            "nay": "",
+            "recuse": "",
+            "vote_type": "",
+            "extrinsic": "",
+            "timestamp": ""
+        }
+    },
+    "1780": {
+        "thread_id": "1434440774979682375",
+        "origin": "SmallTipper",
         "decision_period_passed": false,
         "1st_vote": {
             "aye": "",
