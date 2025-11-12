@@ -1,0 +1,664 @@
+2025-11-10 13:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-10 13:29:15 - INFO - TaskHandler.evaluate_task_schedule:The tasks are scheduled within 20 minutes of each other. Time difference: 0.02 minutes.
+2025-11-10 13:29:15 - INFO - utils.task_handler.stop_tasks:[autonomous_governance]
+2025-11-10 13:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-10 13:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 13:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 13:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 13:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 13:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 13:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 13:29:16 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-10 13:29:16 - INFO - GovernanceMonitor.lock_threads:1 threads have been archived by PBA Governance KSM 2.0 (ID: 1356907703733321810)
+2025-11-10 13:29:17 - INFO - GovernanceMonitor.lock_threads:Locking thread: 609: Refund of Early OpenGov Submission Deposits
+2025-11-10 13:29:17 - INFO - GovernanceMonitor.lock_threads:The following threads have been locked by PBA Governance KSM 2.0 (ID: 1356907703733321810): ['1433447673867800588']
+2025-11-10 13:29:17 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-10 13:29:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 13:29:17 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-11-10 13:29:17 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-10 13:29:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 13:29:17 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-11-10 13:29:19 - INFO - SubstrateAPI.connect_relay_chain:Initializing relay chain connection: wss://kusama.dotters.network
+2025-11-10 13:29:45 - INFO - SubstrateAPI.connect_relay_chain:Relay chain connected: 1009002
+2025-11-10 13:29:45 - INFO - __main__.autonomous_voting:Checking ref: #610
+2025-11-10 13:29:45 - INFO - __main__.autonomous_voting:Result: aye
+2025-11-10 13:29:49 - INFO - __main__.autonomous_voting:Checking ref: #612
+2025-11-10 13:29:49 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 318829 > 432000?
+2025-11-10 13:29:54 - INFO - __main__.autonomous_voting:Checking ref: #613
+2025-11-10 13:29:54 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 175332 > 259200?
+2025-11-10 13:29:57 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 13:29:57 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 13:29:57 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 13:29:57 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 13:29:57 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 13:29:57 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 13:29:57 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 13:29:57 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 13:29:57 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-11-10 13:29:57 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 13:29:57 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.18
+2025-11-10 13:29:57 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 13:29:57 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 13:29:59 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 13:30:01 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 13:30:02 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 13:30:04 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 13:30:06 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 13:30:08 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 13:30:08 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 13:30:08 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 13:30:22 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 13:30:22 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 13:51:20 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-10 14:29:57 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 14:29:57 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 14:29:57 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 14:29:57 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 14:29:57 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 14:29:57 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 14:29:57 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 14:29:57 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 14:29:57 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.03
+2025-11-10 14:29:57 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 14:29:57 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 14:29:58 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 14:30:01 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 14:30:02 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 14:30:04 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 14:30:06 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 14:30:08 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 14:30:08 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 14:30:08 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 14:30:22 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 14:30:22 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 15:29:57 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 15:29:57 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 15:29:57 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 15:29:57 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 15:29:57 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 15:29:57 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 15:29:57 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 15:29:57 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 15:29:57 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.12
+2025-11-10 15:29:57 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 15:29:57 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 15:29:58 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 15:30:01 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 15:30:01 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 15:30:04 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 15:30:05 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 15:30:07 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 15:30:07 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 15:30:07 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 15:30:21 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 15:30:21 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 16:26:24 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-10 16:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-10 16:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-10 16:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 16:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 16:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 16:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 16:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 16:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 16:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-10 16:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-10 16:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-10 16:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 16:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 16:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 16:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 16:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 16:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 16:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 16:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 16:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 16:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.0
+2025-11-10 16:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 16:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 16:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 16:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 16:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 16:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 16:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 16:29:26 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 16:29:26 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 16:29:26 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 16:29:39 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 16:29:39 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 17:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 17:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 17:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 17:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 17:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 17:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 17:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 17:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 17:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.01
+2025-11-10 17:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 17:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 17:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 17:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 17:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 17:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 17:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 17:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 17:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 17:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 17:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 17:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 18:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 18:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 18:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 18:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 18:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 18:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 18:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 18:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 18:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.16
+2025-11-10 18:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 18:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 18:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 18:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 18:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 18:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 18:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 18:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 18:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 18:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 18:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 18:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 19:02:00 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-10 19:18:17 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-10 19:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-10 19:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-10 19:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 19:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 19:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 19:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 19:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 19:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 19:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-10 19:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-10 19:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-10 19:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 19:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 19:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 19:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 19:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 19:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 19:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 19:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 19:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 19:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.44
+2025-11-10 19:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 19:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 19:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 19:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 19:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 19:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 19:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 19:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 19:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 19:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 19:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 19:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 20:13:20 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-10 20:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 20:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 20:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 20:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 20:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 20:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 20:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 20:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 20:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.52
+2025-11-10 20:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 20:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 20:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 20:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 20:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 20:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 20:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 20:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 20:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 20:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 20:29:39 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 20:29:39 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 21:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 21:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 21:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 21:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 21:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 21:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 21:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 21:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 21:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.37
+2025-11-10 21:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 21:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 21:29:17 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-11-10 21:29:17 - INFO - SubstrateAPI.connect:SubstrateAPI.cache_identities - Initializing SubstrateInterface object: wss://people-kusama.dotters.network
+2025-11-10 21:29:21 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-11-10 21:29:21 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 21:29:21 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 21:29:21 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 21:29:35 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-11-10 21:29:35 - INFO - SubstrateAPI.connect:SubstrateAPI.check_ss58_address - Initializing SubstrateInterface object: wss://asset-hub-kusama.dotters.network
+2025-11-10 21:29:40 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 21:29:40 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 21:29:40 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 21:29:40 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 21:29:40 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 21:29:43 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 21:29:44 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 21:29:46 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 21:29:47 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 21:29:50 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 21:29:50 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 21:29:50 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 21:30:02 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 21:30:02 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 22:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-10 22:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-10 22:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 22:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 22:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 22:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 22:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 22:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 22:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-10 22:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-10 22:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-10 22:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 22:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 22:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 22:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 22:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 22:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 22:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 22:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 22:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 22:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.44
+2025-11-10 22:29:16 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 22:29:16 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 22:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 22:29:19 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 22:29:20 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 22:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 22:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 22:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 22:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 22:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 22:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 22:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 23:18:19 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-10 23:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-10 23:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-10 23:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-10 23:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-10 23:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-10 23:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-10 23:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-10 23:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-10 23:29:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.45
+2025-11-10 23:29:18 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-10 23:29:18 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 23:29:19 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-10 23:29:22 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 23:29:23 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-10 23:29:25 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 23:29:26 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-10 23:29:29 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-10 23:29:29 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-10 23:29:29 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-10 23:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-10 23:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 00:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 00:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 00:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 00:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 00:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 00:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 00:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 00:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 00:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.31
+2025-11-11 00:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 00:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 00:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 00:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 00:29:22 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 00:29:24 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 00:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 00:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 00:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 00:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 00:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 00:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 01:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-11 01:29:15 - INFO - TaskHandler.evaluate_task_schedule:The tasks are scheduled within 20 minutes of each other. Time difference: 0.03 minutes.
+2025-11-11 01:29:15 - INFO - utils.task_handler.stop_tasks:[autonomous_governance]
+2025-11-11 01:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-11 01:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 01:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 01:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 01:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 01:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 01:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 01:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-11 01:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-11 01:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-11 01:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 01:29:16 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-11-11 01:29:16 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-11 01:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 01:29:16 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-11-11 01:29:18 - INFO - SubstrateAPI.connect_relay_chain:Initializing relay chain connection: wss://kusama.dotters.network
+2025-11-11 01:29:54 - INFO - SubstrateAPI.connect_relay_chain:Relay chain connected: 1009002
+2025-11-11 01:29:54 - INFO - __main__.autonomous_voting:Checking ref: #610
+2025-11-11 01:29:54 - INFO - __main__.autonomous_voting:Result: aye
+2025-11-11 01:29:55 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 01:29:59 - INFO - __main__.autonomous_voting:Checking ref: #612
+2025-11-11 01:29:59 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 362039 > 432000?
+2025-11-11 01:30:04 - INFO - __main__.autonomous_voting:Checking ref: #613
+2025-11-11 01:30:04 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 218542 > 259200?
+2025-11-11 01:30:06 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 01:30:06 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 01:30:06 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 01:30:06 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 01:30:07 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-11-11 01:30:07 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 01:30:07 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 01:30:07 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 01:30:07 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 01:30:07 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 01:30:07 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.4
+2025-11-11 01:30:07 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 01:30:07 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 01:30:09 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 01:30:11 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 01:30:12 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 01:30:15 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 01:30:16 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 01:30:18 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 01:30:18 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 01:30:18 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 01:30:32 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 01:30:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 02:23:00 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 02:30:06 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 02:30:06 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 02:30:07 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 02:30:07 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 02:30:07 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 02:30:07 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 02:30:07 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 02:30:08 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 02:30:09 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.32
+2025-11-11 02:30:09 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 02:30:09 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 02:30:11 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 02:30:13 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 02:30:14 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 02:30:17 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 02:30:18 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 02:30:20 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 02:30:20 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 02:30:20 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 02:30:34 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 02:30:34 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 03:13:13 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 03:30:06 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 03:30:06 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 03:30:06 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 03:30:07 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 03:30:07 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 03:30:07 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 03:30:07 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 03:30:09 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 03:30:09 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.36
+2025-11-11 03:30:09 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 03:30:09 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 03:30:10 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 03:30:13 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 03:30:14 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 03:30:16 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 03:30:17 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 03:30:20 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 03:30:20 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 03:30:20 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 03:30:32 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 03:30:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 04:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-11 04:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-11 04:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 04:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 04:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 04:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 04:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 04:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 04:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-11 04:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-11 04:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-11 04:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 04:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 04:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 04:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 04:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 04:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 04:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 04:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 04:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 04:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.21
+2025-11-11 04:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 04:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 04:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 04:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 04:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 04:29:24 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 04:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 04:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 04:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 04:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 04:29:39 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 04:29:39 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 05:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 05:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 05:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 05:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 05:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 05:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 05:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 05:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 05:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.97
+2025-11-11 05:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 05:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 05:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 05:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 05:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 05:29:24 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 05:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 05:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 05:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 05:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 05:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 05:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 05:34:05 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 05:48:45 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 06:12:44 - INFO - GovernanceMonitor.on_interaction:User interaction from kanas_jnr#0
+2025-11-11 06:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 06:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 06:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 06:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 06:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 06:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 06:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 06:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 06:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $12.04
+2025-11-11 06:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 06:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 06:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 06:29:21 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 06:29:22 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 06:29:24 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 06:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 06:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 06:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 06:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 06:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 06:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 06:38:01 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 07:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-11 07:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-11 07:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 07:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 07:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 07:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 07:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 07:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 07:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-11 07:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-11 07:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-11 07:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 07:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 07:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 07:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 07:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 07:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 07:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 07:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 07:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 07:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.85
+2025-11-11 07:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 07:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 07:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 07:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 07:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 07:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 07:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 07:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 07:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 07:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 07:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 07:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 08:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 08:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 08:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 08:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 08:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 08:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 08:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 08:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 08:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.83
+2025-11-11 08:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 08:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 08:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 08:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 08:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 08:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 08:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 08:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 08:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 08:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 08:29:39 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 08:29:39 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 09:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 09:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 09:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 09:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 09:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 09:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 09:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 09:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 09:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.81
+2025-11-11 09:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 09:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 09:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 09:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 09:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 09:29:24 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 09:29:26 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 09:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 09:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 09:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 09:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 09:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 09:36:19 - INFO - GovernanceMonitor.on_interaction:User interaction from heyimstas#0
+2025-11-11 10:25:16 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 10:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-11 10:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-11 10:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 10:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 10:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 10:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 10:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 10:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 10:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-11 10:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-11 10:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-11 10:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 10:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 10:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 10:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 10:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 10:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 10:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 10:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 10:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 10:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.74
+2025-11-11 10:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 10:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 10:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 10:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 10:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 10:29:24 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 10:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 10:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 10:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 10:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 10:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 10:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 11:27:22 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 11:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 11:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 11:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 11:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 11:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 11:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 11:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 11:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 11:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.82
+2025-11-11 11:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 11:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 11:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 11:29:20 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 11:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 11:29:23 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 11:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 11:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 11:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 11:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 11:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 11:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 12:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-11 12:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-11 12:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-11 12:29:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 2000002
+2025-11-11 12:29:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-11 12:29:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-11 12:29:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-11 12:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-11 12:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $11.68
+2025-11-11 12:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-11 12:29:17 - INFO - __main__.sync_embeds:Synchronizing 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 12:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 613: [Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+2025-11-11 12:29:21 - INFO - __main__.sync_embeds:Synchronizing 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 12:29:22 - INFO - __main__.sync_embeds:Successfully synchronized 612: Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama Infrastructure
+2025-11-11 12:29:24 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 12:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-11 12:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-11 12:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 12:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-11 12:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-11 12:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-11 12:30:01 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-11 12:35:18 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.

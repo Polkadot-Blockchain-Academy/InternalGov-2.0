@@ -5,6 +5,8 @@ data/**/*.json.[0-9]*
 data/*.json
 data/*.cache
 
+!data/vote_periods/*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

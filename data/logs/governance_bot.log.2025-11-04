@@ -1,0 +1,684 @@
+2025-11-04 13:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-04 13:29:15 - INFO - TaskHandler.evaluate_task_schedule:The tasks are scheduled within 20 minutes of each other. Time difference: 0.02 minutes.
+2025-11-04 13:29:15 - INFO - utils.task_handler.stop_tasks:[autonomous_governance]
+2025-11-04 13:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-04 13:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 13:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 13:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 13:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 13:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 13:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 13:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-04 13:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-04 13:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-04 13:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 13:29:16 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-11-04 13:29:16 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-04 13:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 13:29:16 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-11-04 13:29:18 - INFO - SubstrateAPI.connect_relay_chain:Initializing relay chain connection: wss://kusama.dotters.network
+2025-11-04 13:29:25 - INFO - SubstrateAPI.connect_relay_chain:Relay chain connected: 1009002
+2025-11-04 13:29:25 - INFO - __main__.autonomous_voting:Checking ref: #609
+2025-11-04 13:29:25 - INFO - __main__.autonomous_voting:Result: aye
+2025-11-04 13:29:25 - INFO - __main__.autonomous_voting:Preparing to cast the first vote
+2025-11-04 13:29:30 - INFO - __main__.autonomous_voting:Checking ref: #610
+2025-11-04 13:29:30 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 182796 > 432000?
+2025-11-04 13:29:32 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 13:29:32 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 13:29:32 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 13:29:32 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 13:29:32 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 13:29:32 - INFO - SubstrateAPI.proxy_balance:Checking balance of proxy account: HvgxjDyRUw3NUSDfAd1sVgAmrz6UNNqSFgf1pAyptfEvhpY
+2025-11-04 13:29:33 - INFO - __main__.autonomous_voting:Casting on-chain votes
+2025-11-04 13:29:33 - INFO - SubstrateAPI.execute_multiple_votes:Trying to execute call, please wait...
+2025-11-04 13:29:33 - INFO - SubstrateAPI.execute_calls:Attempting to execute batch of calls.
+2025-11-04 13:29:34 - INFO - SubstrateAPI.execute_calls:Utility_batch_call complete
+2025-11-04 13:29:34 - INFO - SubstrateAPI.execute_calls:Proxy call complete
+2025-11-04 13:29:34 - INFO - SubstrateAPI.execute_calls:Signed extrinsic created
+2025-11-04 13:29:37 - INFO - SubstrateAPI.execute_multiple_votes:An on-chain vote has been cast: 0xe3c24b545def0f48179484b4adefad732138cfb54a0351d03c988a3bf0281ef7
+2025-11-04 13:29:37 - INFO - __main__.autonomous_voting:saving extrinsic hash in onchain-votes.json for 609
+2025-11-04 13:29:38 - INFO - __main__.autonomous_voting:Posting extrinsic URL on discord as a Proof-of-Vote on 609
+2025-11-04 13:29:39 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 13:29:39 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 13:29:39 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 13:29:39 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 13:29:39 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 13:29:39 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 13:29:39 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 13:29:39 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 13:29:39 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 13:29:39 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.3
+2025-11-04 13:29:39 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 13:29:39 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 13:29:40 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 13:29:43 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 13:29:44 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 13:29:46 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 13:29:46 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 13:29:46 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 13:29:55 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 13:29:55 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 13:30:16 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-11-04 14:20:13 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 14:29:39 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 14:29:39 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 14:29:39 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 14:29:39 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 14:29:39 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 14:29:39 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 14:29:39 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 14:29:39 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 14:29:39 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.35
+2025-11-04 14:29:39 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 14:29:39 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 14:29:40 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 14:29:43 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 14:29:44 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 14:29:46 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 14:29:46 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 14:29:46 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 14:29:56 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 14:29:56 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 14:56:41 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 15:27:15 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 15:29:39 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 15:29:39 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 15:29:39 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 15:29:39 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 15:29:39 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 15:29:39 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 15:29:39 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 15:29:39 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 15:29:39 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.75
+2025-11-04 15:29:39 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 15:29:39 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 15:29:40 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 15:29:43 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 15:29:44 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 15:29:47 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 15:29:47 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 15:29:47 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 15:29:56 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 15:29:56 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 16:19:01 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 16:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-04 16:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-04 16:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 16:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 16:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 16:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 16:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 16:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 16:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-04 16:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-04 16:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-04 16:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 16:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 16:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 16:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 16:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 16:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 16:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 16:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 16:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 16:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.45
+2025-11-04 16:29:16 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 16:29:16 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 16:29:16 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-11-04 16:29:17 - INFO - SubstrateAPI.connect:SubstrateAPI.cache_identities - Initializing SubstrateInterface object: wss://people-kusama.dotters.network
+2025-11-04 16:29:20 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-11-04 16:29:20 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 16:29:20 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 16:29:20 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 16:29:23 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-11-04 16:29:24 - INFO - SubstrateAPI.connect:SubstrateAPI.check_ss58_address - Initializing SubstrateInterface object: wss://asset-hub-kusama.dotters.network
+2025-11-04 16:29:31 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 16:29:31 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 16:29:31 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 16:29:31 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 16:29:31 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 16:29:34 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 16:29:35 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 16:29:37 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 16:29:37 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 16:29:37 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 16:29:47 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 16:29:47 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 17:06:35 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 17:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 17:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 17:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 17:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 17:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 17:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 17:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 17:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 17:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.28
+2025-11-04 17:29:16 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 17:29:16 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 17:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 17:29:20 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 17:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 17:29:23 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 17:29:23 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 17:29:23 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 17:29:32 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 17:29:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 17:37:16 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 18:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 18:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 18:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 18:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 18:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 18:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 18:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 18:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 18:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.1
+2025-11-04 18:29:16 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 18:29:16 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 18:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 18:29:20 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 18:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 18:29:23 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 18:29:23 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 18:29:23 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 18:29:32 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 18:29:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 19:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-04 19:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-04 19:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 19:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 19:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 19:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 19:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 19:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 19:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-04 19:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-04 19:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-04 19:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 19:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 19:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 19:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 19:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 19:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 19:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 19:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 19:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 19:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.24
+2025-11-04 19:29:16 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 19:29:16 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 19:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 19:29:20 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 19:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 19:29:23 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 19:29:23 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 19:29:23 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 19:29:32 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 19:29:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 19:37:59 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 20:23:28 - INFO - GovernanceMonitor.on_interaction:User interaction from lynette7#0
+2025-11-04 20:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 20:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 20:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 20:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 20:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 20:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 20:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 20:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 20:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $8.82
+2025-11-04 20:29:16 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 20:29:16 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 20:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 20:29:20 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 20:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 20:29:23 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 20:29:23 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 20:29:23 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 20:29:32 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 20:29:32 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 21:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 21:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 21:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 21:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 21:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 21:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 21:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 21:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 21:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $8.9
+2025-11-04 21:29:16 - INFO - __main__.sync_embeds:2 threads to synchronize
+2025-11-04 21:29:16 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 21:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 21:29:20 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 21:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 21:29:23 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 21:29:23 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 21:29:23 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 21:29:33 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 21:29:33 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 22:03:26 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-04 22:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-04 22:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-04 22:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 22:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 22:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 22:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 22:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 22:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 22:29:15 - INFO - New referendum found: ID 611
+2025-11-04 22:29:16 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-04 22:29:17 - INFO - __main__.check_governance:No threads to lock
+2025-11-04 22:29:17 - INFO - __main__.check_governance:1 new proposal(s) found
+2025-11-04 22:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 22:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.19
+2025-11-04 22:29:17 - INFO - __main__.check_governance:Creating thread on Discord: #611 [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-04 22:29:17 - INFO - __main__.check_governance:Getting on-chain data from: https://api.polkassembly.io/api/v1/posts/on-chain-post?postId=611&proposalType=referendums_v2
+2025-11-04 22:29:21 - INFO - __main__.check_governance:Vote results message added instruction message added for 611
+2025-11-04 22:29:21 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-11-04 22:29:21 - INFO - SubstrateAPI.connect:SubstrateAPI.cache_super_of - Initializing SubstrateInterface object: wss://people-kusama.dotters.network
+2025-11-04 22:29:24 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009001
+2025-11-04 22:29:24 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 22:29:24 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 22:29:24 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 22:29:25 - INFO - SubstrateAPI.reset_connection:Closing Websocket connection & resetting substrate object...
+2025-11-04 22:29:25 - INFO - SubstrateAPI.connect:SubstrateAPI.check_ss58_address - Initializing SubstrateInterface object: wss://asset-hub-kusama.dotters.network
+2025-11-04 22:29:33 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 22:29:33 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 22:29:33 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 22:29:33 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 22:29:34 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 22:29:34 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 22:29:34 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 22:29:34 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 22:29:34 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 22:29:34 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 22:29:34 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 22:29:34 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 22:29:35 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 22:29:35 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.19
+2025-11-04 22:29:35 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-04 22:29:35 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-04 22:29:36 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-04 22:29:38 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 22:29:39 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 22:29:42 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 22:29:43 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 22:29:45 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 22:29:45 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 22:29:45 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 22:29:57 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 22:29:57 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 23:29:34 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-04 23:29:34 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-04 23:29:34 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-04 23:29:34 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-04 23:29:34 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-04 23:29:34 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-04 23:29:34 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-04 23:29:35 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-04 23:29:35 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.2
+2025-11-04 23:29:35 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-04 23:29:35 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-04 23:29:36 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-04 23:29:38 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 23:29:39 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-04 23:29:42 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 23:29:42 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-04 23:29:45 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-04 23:29:45 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-04 23:29:45 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-04 23:29:58 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-04 23:29:58 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 00:29:34 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 00:29:34 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 00:29:34 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 00:29:34 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 00:29:34 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 00:29:34 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 00:29:34 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 00:29:35 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 00:29:35 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.08
+2025-11-05 00:29:35 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 00:29:35 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 00:29:37 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 00:29:40 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 00:29:41 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 00:29:43 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 00:29:44 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 00:29:46 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 00:29:46 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 00:29:46 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 00:29:59 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 00:29:59 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 00:50:29 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 01:18:44 - INFO - GovernanceMonitor.on_interaction:User interaction from 0xpasta#0
+2025-11-05 01:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-05 01:29:15 - INFO - TaskHandler.evaluate_task_schedule:The tasks are scheduled within 20 minutes of each other. Time difference: 0.02 minutes.
+2025-11-05 01:29:15 - INFO - utils.task_handler.stop_tasks:[autonomous_governance]
+2025-11-05 01:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-05 01:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 01:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 01:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 01:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 01:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 01:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 01:29:16 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-05 01:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-05 01:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-05 01:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 01:29:16 - INFO - __main__.autonomous_voting:autonomous_voting task is running
+2025-11-05 01:29:16 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-05 01:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 01:29:17 - INFO - GovernanceMonitor.disable_command:Command 'forcevote' has been disabled.
+2025-11-05 01:29:19 - INFO - SubstrateAPI.connect_relay_chain:Initializing relay chain connection: wss://kusama.dotters.network
+2025-11-05 01:29:37 - INFO - SubstrateAPI.connect_relay_chain:Relay chain connected: 1009002
+2025-11-05 01:29:37 - INFO - __main__.autonomous_voting:Checking ref: #609
+2025-11-05 01:29:37 - INFO - __main__.autonomous_voting:Result: aye
+2025-11-05 01:29:42 - INFO - __main__.autonomous_voting:Checking ref: #610
+2025-11-05 01:29:42 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 226008 > 432000?
+2025-11-05 01:29:46 - INFO - __main__.autonomous_voting:Checking ref: #611
+2025-11-05 01:29:46 - INFO - __main__.autonomous_voting:Result: Waiting for 1st vote conditions to be met. is 13132 > 259200?
+2025-11-05 01:29:49 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 01:29:49 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 01:29:49 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 01:29:49 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 01:29:49 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 01:29:49 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 01:29:49 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 01:29:49 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 01:29:49 - INFO - GovernanceMonitor.enable_command:Command 'forcevote' has been enabled.
+2025-11-05 01:29:49 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 01:29:50 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $8.75
+2025-11-05 01:29:50 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 01:29:50 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 01:29:51 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 01:29:53 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 01:29:55 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 01:29:57 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 01:29:58 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 01:30:00 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 01:30:00 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 01:30:00 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 01:30:15 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 01:30:15 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 01:34:32 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 02:29:49 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 02:29:49 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 02:29:49 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 02:29:49 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 02:29:49 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 02:29:49 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 02:29:49 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 02:29:49 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 02:29:50 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.06
+2025-11-05 02:29:50 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 02:29:50 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 02:29:51 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 02:29:53 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 02:29:54 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 02:29:57 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 02:29:58 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 02:30:00 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 02:30:00 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 02:30:00 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 02:30:14 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 02:30:14 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 03:29:49 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 03:29:49 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 03:29:49 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 03:29:49 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 03:29:49 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 03:29:49 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 03:29:49 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 03:29:49 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 03:29:50 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.1
+2025-11-05 03:29:50 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 03:29:50 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 03:29:50 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 03:29:53 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 03:29:54 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 03:29:56 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 03:29:57 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 03:29:59 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 03:29:59 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 03:29:59 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 03:30:14 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 03:30:14 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 03:37:32 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 04:09:44 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 04:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-05 04:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-05 04:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 04:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 04:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 04:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 04:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 04:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 04:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-05 04:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-05 04:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-05 04:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 04:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 04:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 04:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 04:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 04:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 04:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 04:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 04:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 04:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.16
+2025-11-05 04:29:16 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 04:29:16 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 04:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 04:29:20 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 04:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 04:29:23 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 04:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 04:29:26 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 04:29:26 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 04:29:26 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 04:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 04:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 04:31:38 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 05:23:53 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 05:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 05:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 05:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 05:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 05:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 05:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 05:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 05:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 05:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.22
+2025-11-05 05:29:16 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 05:29:16 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 05:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 05:29:20 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 05:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 05:29:23 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 05:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 05:29:26 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 05:29:26 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 05:29:26 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 05:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 05:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 05:37:30 - INFO - GovernanceMonitor.on_interaction:User interaction from andrzej.sulkowski#0
+2025-11-05 05:37:35 - INFO - GovernanceMonitor.on_interaction:User interaction from andrzej.sulkowski#0
+2025-11-05 05:41:36 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 06:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 06:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 06:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 06:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 06:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 06:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 06:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 06:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 06:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.14
+2025-11-05 06:29:16 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 06:29:16 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 06:29:17 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 06:29:20 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 06:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 06:29:23 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 06:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 06:29:26 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 06:29:26 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 06:29:26 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 06:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 06:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 07:03:05 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 07:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-05 07:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-05 07:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 07:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 07:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 07:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 07:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 07:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 07:29:15 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-05 07:29:16 - INFO - __main__.check_governance:No threads to lock
+2025-11-05 07:29:16 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-05 07:29:16 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 07:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 07:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 07:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 07:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 07:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 07:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 07:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 07:29:16 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 07:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.15
+2025-11-05 07:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 07:29:17 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 07:29:19 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 07:29:21 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 07:29:22 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 07:29:24 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 07:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 07:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 07:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 07:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 07:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 07:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 08:22:09 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 08:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 08:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 08:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 08:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 08:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 08:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 08:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 08:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 08:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.06
+2025-11-05 08:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 08:29:17 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 08:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 08:29:20 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 08:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 08:29:24 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 08:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 08:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 08:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 08:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 08:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 08:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 09:03:02 - INFO - GovernanceMonitor.on_interaction:User interaction from igorstojanov_#0
+2025-11-05 09:29:16 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 09:29:16 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 09:29:16 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 09:29:16 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 09:29:16 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 09:29:16 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 09:29:16 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 09:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 09:29:17 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.11
+2025-11-05 09:29:17 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 09:29:17 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 09:29:18 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 09:29:20 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 09:29:21 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 09:29:23 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 09:29:24 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 09:29:27 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 09:29:27 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 09:29:27 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 09:29:40 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 09:29:40 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 09:32:19 - INFO - GovernanceMonitor.on_interaction:User interaction from andrzej.sulkowski#0
+2025-11-05 10:29:15 - INFO - __main__.check_governance:Checking for new proposals
+2025-11-05 10:29:15 - INFO - utils.task_handler.stop_tasks:[sync_embeds]
+2025-11-05 10:29:15 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 10:29:15 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 10:29:15 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 10:29:15 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 10:29:15 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 10:29:15 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 10:29:17 - INFO - __main__.check_governance:Checking active proposals from kusama against vote_counts.json to archive threads where the proposal is no longer active
+2025-11-05 10:29:17 - INFO - __main__.check_governance:No threads to lock
+2025-11-05 10:29:17 - INFO - __main__.check_governance:No new proposals have been found since last checking
+2025-11-05 10:29:17 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 10:29:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 10:29:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 10:29:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 10:29:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 10:29:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 10:29:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 10:29:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 10:29:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 10:29:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.04
+2025-11-05 10:29:18 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 10:29:18 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 10:29:19 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 10:29:21 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 10:29:22 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 10:29:25 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 10:29:26 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 10:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 10:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 10:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 10:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 10:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 10:39:22 - INFO - GovernanceMonitor.on_interaction:User interaction from lynette7#0
+2025-11-05 11:00:07 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 11:29:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 11:29:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 11:29:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 11:29:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 11:29:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 11:29:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 11:29:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 11:29:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 11:29:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.07
+2025-11-05 11:29:18 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 11:29:18 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 11:29:19 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 11:29:21 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 11:29:22 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 11:29:25 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 11:29:26 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 11:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 11:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 11:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 11:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 11:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 11:44:25 - INFO - Shard ID None has successfully RESUMED session ab9bac9b1aa81e00621b20ab976878d2.
+2025-11-05 12:29:17 - INFO - __main__.sync_embeds:Synchronizing embeds
+2025-11-05 12:29:17 - INFO - utils.task_handler.stop_tasks:[recheck_proposals]
+2025-11-05 12:29:17 - INFO - SubstrateAPI.connect:Reconnecting WebSocket... please wait
+2025-11-05 12:29:17 - INFO - SubstrateAPI.connect:Runtime successfully initialized: 1009003
+2025-11-05 12:29:17 - INFO - SubstrateAPI.websocket_info:Connected: True
+2025-11-05 12:29:17 - INFO - SubstrateAPI.websocket_info:Peer: ('195.144.22.130', 443)
+2025-11-05 12:29:17 - INFO - SubstrateAPI.websocket_info:Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2025-11-05 12:29:18 - INFO - GovernanceMonitor.get_asset_price_v2:Fetching price from CoinGecko
+2025-11-05 12:29:18 - INFO - GovernanceMonitor.get_asset_price_v2:Price for 'kusama' is $9.19
+2025-11-05 12:29:18 - INFO - __main__.sync_embeds:3 threads to synchronize
+2025-11-05 12:29:18 - INFO - __main__.sync_embeds:Synchronizing 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 12:29:19 - INFO - __main__.sync_embeds:Successfully synchronized 611: [Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+2025-11-05 12:29:21 - INFO - __main__.sync_embeds:Synchronizing 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 12:29:22 - INFO - __main__.sync_embeds:Successfully synchronized 610: [Small Spender] Tip for Dark Prague Oct 3-5 2025
+2025-11-05 12:29:25 - INFO - __main__.sync_embeds:Synchronizing 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 12:29:25 - INFO - __main__.sync_embeds:Successfully synchronized 609: Refund of Early OpenGov Submission Deposits
+2025-11-05 12:29:28 - INFO - __main__.sync_embeds:synchronization complete
+2025-11-05 12:29:28 - INFO - SubstrateAPI.close:Closing WebSocket connection...
+2025-11-05 12:29:28 - INFO - __main__.recheck_proposals:recheck_proposals task is running
+2025-11-05 12:29:41 - INFO - __main__.recheck_proposals:recheck_proposals complete
+2025-11-05 12:29:41 - INFO - SubstrateAPI.close:Closing WebSocket connection...
