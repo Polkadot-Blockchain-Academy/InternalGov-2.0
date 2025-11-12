@@ -2,8 +2,6 @@
 data/**/*.json
 data/**/*.cache
 data/**/*.json.[0-9]*
-data/*.json
-data/*.cache
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
