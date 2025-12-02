@@ -47,6 +47,21 @@ class Config:
             self.THRESHOLD = float(os.getenv('THRESHOLD', '0'))
             self.READ_ONLY = bool(strtobool(os.getenv('READ_ONLY', 'False')))
 
+            # AI Summarization  Settings
+            self.OPENAI_API_KEY = os.getenv('OPENAI_API_KEY') or None
+            self.OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
+            self.SUBSQUARE_POST_SUMMARY = bool(strtobool(os.getenv('SUBSQUARE_POST_SUMMARY', 'False')))
+            self.SUBSQUARE_APPROVER_ROLE = os.getenv('SUBSQUARE_APPROVER_ROLE', self.DISCORD_ADMIN_ROLE)
+            default_ss58 = 0 if self.NETWORK_NAME.lower() == 'polkadot' else 2
+            self.SUBSQUARE_SS58_FORMAT = int(os.getenv('SUBSQUARE_SS58_FORMAT', default_ss58))
+
+            # Database Settings ( for feedback comments)
+            self.DB_HOST = os.getenv('DB_HOST', 'localhost')
+            self.DB_PORT = int(os.getenv('DB_PORT', 5432))
+            self.DB_NAME = os.getenv('DB_NAME', 'governance')
+            self.DB_USER = os.getenv('DB_USER', 'postgres')
+            self.DB_PASSWORD = os.getenv('DB_PASSWORD', '')
+
         except ValueError as e:
             print(f"Error: {e}")
 
@@ -60,7 +75,8 @@ class Config:
             '../data/archived_votes.json',
             '../data/governance.cache',
             '../data/onchain-votes.json',
-            '../data/vote_counts.json'
+            '../data/vote_counts.json',
+            '../data/pending_subsquare.json'
         ]
 
         for file_name in files_to_check:

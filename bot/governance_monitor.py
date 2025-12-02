@@ -14,6 +14,7 @@ from utils.logger import Logger
 from utils.config import Config
 from utils.data_processing import Text
 from utils.button_handler import ButtonHandler, ExternalLinkButton
+from utils.subsquare_client import SubsquareClient
 from aiohttp.web_exceptions import HTTPException
 from datetime import datetime, timezone
 from math import ceil
@@ -31,6 +32,10 @@ class GovernanceMonitor(discord.Client):
         self.tree = app_commands.CommandTree(self)
         loop = asyncio.get_event_loop()
         self.vote_counts = loop.run_until_complete(self.load_vote_counts())
+        self.comment_request_messages = {}
+        self.db_handler = None
+        self.ai_summarizer = None
+        self.subsquare_client = None
 
     async def setup_hook(self):
         self.tree.copy_global_to(guild=self.guild)
@@ -282,6 +287,20 @@ class GovernanceMonitor(discord.Client):
                 return json.loads(data)
         except FileNotFoundError:
             return {}
+
+    @staticmethod
+    async def load_subsquare_queue():
+        try:
+            async with aiofiles.open("../data/pending_subsquare.json", "r") as file:
+                data = await file.read()
+                return json.loads(data)
+        except FileNotFoundError:
+            return {}
+
+    @staticmethod
+    async def save_subsquare_queue(queue):
+        async with aiofiles.open("../data/pending_subsquare.json", "w") as file:
+            await file.write(json.dumps(queue, indent=4))
 
     async def save_vote_counts(self):
         async with aiofiles.open("../data/vote_counts.json", "w") as file:
@@ -572,11 +591,33 @@ class GovernanceMonitor(discord.Client):
                     await interaction.followup.send(
                         f"Your vote of __**{vote_type.upper()}**__ has been successfully registered. We appreciate your valuable input in this decision-making process.", ephemeral=True)
                     await asyncio.sleep(2)
+                    
+                    # Send optional comment request message
+                    comment_request_msg = await thread.send(
+                        f"💬 **Optional Feedback:** Reply to this message to add a comment about your {vote_type.upper()} vote. Your feedback helps inform the decision-making process."
+                    )
+                    # Store the message ID so we can track replies
+                    self.comment_request_messages[comment_request_msg.id] = {
+                        'thread_id': message_id,
+                        'user_id': str(user_id),
+                        'vote_type': vote_type
+                    }
 
                 if self.config.ANONYMOUS_MODE is False:
                     await interaction.followup.send(
                         f"<@{interaction.user.id}> Your vote of __**{vote_type.upper()}**__ has been successfully registered. We appreciate your valuable input in this decision-making process.", ephemeral=False)
                     await asyncio.sleep(2)
+                    
+                    # Send optional comment request message
+                    comment_request_msg = await thread.send(
+                        f"💬 **Optional Feedback:** <@{interaction.user.id}>, reply to this message to add a comment about your {vote_type.upper()} vote. Your feedback helps inform the decision-making process."
+                    )
+                    # Store the message ID so we can track replies
+                    self.comment_request_messages[comment_request_msg.id] = {
+                        'thread_id': message_id,
+                        'user_id': str(user_id),
+                        'vote_type': vote_type
+                    }
 
             else:
                 # Block the user from pressing the AYE, NAY to prevent unnecessary spam
@@ -846,6 +887,141 @@ class GovernanceMonitor(discord.Client):
 
         if not _1st_vote:
             return 99, f"Waiting for 1st vote conditions to be met. is {proposal_elapsed_time} > {cast_1st_vote}?"
+
+    def _get_db_handler(self):
+        """Lazily initialize and return database handler."""
+        if self.db_handler is None:
+            try:
+                from utils.database_handler import DatabaseHandler
+                db_params = {
+                    'host': self.config.DB_HOST,
+                    'port': self.config.DB_PORT,
+                    'database': self.config.DB_NAME,
+                    'user': self.config.DB_USER,
+                    'password': self.config.DB_PASSWORD
+                }
+                self.db_handler = DatabaseHandler(db_params, self.logger)
+                self.logger.info("Database handler initialized")
+            except Exception as e:
+                self.logger.error(f"Failed to initialize database handler: {e}")
+                return None
+        return self.db_handler
+
+    def _get_ai_summarizer(self):
+        """Lazily initialize and return AI summarizer."""
+        if self.ai_summarizer is None and self.config.OPENAI_API_KEY:
+            try:
+                from utils.ai_summarizer import AISummarizer
+                self.ai_summarizer = AISummarizer(api_key=self.config.OPENAI_API_KEY, model=self.config.OPENAI_MODEL)
+                self.logger.info("AI summarizer initialized")
+            except Exception as e:
+                self.logger.error(f"Failed to initialize AI summarizer: {e}")
+                return None
+        return self.ai_summarizer
+
+    def _get_subsquare_client(self):
+        if not self.config.SUBSQUARE_POST_SUMMARY:
+            return None
+        if self.subsquare_client is None:
+            try:
+                self.subsquare_client = SubsquareClient(self.config)
+                self.logger.info("Subsquare client initialized")
+            except Exception as e:
+                self.logger.error(f"Failed to initialize Subsquare client: {e}")
+                return None
+        return self.subsquare_client
+
+    async def enqueue_subsquare_summary(
+        self,
+        referendum_index: int,
+        thread_id: str,
+        block_height: int,
+        title: str,
+        vote_result: str,
+        vote_counts: Dict[str, int],
+        origin: str,
+        summary: str,
+        thread_url: str,
+    ):
+        queue = await self.load_subsquare_queue()
+        queue[str(referendum_index)] = {
+            "thread_id": thread_id,
+            "block_height": block_height,
+            "title": title,
+            "vote_result": vote_result,
+            "vote_counts": vote_counts,
+            "origin": origin,
+            "summary": summary,
+            "thread_url": thread_url,
+            "created_at": int(time.time()),
+        }
+        await self.save_subsquare_queue(queue)
+        self.logger.info(f"Queued Subsquare summary for referendum #{referendum_index}")
+
+    async def pop_subsquare_summary(self, referendum_index: int):
+        queue = await self.load_subsquare_queue()
+        entry = queue.pop(str(referendum_index), None)
+        await self.save_subsquare_queue(queue)
+        return entry
+
+    async def on_message(self, message: discord.Message):
+        """
+        Handle messages to collect optional feedback comments.
+        Checks if a message is a reply to a comment request message and saves the comment.
+        """
+        # Ignore messages from the bot itself
+        if message.author == self.user:
+            return
+        
+        # Check if message is a reply
+        if message.reference and message.reference.message_id:
+            referenced_message_id = message.reference.message_id
+            
+            # Check if this is a reply to a comment request message
+            if referenced_message_id in self.comment_request_messages:
+                request_info = self.comment_request_messages[referenced_message_id]
+                thread_id = request_info['thread_id']
+                expected_user_id = request_info['user_id']
+                vote_type = request_info['vote_type']
+                
+                # Verify the message author matches the voter
+                if str(message.author.id) != expected_user_id:
+                    await message.channel.send(
+                        f"<@{message.author.id}>, this comment request was for a different user. Please reply to your own vote confirmation message.",
+                        delete_after=10
+                    )
+                    return
+                
+                # Save the comment to database
+                try:
+                    db_handler = self._get_db_handler()
+                    if db_handler is None:
+                        await message.channel.send(
+                            f"<@{message.author.id}>, database connection failed. Please contact an administrator.",
+                            delete_after=10
+                        )
+                        return
+                    
+                    username = f"{message.author.name}#{message.author.discriminator}"
+                    db_handler.save_comment(
+                        user_id=str(message.author.id),
+                        username=username,
+                        thread_id=thread_id,
+                        vote_type=vote_type,
+                        comment=message.content,
+                        comment_message_id=str(message.id)
+                    )
+                    
+                    # Send confirmation
+                    await message.add_reaction('✅')
+                    self.logger.info(f"Comment saved from {username} for thread {thread_id}")
+                    
+                except Exception as e:
+                    self.logger.error(f"Error saving comment: {e}")
+                    await message.channel.send(
+                        f"<@{message.author.id}>, there was an error saving your comment. Please try again.",
+                        delete_after=10
+                    )
 
     async def on_error(self, event, *args, **kwargs):
         exc = sys.exc_info()

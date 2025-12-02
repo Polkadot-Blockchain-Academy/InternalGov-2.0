@@ -91,6 +91,15 @@ When the bot votes is dictated by `/data/vote_periods`. Each origin of a proposa
 [Polkadot vote periods](/data/vote_periods/polkadot.json)  
 [Kusama vote periods](/data/vote_periods/kusama.json)
 
+### Optional: Subsquare feedback comments
+When `SUBSQUARE_POST_SUMMARY=true` the bot will queue each AI-generated summary for Subsquare instead of publishing immediately. Approvers (role defined by `SUBSQUARE_APPROVER_ROLE`, defaulting to your admin role) can review and push the summary live by running:
+
+```
+/subsquare publish <referendum_number>
+```
+
+Use `/subsquare discard <referendum_number>` to drop a draft. Comments are signed with the same mnemonic already configured for on-chain voting. `SUBSQUARE_SS58_FORMAT` defaults to Polkadot (0) or Kusama (2); override it if you post from another network.
+
 
 ### vote settings
 ###### Kusama vote periods

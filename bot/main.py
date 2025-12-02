@@ -359,6 +359,103 @@ async def autonomous_voting():
 
         # Only cast a vote if we have any to cast
         if len(votes) > 0:
+            # Generate and post AI summaries for proposals about to be voted on
+            if config.OPENAI_API_KEY:
+                try:
+                    ai_summarizer = client._get_ai_summarizer()
+                    db_handler = client._get_db_handler()
+                    
+                    if ai_summarizer and db_handler:
+                        # Generate summaries for each proposal about to be voted on
+                        for proposal_index, vote_type, conviction in votes:
+                            thread_id = None
+                            proposal_title = None
+                            
+                            # Find thread_id for this proposal
+                            for tid, vdata in vote_counts.items():
+                                if vdata.get('index') == str(proposal_index):
+                                    thread_id = tid
+                                    proposal_title = vdata.get('title', f'Proposal #{proposal_index}')
+                                    break
+                            
+                            if thread_id:
+                                # Get all comments for this thread
+                                comments = db_handler.get_comments_for_thread(thread_id)
+                                
+                                if comments:
+                                    # Get vote data for this proposal
+                                    vote_data = vote_counts.get(thread_id, {})
+                                    vote_counts_dict = {
+                                        'aye': vote_data.get('aye', 0),
+                                        'nay': vote_data.get('nay', 0),
+                                        'recuse': vote_data.get('recuse', 0)
+                                    }
+                                    origin = vote_data.get('origin', ['Unknown'])[0] if isinstance(vote_data.get('origin'), list) else vote_data.get('origin', 'Unknown')
+                                    
+                                    logging.info(f"Generating AI summary for proposal #{proposal_index}")
+                                    summary = ai_summarizer.summarize_comments(
+                                        proposal_title=proposal_title,
+                                        proposal_index=str(proposal_index),
+                                        network_name=config.NETWORK_NAME,
+                                        vote_result=vote_type.upper(),
+                                        vote_counts=vote_counts_dict,
+                                        origin=origin,
+                                        comments=comments,
+                                        proposal_content=None  # Can be enhanced later to fetch full proposal content
+                                    )
+                                    
+                                    # Post summary in the thread
+                                    try:
+                                        discord_thread = channel.get_thread(int(thread_id))
+                                        if discord_thread:
+                                            summary_embed = Embed(
+                                                color=0x3498db,
+                                                title=f'📝 Feedback Summary - Proposal #{proposal_index}',
+                                                description=summary,
+                                                timestamp=datetime.now(timezone.utc)
+                                            )
+                                            summary_embed.add_field(
+                                                name='Total Comments',
+                                                value=str(len(comments)),
+                                                inline=True
+                                            )
+                                            summary_embed.set_footer(text="This summary was generated from community feedback")
+                                            
+                                            summary_message = await discord_thread.send(embed=summary_embed)
+                                            await summary_message.pin()
+                                            
+                                            # Delete pinned notification
+                                            async for message in discord_thread.history(limit=5, oldest_first=False):
+                                                if message.type == discord.MessageType.pins_add:
+                                                    await message.delete()
+                                            
+                                            logging.info(f"Summary posted for proposal #{proposal_index}")
+                                            if config.SUBSQUARE_POST_SUMMARY:
+                                                governance_entry = governance_cache.get(proposal_index, {})
+                                                block_height = governance_entry.get('Ongoing', {}).get('submitted')
+                                                if block_height:
+                                                    thread_url = f"https://discord.com/channels/{config.DISCORD_SERVER_ID}/{thread_id}"
+                                                    await client.enqueue_subsquare_summary(
+                                                        referendum_index=int(proposal_index),
+                                                        thread_id=thread_id,
+                                                        block_height=block_height,
+                                                        title=proposal_title,
+                                                        vote_result=vote_type,
+                                                        vote_counts=vote_counts_dict,
+                                                        origin=origin,
+                                                        summary=summary,
+                                                        thread_url=thread_url,
+                                                    )
+                                                    await discord_thread.send(
+                                                        f"📝 Subsquare summary queued. Use `/subsquare publish {proposal_index}` to publish or `/subsquare discard {proposal_index}` to discard.",
+                                                        suppress_embeds=True,
+                                                    )
+                                                else:
+                                                    logging.warning(f"Missing block height for referendum #{proposal_index}; skipping Subsquare queue.")
+                                    except Exception as e:
+                                        logging.error(f"Error posting summary for proposal #{proposal_index}: {e}")
+                except Exception as e:
+                    logging.error(f"Error generating summaries: {e}")
 
             proxy_balance = await substrate.proxy_balance()
             balance = await client.check_balance(proxy_balance=proxy_balance)
@@ -729,6 +826,7 @@ if __name__ == '__main__':
     # internal vote before casting a vote.
     intents = discord.Intents.default()
     intents.members = True
+    intents.message_content = True  # Required to read message content for comment collection
 
     client = GovernanceMonitor(
         guild=guild,
@@ -929,6 +1027,70 @@ if __name__ == '__main__':
                 logging.exception(f"An unexpected error occurred whilst running /vote: {error}")
             finally:
                 await substrate.close()
+
+    @client.tree.command(name='subsquare',
+                         description='Publish or discard pending Subsquare summaries',
+                         guild=discord.Object(id=config.DISCORD_SERVER_ID))
+    @app_commands.choices(action=[app_commands.Choice(name='publish', value='publish'),
+                                  app_commands.Choice(name='discard', value='discard')])
+    async def subsquare(interaction: discord.Interaction, action: app_commands.Choice[str], referendum: int):
+
+        await interaction.response.defer(ephemeral=True)
+
+        if not config.SUBSQUARE_POST_SUMMARY:
+            await interaction.followup.send("Subsquare publishing is disabled in the configuration.", ephemeral=True)
+            return
+
+        member = await interaction.guild.fetch_member(interaction.user.id)
+        if not await client.check_permissions(interaction=interaction,
+                                              required_role=config.SUBSQUARE_APPROVER_ROLE,
+                                              user_id=interaction.user.id,
+                                              user_roles=member.roles):
+            return
+
+        queue = await client.load_subsquare_queue()
+        entry = queue.get(str(referendum))
+        if not entry:
+            await interaction.followup.send(f"No pending summary for referendum #{referendum}.", ephemeral=True)
+            return
+
+        if action.value == 'discard':
+            await client.pop_subsquare_summary(referendum)
+            await interaction.followup.send(f"Discarded pending summary for referendum #{referendum}.", ephemeral=True)
+            thread = client.get_channel(config.DISCORD_FORUM_CHANNEL_ID).get_thread(int(entry['thread_id']))
+            if thread:
+                await thread.send(f"Subsquare summary for #{referendum} was discarded by <@{interaction.user.id}>.")
+            return
+
+        subsquare_client = client._get_subsquare_client()
+        if not subsquare_client:
+            await interaction.followup.send("Unable to initialize Subsquare client. Check configuration and mnemonic.", ephemeral=True)
+            return
+
+        block_height = entry.get('block_height')
+        if not block_height:
+            await interaction.followup.send("Missing block height for this referendum; cannot publish.", ephemeral=True)
+            return
+
+        try:
+            await subsquare_client.post_feedback_comment(
+                referendum_index=referendum,
+                block_height=block_height,
+                title=entry['title'],
+                vote_result=entry['vote_result'],
+                vote_counts=entry['vote_counts'],
+                origin=entry['origin'],
+                summary=entry['summary'],
+                thread_url=entry['thread_url'],
+            )
+            await client.pop_subsquare_summary(referendum)
+            await interaction.followup.send(f"Subsquare comment posted for referendum #{referendum}.", ephemeral=True)
+            thread = client.get_channel(config.DISCORD_FORUM_CHANNEL_ID).get_thread(int(entry['thread_id']))
+            if thread:
+                await thread.send(f"✅ Subsquare summary for #{referendum} has been published by <@{interaction.user.id}>.")
+        except Exception as error:
+            logging.error(f"Failed to publish Subsquare summary for {referendum}: {error}")
+            await interaction.followup.send("Failed to post comment to Subsquare. Check logs for details.", ephemeral=True)
 
     @client.tree.command(name='thread',
                          description='Disable the voting buttons to a thread',
