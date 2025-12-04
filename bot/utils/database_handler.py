@@ -117,6 +117,21 @@ class DatabaseHandler:
                 );
             """)
 
+            # Create feedback_comments table if it doesn't exist
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS feedback_comments (
+                    id SERIAL PRIMARY KEY,
+                    user_id TEXT NOT NULL,
+                    username TEXT NOT NULL,
+                    thread_id TEXT NOT NULL,
+                    vote_type TEXT NOT NULL,
+                    comment TEXT NOT NULL,
+                    comment_message_id TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY(thread_id) REFERENCES referenda_thread(thread_id)
+                );
+            """)
+
             self.conn.commit()
 
     def migrate_data(self, json_file_path, archived):
@@ -166,5 +181,41 @@ class DatabaseHandler:
             # Migrate live and archived vote data
             self.migrate_data('../data/vote_counts.json', archived=False)
             self.migrate_data('../data/archived_votes.json', archived=True)
+    
+    def save_comment(self, user_id: str, username: str, thread_id: str, vote_type: str, comment: str, comment_message_id: str = None):
+        """Save a feedback comment to the database."""
+        with self.conn.cursor() as cursor:
+            try:
+                cursor.execute("""
+                    INSERT INTO feedback_comments (user_id, username, thread_id, vote_type, comment, comment_message_id)
+                    VALUES (%s, %s, %s, %s, %s, %s);
+                """, (str(user_id), username, str(thread_id), vote_type, comment, comment_message_id))
+                self.conn.commit()
+                return True
+            except Exception as e:
+                self.conn.rollback()
+                self.logger.error(f"Error saving comment: {e}")
+                raise e
+    
+    def get_comments_for_thread(self, thread_id: str):
+        """Get all comments for a specific thread."""
+        with self.conn.cursor() as cursor:
+            cursor.execute("""
+                SELECT user_id, username, vote_type, comment, created_at
+                FROM feedback_comments
+                WHERE thread_id = %s
+                ORDER BY created_at ASC;
+            """, (str(thread_id),))
+            return cursor.fetchall()
+    
+    def get_comment_count_for_thread(self, thread_id: str):
+        """Get the count of comments for a specific thread."""
+        with self.conn.cursor() as cursor:
+            cursor.execute("""
+                SELECT COUNT(*) FROM feedback_comments
+                WHERE thread_id = %s;
+            """, (str(thread_id),))
+            result = cursor.fetchone()
+            return result[0] if result else 0
             
         
